@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/nsuask/frontend/tmp/funnel-output_path-3D9Uc8FS.tmp/frontend/tests/helpers/start-app.jshint.js

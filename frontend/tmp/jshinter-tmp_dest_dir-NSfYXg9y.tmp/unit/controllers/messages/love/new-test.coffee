@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/nsuask/frontend/tests/unit/controllers/messages/love/new-test.coffee

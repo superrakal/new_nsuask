@@ -1,0 +1,1 @@
+{{menu-component}}<div class="container">{{outlet}}</div>{{partial 'partials/helper'}}

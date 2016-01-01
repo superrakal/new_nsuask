@@ -1,0 +1,30 @@
+@import 'colors'
+
+.public
+  .img
+    width: 250px
+    height: 250px
+    margin: 0 auto
+    border-radius: 50%
+    border: 2px solid $mint
+    cursor: pointer
+    &:hover
+      border: 5px solid $mint
+      background-color: rgba(40, 141, 110, 0.3)
+    &.overhear
+      background: asset_url('overhear.png') center no-repeat
+    &.love
+      background: asset_url('love.png') center no-repeat
+    &.besit
+      background: asset_url('besit.png') center no-repeat
+
+.root
+  width: 100%
+  height: 350px
+  position: absolute
+  top: 50%
+  margin-top: -175px
+
+
+
+

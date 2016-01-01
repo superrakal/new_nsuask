@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/nsuask/frontend/tmp/caching-writer-dest-dir_7fVwFQ.tmp/assets/frontend.js

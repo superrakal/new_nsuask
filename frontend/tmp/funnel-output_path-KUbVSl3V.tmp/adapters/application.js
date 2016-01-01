@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/nsuask/frontend/app/adapters/application.js

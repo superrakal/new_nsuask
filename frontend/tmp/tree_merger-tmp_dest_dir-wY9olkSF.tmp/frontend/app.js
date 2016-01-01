@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/nsuask/frontend/tmp/babel-output_path-bytp6pC6.tmp/frontend/app.js

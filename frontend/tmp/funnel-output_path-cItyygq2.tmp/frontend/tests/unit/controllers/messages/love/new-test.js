@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/nsuask/frontend/tmp/babel-output_path-2c4B1CCK.tmp/frontend/tests/unit/controllers/messages/love/new-test.js

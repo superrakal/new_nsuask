@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/nsuask/frontend/tmp/custom_replace-tmp_dest_dir-A3Xe1dif.tmp/app-boot.js

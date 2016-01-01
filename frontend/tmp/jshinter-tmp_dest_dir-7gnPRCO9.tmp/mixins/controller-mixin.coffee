@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/nsuask/frontend/app/mixins/controller-mixin.coffee

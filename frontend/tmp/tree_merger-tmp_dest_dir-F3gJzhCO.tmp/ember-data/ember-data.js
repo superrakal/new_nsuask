@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/nsuask/frontend/tmp/funnel-output_path-oZ0pFLsz.tmp/ember-data/ember-data.js

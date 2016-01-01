@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/nsuask/frontend/tmp/funnel-output_path-3MW7FzEU.tmp/ember-qunit-notifications/README.md

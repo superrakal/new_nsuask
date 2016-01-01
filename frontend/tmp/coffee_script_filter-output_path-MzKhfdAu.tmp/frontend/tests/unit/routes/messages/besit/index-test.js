@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/nsuask/frontend/tmp/coffee_script_filter-cache_path-T6hxlsk1.tmp/frontend/tests/unit/routes/messages/besit/index-test.js

@@ -1,0 +1,9 @@
+.page-head
+  .col-lg-2.col-md-3.col-sm-6.col-xs-12.text-center
+    .public-logo.besit
+  .col-lg-10.col-md-9.col-sm-6.hidden-xs
+    h1 БЕСИТ АКАДЕМ
+.page-content
+  = textarea placeholder="Введите сообщение" value=model.text
+.actions.text-center
+  button.btn.btn-mint.btn-block{action 'send'} Отправить

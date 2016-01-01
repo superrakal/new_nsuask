@@ -1,0 +1,70 @@
+@import "colors"
+
+.helper-block
+  display: none
+  position: fixed
+  bottom: 80px
+  right: 10px
+  background-color: white
+  .container-fluid
+    margin-top: 20px
+    textarea
+      resize: vertical
+      padding: 5px
+      width: 100%
+      min-height: 100px
+      max-height: 280px
+      overflow: auto
+  .close-button
+    position: absolute
+    cursor: pointer
+    top: 5px
+    right: 5px
+    width: 15px
+    height: 15px
+    text-align: center
+    line-height: 15px
+  .bubble
+    position: relative
+    width: 350px
+    height: 400px
+    padding: 5px
+    border: 2px solid $mint
+    -webkit-border-radius: 5px
+    -moz-border-radius: 5px
+    border-radius: 5px
+    &:after
+      content: ''
+      position: absolute
+      border-style: solid
+      border-width: 15px 12px 0
+      border-color: $mint transparent
+      display: block
+      width: 0
+      z-index: 1
+      bottom: -15px
+      left: 310px
+
+.helper
+  position: fixed
+  width: 50px
+  height: 50px
+  bottom: 10px
+  right: 10px
+  background-color: white
+  border: 2px solid $mint
+  border-radius: 50%
+  text-align: center
+  line-height: 50px
+  font-size: 30px
+  cursor: pointer
+  .helper-wrapper
+    width: 46px
+    height: 46px
+
+@media (max-width: 349px)
+  .helper-block
+    .bubble
+      width: 300px
+      &:after
+        left: 260px

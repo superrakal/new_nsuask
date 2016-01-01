@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/nsuask/frontend/tmp/jshinter-tmp_cache_dir-n99DVSBW.tmp/2

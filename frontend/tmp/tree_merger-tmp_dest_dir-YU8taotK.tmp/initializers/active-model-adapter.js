@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/nsuask/frontend/tmp/tree_merger-tmp_dest_dir-ddoX5EuI.tmp/initializers/active-model-adapter.js

@@ -1,0 +1,19 @@
+.root
+  h1.title.text-center Выберите паблик
+  .row
+    .col-lg-4.col-md-4.col-sm-12.col-xs-12.public.text-center
+      = link-to controller.overhear_link
+        .img.overhear
+        .badge
+          = controller.new_overhear_count
+    .col-lg-4.col-md-4.col-sm-12.col-xs-12.public.text-center
+      = link-to controller.love_link
+        .img.love
+        .badge
+          = controller.new_love_count
+    .col-lg-4.col-md-4.col-sm-12.col-xs-12.public.text-center
+      = link-to controller.besit_link
+        .img.besit
+        .badge
+          = controller.new_besit_count
+    .clearfix

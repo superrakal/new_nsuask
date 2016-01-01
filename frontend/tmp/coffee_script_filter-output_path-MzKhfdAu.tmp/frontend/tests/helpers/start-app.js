@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/nsuask/frontend/tmp/coffee_script_filter-input_base_path-yCPuq25c.tmp/0/frontend/tests/helpers/start-app.js

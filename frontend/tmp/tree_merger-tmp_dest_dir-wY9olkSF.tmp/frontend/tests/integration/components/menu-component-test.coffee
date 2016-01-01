@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/nsuask/frontend/tests/integration/components/menu-component-test.coffee

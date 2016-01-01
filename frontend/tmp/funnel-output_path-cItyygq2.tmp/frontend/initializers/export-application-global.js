@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/nsuask/frontend/tmp/tree_merger-tmp_dest_dir-LvHSD43i.tmp/frontend/initializers/export-application-global.js

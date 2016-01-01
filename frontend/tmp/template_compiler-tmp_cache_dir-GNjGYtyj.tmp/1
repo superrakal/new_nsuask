@@ -1,0 +1,1 @@
+<nav><div class="container-fluid">{{#link-to 'root'}}<div class="big_logo hidden-xs logo">NSU.ask</div><div class="small_logo visible-xs logo">NSU.ask</div>{{/link-to}}</div></nav>

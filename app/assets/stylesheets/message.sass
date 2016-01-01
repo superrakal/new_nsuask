@@ -1,0 +1,25 @@
+@import "colors"
+
+.page-content
+  margin-top: 40px
+  .message
+    min-height: 80px
+    height: auto
+    width: 100%
+    padding: 5px
+    margin: 5px 0 10px 0
+    border-top: 1px solid black
+    .message-header
+      height: 20px
+      text-align: left
+      i
+        margin-right: 10px
+    .message-content
+      padding-top: 10px
+    .actions
+      i
+        cursor: pointer
+    &.success
+      border-top: 2px solid $mint
+    &.active
+      border-top: 2px solid darkred

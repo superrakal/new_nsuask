@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/nsuask/frontend/tmp/babel-output_path-o6JsIltr.tmp/frontend/router.js

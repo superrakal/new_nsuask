@@ -1,0 +1,1 @@
+/home/egor/RubymineProjects/nsuask/frontend/tmp/class-tmp_cache_dir-a6jhjrno.tmp/assets/test-support.js

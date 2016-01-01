@@ -1,0 +1,16 @@
+nav
+  .container-fluid
+    = link-to 'root'
+      .big_logo.hidden-xs.logo
+        |NSU.ask
+      .small_logo.visible-xs.logo
+        |NSU.ask
+    = unless session.isAuthenticated
+      .pull-right
+        button.btn.btn-primary.login-button{action 'showLoginModal'}
+          |Войти
+.container.page-wrapper
+  = outlet
+
+/= partial 'partials/helper'
+= partial 'partials/login-form'
