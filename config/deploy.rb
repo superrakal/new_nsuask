@@ -42,6 +42,6 @@ end
 namespace :bower do
   desc 'Install bower components'
   task :install do
-    run "cd #{current_release}/frontend && bower install --allow-root"
+    run "cd #{current_release}/frontend && bower install"
   end
 end

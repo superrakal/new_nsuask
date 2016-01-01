@@ -12469,3 +12469,17 @@ Processing by Api::V1::MessagesController#index as JSON
   MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3338ms
   MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1473ms
 Completed 200 OK in 6ms (Views: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-01 22:58:18 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 52ms (Views: 52.0ms)
+
+
+Started GET "/api/v1/messages" for 127.0.0.1 at 2016-01-01 22:58:18 +0600
+Processing by Api::V1::MessagesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3052ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1779ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1266ms
+Completed 200 OK in 4ms (Views: 1.9ms)
