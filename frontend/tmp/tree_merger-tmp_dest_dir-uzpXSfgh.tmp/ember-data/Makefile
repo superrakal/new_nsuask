@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/nsuask/frontend/tmp/funnel-output_path-2fz6M22l.tmp/ember-data/Makefile

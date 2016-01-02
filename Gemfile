@@ -10,6 +10,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'mongoid', '~>4.0.0'
 gem 'mongoid-autoinc'
 gem 'sidekiq'
+gem 'ransack', github: 'Zhomart/ransack', branch: 'mongoid'
+gem 'kaminari'
 
 # View handles
 gem 'slim-rails'

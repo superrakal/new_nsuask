@@ -1,14 +1,15 @@
 `import Ember from 'ember'`
+`import InfinityRoute from "ember-infinity/mixins/route"`
 
-MessagesLoveIndexRoute = Ember.Route.extend
+MessagesLoveIndexRoute = Ember.Route.extend InfinityRoute,
   beforeModel: ->
     unless @session.isAuthenticated
       @transitionTo 'root'
 
   model: ->
-    @store.findAll('message')
+    @infinityModel('message', {category: 'love', perPage: 5, startingPage: 1})
 
   setupController: (controller, model) ->
-    controller.set 'model', model.filterBy('category', 'love').sortBy('state')
+    controller.set 'model', model
 
 `export default MessagesLoveIndexRoute`

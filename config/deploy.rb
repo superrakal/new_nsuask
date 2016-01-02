@@ -1,8 +1,9 @@
 require 'rvm/capistrano' # Для работы rvm
 require 'bundler/capistrano' # Для работы bundler. При изменении гемов bundler автоматически обновит все гемы на сервере, чтобы они в точности соответствовали гемам разработчика.
 require 'capistrano-unicorn'
+require 'capistrano/sidekiq'
 
-set :application, 'nsuask'
+set :application, 'nsurock'
 set :rails_env, 'production'
 set :domain, 'root@5.101.119.56'
 set :deploy_to, "/var/www/#{application}"
@@ -27,7 +28,7 @@ after 'deploy:before', 'deploy:elastic:import'
 after 'deploy:restart', 'unicorn:reload'    # app IS NOT preloaded
 after 'deploy:restart', 'unicorn:restart'   # app preloaded
 after 'deploy:restart', 'unicorn:duplicate' # before_fork hook implemented (zero downtime deployments)
-before 'deploy:assets:precompile', 'bower:install'
+before 'deploy:assets:precompile', 'bower:frontend_install'
 
 namespace :deploy do
   task :init_vhost do
@@ -41,7 +42,7 @@ end
 
 namespace :bower do
   desc 'Install bower components'
-  task :install do
-    run "cd #{current_release}/frontend && bower install"
+  task :frontend_install do
+    run "cd #{current_release}/frontend && bower install --allow-root"
   end
 end

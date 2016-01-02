@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/nsuask/frontend/tmp/class-tmp_cache_dir-2dxKBr6D.tmp/assets/vendor.js

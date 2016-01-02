@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/nsuask/frontend/node_modules/active-model-adapter/addon/index.js

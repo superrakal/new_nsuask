@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/nsuask/frontend/tests/unit/mixins/controller-mixin-test.coffee

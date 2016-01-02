@@ -8,6 +8,18 @@ GIT
       sass-rails (< 5.1)
       sprockets (< 4.0)
 
+GIT
+  remote: git://github.com/Zhomart/ransack.git
+  revision: e90ffd1ed970372b1df93e23e34ff83289478ed4
+  branch: mongoid
+  specs:
+    ransack (1.5.1)
+      actionpack (>= 3.0)
+      activerecord (>= 3.0)
+      activesupport (>= 3.0)
+      i18n
+      polyamorous (~> 1.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -222,6 +234,8 @@ GEM
     optionable (0.2.0)
     origin (2.1.1)
     orm_adapter (0.5.0)
+    polyamorous (1.3.0)
+      activerecord (>= 3.0)
     prerender_rails (1.2.0)
       activesupport
       rack
@@ -405,6 +419,7 @@ DEPENDENCIES
   html2slim
   jbuilder (~> 2.0)
   jquery-rails
+  kaminari
   mongoid (~> 4.0.0)
   mongoid-autoinc
   net-ssh (~> 2.7.0)
@@ -415,6 +430,7 @@ DEPENDENCIES
   rack
   rails (= 4.2.3)
   rails_admin (~> 0.6.8)
+  ransack!
   redis
   responders (~> 2.0)
   rspec-mocks
@@ -430,3 +446,6 @@ DEPENDENCIES
   uglifier (>= 1.3.0)
   unicorn (~> 4.9.0)
   unicorn_service (~> 0.5.1)
+
+BUNDLED WITH
+   1.10.5

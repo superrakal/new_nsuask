@@ -17,3 +17,5 @@
                 i.fa.fa-times
       .message-content
         = message.text
+  = if model.length
+    = infinity-loader infinityModel=model loadingText="Идет подгрузка данных..." loadedText="Все данные подгружены"

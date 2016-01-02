@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/nsuask/frontend/public/robots.txt

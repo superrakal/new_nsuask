@@ -1,14 +1,16 @@
 module Api
   module V1
     class MessagesController < ApplicationController
-      require 'net/http'
-      require 'uri'
+
+      include Collection
+
       respond_to :json
       before_action :set_message, only:[:show, :destroy, :ignore, :push]
 
       def index
-        @messages = Message.all
-        respond_with @messages
+        @messages = filtered_collection(Message)
+        @messages = @messages.page(params[:page]).per(params[:per_page])
+        respond_with @messages, meta: {total_pages: @messages.total_pages}
       end
 
       def show

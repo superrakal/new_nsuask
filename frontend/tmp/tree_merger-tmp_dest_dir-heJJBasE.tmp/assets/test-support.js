@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/nsuask/frontend/tmp/caching-writer-dest-dir_hFi0G2.tmp/assets/test-support.js

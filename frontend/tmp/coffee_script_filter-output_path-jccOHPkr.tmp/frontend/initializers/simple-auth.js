@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-simple-auth/app/initializers/simple-auth.js

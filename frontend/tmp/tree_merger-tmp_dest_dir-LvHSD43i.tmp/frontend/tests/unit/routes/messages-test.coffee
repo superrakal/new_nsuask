@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/nsuask/frontend/tests/unit/routes/messages-test.coffee

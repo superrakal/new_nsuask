@@ -8580,3 +8580,539 @@ SourcemapConcat (3)                           | 50ms (16 ms)
 Concat: App (1)                               | 45ms                
 Funnel: App JS Files (1)                      | 34ms                
 
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...Building...
+
+Build successful - 3230ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 2051ms              
+Babel                                         | 182ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 2051ms              
+Babel (3)                                     | 448ms (149 ms)      
+CoffeeScriptFilter (2)                        | 167ms (83 ms)       
+
+file changed routes/messages/overhear/index.coffee
+
+Build successful - 537ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 140ms               
+Concat: App                                   | 80ms                
+Funnel: App JS Files                          | 37ms                
+TreeMerger (appAndDependencies)               | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 140ms               
+Concat: App (1)                               | 80ms                
+SourcemapConcat (3)                           | 44ms (14 ms)        
+Funnel: App JS Files (1)                      | 37ms                
+TreeMerger (appAndDependencies) (1)           | 28ms                
+CoffeeScriptFilter (2)                        | 27ms (13 ms)        
+
+file added routes/messages/overhear/index.coffee___jb_bak___
+file deleted routes/messages/overhear/index.coffee___jb_bak___
+file added routes/messages/overhear/index.coffee___jb_old___
+file changed routes/messages/overhear/index.coffee
+file deleted routes/messages/overhear/index.coffee___jb_old___
+
+Build successful - 547ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 126ms               
+Funnel: App JS Files                          | 95ms                
+SourcemapConcat                               | 36ms                
+Concat: Test Support JS                       | 30ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 126ms               
+Funnel: App JS Files (1)                      | 95ms                
+SourcemapConcat (3)                           | 64ms (21 ms)        
+CoffeeScriptFilter (2)                        | 32ms (16 ms)        
+Concat: Test Support JS (1)                   | 30ms                
+
+file added routes/messages/overhear/index.coffee___jb_bak___
+file deleted routes/messages/overhear/index.coffee___jb_bak___
+file changed routes/messages/overhear/index.coffee
+file added routes/messages/love/index.coffee___jb_bak___
+file deleted routes/messages/love/index.coffee___jb_bak___
+file added routes/messages/love/index.coffee___jb_old___
+file changed routes/messages/love/index.coffee
+file deleted routes/messages/love/index.coffee___jb_old___
+
+Build successful - 550ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 194ms               
+Funnel: App JS Files                          | 36ms                
+Concat: Test Support JS                       | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 194ms               
+SourcemapConcat (3)                           | 49ms (16 ms)        
+Funnel: App JS Files (1)                      | 36ms                
+CoffeeScriptFilter (2)                        | 33ms (16 ms)        
+Concat: Test Support JS (1)                   | 27ms                
+
+file added routes/messages/besit/index.coffee___jb_bak___
+file deleted routes/messages/besit/index.coffee___jb_bak___
+file added routes/messages/besit/index.coffee___jb_old___
+file changed routes/messages/besit/index.coffee
+file deleted routes/messages/besit/index.coffee___jb_old___
+
+Build successful - 527ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 192ms               
+Funnel: App JS Files                          | 36ms                
+Concat: Test Support JS                       | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 192ms               
+SourcemapConcat (3)                           | 48ms (16 ms)        
+Funnel: App JS Files (1)                      | 36ms                
+CoffeeScriptFilter (2)                        | 32ms (16 ms)        
+Concat: Test Support JS (1)                   | 28ms                
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...
+
+Build successful - 2611ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 1860ms              
+ES6: App Tree                                 | 131ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 1860ms              
+CoffeeScriptFilter (2)                        | 133ms (66 ms)       
+ES6: App Tree (1)                             | 131ms               
+
+file changed routes/messages/overhear/index.coffee
+
+Build successful - 538ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 131ms               
+Funnel: App JS Files                          | 90ms                
+Babel                                         | 32ms                
+Concat: Test Support JS                       | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 131ms               
+Funnel: App JS Files (1)                      | 90ms                
+SourcemapConcat (3)                           | 45ms (15 ms)        
+Babel (3)                                     | 34ms (11 ms)        
+Concat: Test Support JS (1)                   | 27ms                
+
+file added routes/messages/overhear/index.coffee___jb_old___
+file deleted routes/messages/overhear/index.coffee___jb_old___
+file changed routes/messages/overhear/index.coffee
+
+Build successful - 510ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 183ms               
+Funnel: App JS Files                          | 34ms                
+Concat: Test Support JS                       | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 183ms               
+SourcemapConcat (3)                           | 44ms (14 ms)        
+Funnel: App JS Files (1)                      | 34ms                
+CoffeeScriptFilter (2)                        | 27ms (13 ms)        
+Concat: Test Support JS (1)                   | 26ms                
+
+file added routes/messages/overhear/index.coffee___jb_old___
+file changed routes/messages/overhear/index.coffee
+file deleted routes/messages/overhear/index.coffee___jb_old___
+
+Build successful - 507ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 192ms               
+Funnel: App JS Files                          | 35ms                
+Concat: Test Support JS                       | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 192ms               
+SourcemapConcat (3)                           | 42ms (14 ms)        
+Funnel: App JS Files (1)                      | 35ms                
+CoffeeScriptFilter (2)                        | 29ms (14 ms)        
+Concat: Test Support JS (1)                   | 26ms                
+
+file changed routes/messages/overhear/index.coffee
+
+Build successful - 495ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 181ms               
+Funnel: App JS Files                          | 35ms                
+Concat: Test Support JS                       | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 181ms               
+SourcemapConcat (3)                           | 44ms (14 ms)        
+Funnel: App JS Files (1)                      | 35ms                
+CoffeeScriptFilter (2)                        | 30ms (15 ms)        
+Concat: Test Support JS (1)                   | 27ms                
+
+file added templates/messages/overhear/index.emblem___jb_bak___
+file deleted templates/messages/overhear/index.emblem___jb_bak___
+file changed templates/messages/overhear/index.emblem
+
+Build successful - 500ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 183ms               
+Funnel: App JS Files                          | 33ms                
+Concat: Test Support JS                       | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 183ms               
+SourcemapConcat (3)                           | 41ms (13 ms)        
+Funnel: App JS Files (1)                      | 33ms                
+Concat: Test Support JS (1)                   | 29ms                
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...Building...
+
+Build successful - 2833ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 1889ms              
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 1889ms              
+Babel (5)                                     | 216ms (43 ms)       
+CoffeeScriptFilter (2)                        | 144ms (72 ms)       
+
+file changed routes/messages/overhear/index.coffee
+
+Build successful - 572ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 135ms               
+Funnel: App JS Files                          | 105ms               
+Concat: Test Support JS                       | 30ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 135ms               
+Funnel: App JS Files (1)                      | 105ms               
+SourcemapConcat (3)                           | 49ms (16 ms)        
+CoffeeScriptFilter (2)                        | 33ms (16 ms)        
+Concat: Test Support JS (1)                   | 30ms                
+
+file added routes/messages/overhear/index.coffee___jb_bak___
+file deleted routes/messages/overhear/index.coffee___jb_bak___
+file added routes/messages/overhear/index.coffee___jb_old___
+file changed routes/messages/overhear/index.coffee
+file deleted routes/messages/overhear/index.coffee___jb_old___
+
+Build successful - 525ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 131ms               
+Concat: App                                   | 79ms                
+Concat: Test Support JS                       | 41ms                
+Funnel: App JS Files                          | 36ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 131ms               
+Concat: App (1)                               | 79ms                
+SourcemapConcat (3)                           | 45ms (15 ms)        
+Concat: Test Support JS (1)                   | 41ms                
+Funnel: App JS Files (1)                      | 36ms                
+CoffeeScriptFilter (2)                        | 31ms (15 ms)        
+
+file added routes/messages/overhear/index.coffee___jb_old___
+file changed routes/messages/overhear/index.coffee
+file deleted routes/messages/overhear/index.coffee___jb_old___
+
+Build successful - 542ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 131ms               
+Funnel: App JS Files                          | 90ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 131ms               
+Funnel: App JS Files (1)                      | 90ms                
+SourcemapConcat (3)                           | 47ms (15 ms)        
+CoffeeScriptFilter (2)                        | 28ms (14 ms)        
+
+file changed templates/messages/overhear/index.emblem
+
+Build successful - 627ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 140ms               
+Concat: App                                   | 77ms                
+SourcemapConcat                               | 38ms                
+Concat: Test Support JS                       | 36ms                
+Funnel: App JS Files                          | 35ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 140ms               
+Concat: App (1)                               | 77ms                
+SourcemapConcat (3)                           | 70ms (23 ms)        
+CoffeeScriptFilter (2)                        | 42ms (21 ms)        
+Concat: Test Support JS (1)                   | 36ms                
+Funnel: App JS Files (1)                      | 35ms                
+
+file added templates/messages/overhear/index.emblem___jb_bak___
+file deleted templates/messages/overhear/index.emblem___jb_bak___
+file changed templates/messages/overhear/index.emblem
+
+Build successful - 599ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 141ms               
+Funnel: App JS Files                          | 78ms                
+SourcemapConcat                               | 41ms                
+Concat: Test Support JS                       | 38ms                
+Concat: App                                   | 35ms                
+SourcemapConcat                               | 32ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 141ms               
+Funnel: App JS Files (1)                      | 78ms                
+SourcemapConcat (3)                           | 76ms (25 ms)        
+Concat: Test Support JS (1)                   | 38ms                
+Concat: App (1)                               | 35ms                
+
+file changed routes/messages/love/index.coffee
+
+Build successful - 557ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 182ms               
+Funnel: App JS Files                          | 35ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 182ms               
+SourcemapConcat (3)                           | 46ms (15 ms)        
+Funnel: App JS Files (1)                      | 35ms                
+CoffeeScriptFilter (2)                        | 34ms (17 ms)        
+Babel (5)                                     | 30ms (6 ms)         
+
+file changed routes/messages/besit/index.coffee
+
+Build successful - 522ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 181ms               
+Funnel: App JS Files                          | 37ms                
+Concat: Test Support JS                       | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 181ms               
+SourcemapConcat (3)                           | 48ms (16 ms)        
+Funnel: App JS Files (1)                      | 37ms                
+Concat: Test Support JS (1)                   | 26ms                
+CoffeeScriptFilter (2)                        | 26ms (13 ms)        
+
+file added templates/messages/love/index.emblem___jb_bak___
+file deleted templates/messages/love/index.emblem___jb_bak___
+file added templates/messages/love/index.emblem___jb_old___
+file changed templates/messages/love/index.emblem
+file deleted templates/messages/love/index.emblem___jb_old___
+file added templates/messages/besit/index.emblem___jb_bak___
+file deleted templates/messages/besit/index.emblem___jb_bak___
+file changed templates/messages/besit/index.emblem
+
+Build successful - 619ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 192ms               
+Concat: Test Support JS                       | 38ms                
+Funnel: App JS Files                          | 37ms                
+Concat: App                                   | 33ms                
+SourcemapConcat                               | 33ms                
+Concat: Test Support Suffix                   | 32ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 192ms               
+SourcemapConcat (3)                           | 54ms (18 ms)        
+Concat: Test Support JS (1)                   | 38ms                
+Funnel: App JS Files (1)                      | 37ms                
+TemplateCompiler (2)                          | 35ms (17 ms)        
+Concat: App (1)                               | 33ms                
+Concat: Test Support Suffix (1)               | 32ms                
+
+file added templates/messages/besit/index.emblem___jb_bak___
+file deleted templates/messages/besit/index.emblem___jb_bak___
+file added templates/messages/besit/index.emblem___jb_old___
+file changed templates/messages/besit/index.emblem
+file deleted templates/messages/besit/index.emblem___jb_old___
+
+Build successful - 565ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 138ms               
+Funnel: App JS Files                          | 81ms                
+TreeMerger (appAndDependencies)               | 34ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 138ms               
+Funnel: App JS Files (1)                      | 81ms                
+SourcemapConcat (3)                           | 52ms (17 ms)        
+TreeMerger (appAndDependencies) (1)           | 34ms                
+
+file changed templates/messages/love/index.emblem
+file added templates/messages/overhear/index.emblem___jb_bak___
+file deleted templates/messages/overhear/index.emblem___jb_bak___
+file changed templates/messages/overhear/index.emblem
+
+Build successful - 626ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 165ms               
+Funnel: App JS Files                          | 79ms                
+Concat: Test Support JS                       | 42ms                
+SourcemapConcat                               | 39ms                
+TreeMerger (appAndDependencies)               | 33ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 165ms               
+Funnel: App JS Files (1)                      | 79ms                
+SourcemapConcat (3)                           | 71ms (23 ms)        
+Concat: Test Support JS (1)                   | 42ms                
+TreeMerger (appAndDependencies) (1)           | 33ms                
+
+file added routes/messages/love/index.coffee___jb_old___
+file changed routes/messages/love/index.coffee
+file deleted routes/messages/love/index.coffee___jb_old___
+file added routes/messages/besit/index.coffee___jb_bak___
+file deleted routes/messages/besit/index.coffee___jb_bak___
+file added routes/messages/besit/index.coffee___jb_old___
+file changed routes/messages/besit/index.coffee
+file deleted routes/messages/besit/index.coffee___jb_old___
+
+Build successful - 516ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 129ms               
+Funnel: App JS Files                          | 78ms                
+Concat: Test Support JS                       | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 129ms               
+Funnel: App JS Files (1)                      | 78ms                
+SourcemapConcat (3)                           | 46ms (15 ms)        
+CoffeeScriptFilter (2)                        | 31ms (15 ms)        
+Concat: Test Support JS (1)                   | 27ms                
+
+file changed templates/root.emblem
+
+Build successful - 512ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 128ms               
+ES6: App Tree                                 | 69ms                
+Funnel: App JS Files                          | 36ms                
+Concat: App                                   | 27ms                
+Concat: Test Support JS                       | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 128ms               
+ES6: App Tree (1)                             | 69ms                
+SourcemapConcat (3)                           | 47ms (15 ms)        
+Funnel: App JS Files (1)                      | 36ms                
+Concat: App (1)                               | 27ms                
+Concat: Test Support JS (1)                   | 25ms                
+
+file changed templates/root.emblem
+
+Build successful - 526ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 171ms               
+Funnel: App JS Files                          | 34ms                
+ES6: App Tree                                 | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 171ms               
+SourcemapConcat (3)                           | 49ms (16 ms)        
+Funnel: App JS Files (1)                      | 34ms                
+ES6: App Tree (1)                             | 29ms                
+
+file changed templates/root.emblem
+
+Build successful - 618ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 202ms               
+Funnel: App JS Files                          | 37ms                
+TreeMerger (appAndDependencies)               | 34ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 202ms               
+SourcemapConcat (3)                           | 53ms (17 ms)        
+Funnel: App JS Files (1)                      | 37ms                
+TreeMerger (appAndDependencies) (1)           | 34ms                
+Funnel (38)                                   | 33ms (0 ms)         
+
