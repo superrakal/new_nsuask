@@ -14475,3 +14475,21 @@ Processing by Api::V1::MessagesController#index as JSON
   MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={} flags=[] limit=25 skip=0 batch_size=nil fields=nil runtime: 0.3321ms
   MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={} flags=[] limit=25 skip=0 batch_size=nil fields=nil runtime: 0.2573ms
 Completed 200 OK in 6ms (Views: 2.6ms)
+
+
+Started GET "/api/v1/messages?category=besit&page=1&per_page=5" for 127.0.0.1 at 2016-01-02 20:20:08 +0600
+Processing by Api::V1::MessagesController#index as JSON
+  Parameters: {"category"=>"besit", "page"=>"1", "per_page"=>"5"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.7007ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit"}} runtime: 0.4539ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"category"=>"besit"} flags=[] limit=5 skip=0 batch_size=nil fields=nil runtime: 0.6294ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"category"=>"besit"} flags=[] limit=5 skip=0 batch_size=nil fields=nil runtime: 0.4230ms
+Completed 200 OK in 12ms (Views: 3.4ms)
+
+
+Started GET "/api/v1/messages" for 127.0.0.1 at 2016-01-02 20:20:10 +0600
+Processing by Api::V1::MessagesController#index as JSON
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{}} runtime: 0.5043ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={} flags=[] limit=25 skip=0 batch_size=nil fields=nil runtime: 0.3891ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={} flags=[] limit=25 skip=0 batch_size=nil fields=nil runtime: 0.2599ms
+Completed 200 OK in 7ms (Views: 2.7ms)

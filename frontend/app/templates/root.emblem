@@ -6,20 +6,23 @@
         .img.overhear
           .overlay
             |Подслушано НГУ
-        .badge
-          = controller.new_overhear_count
+        = if session.isAuthenticated
+          .badge
+            = controller.new_overhear_count
     .col-lg-4.col-md-4.col-sm-12.col-xs-12.public.text-center
       = link-to controller.love_link
         .img.love
           .overlay
             |Признавашки НГУ
-        .badge
-          = controller.new_love_count
+        = if session.isAuthenticated
+          .badge
+            = controller.new_love_count
     .col-lg-4.col-md-4.col-sm-12.col-xs-12.public.text-center
       = link-to controller.besit_link
         .img.besit
           .overlay
             |БЕСИТ АКАДЕМ
-        .badge
-          = controller.new_besit_count
+        = if session.isAuthenticated
+          .badge
+            = controller.new_besit_count
     .clearfix
