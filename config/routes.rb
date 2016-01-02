@@ -11,6 +11,7 @@ Rails.application.routes.draw do
           get 'push'
           get 'ignore'
         end
+        get 'new_messages_count', on: :collection
       end
       resources :users, only: [:index, :show]
     end

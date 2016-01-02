@@ -41,6 +41,14 @@ module Api
         respond_with @message, status: 200, location: false
       end
 
+      def new_messages_count
+        overhear_messages_count = Message.where(category: 'overhear', state: 'new').count
+        love_messages_count =     Message.where(category: 'love', state: 'new').count
+        besit_messages_count =    Message.where(category: 'besit', state: 'new').count
+        render(json: {:overhear_messages_count => overhear_messages_count, :love_messages_count => love_messages_count,
+                      :besit_messages_count => besit_messages_count})
+      end
+
       private
         def message_params
           params.require(:message).permit :text, :category
