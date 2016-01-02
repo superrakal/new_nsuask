@@ -3,7 +3,7 @@ require 'bundler/capistrano' # Для работы bundler. При измене�
 require 'capistrano-unicorn'
 require 'capistrano/sidekiq'
 
-set :application, 'nsurock'
+set :application, 'nsuask'
 set :rails_env, 'production'
 set :domain, 'root@5.101.119.56'
 set :deploy_to, "/var/www/#{application}"
