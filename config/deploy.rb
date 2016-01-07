@@ -1,7 +1,6 @@
 require 'rvm/capistrano' # Для работы rvm
 require 'bundler/capistrano' # Для работы bundler. При изменении гемов bundler автоматически обновит все гемы на сервере, чтобы они в точности соответствовали гемам разработчика.
 require 'capistrano-unicorn'
-require 'capistrano/sidekiq'
 
 set :application, 'nsuask'
 set :rails_env, 'production'
@@ -24,7 +23,6 @@ role :db,  domain, :primary => true
 
 after 'deploy', 'deploy:migrate'
 after 'deploy:update', 'deploy:cleanup'
-after 'deploy:before', 'deploy:elastic:import'
 after 'deploy:restart', 'unicorn:reload'    # app IS NOT preloaded
 after 'deploy:restart', 'unicorn:restart'   # app preloaded
 after 'deploy:restart', 'unicorn:duplicate' # before_fork hook implemented (zero downtime deployments)
@@ -37,7 +35,6 @@ namespace :deploy do
 
   task :seed do
     run "cd #{current_path}; bundle exec rake db:seed RAILS_ENV=#{rails_env}"
-
   end
 end
 

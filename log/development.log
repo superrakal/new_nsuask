@@ -15503,3 +15503,13 @@ Processing by Api::V1::MessagesController#new_messages_count as */*
   MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.2310ms
   MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.2236ms
 Completed 200 OK in 5ms (Views: 2.5ms)
+
+
+Started GET "/api/v1/messages?category=overhear&page=1&per_page=5" for 127.0.0.1 at 2016-01-07 20:37:41 +0600
+Processing by Api::V1::MessagesController#index as JSON
+  Parameters: {"category"=>"overhear", "page"=>"1", "per_page"=>"5"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3495ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear"}} runtime: 0.2596ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"overhear"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=5 skip=0 batch_size=nil fields=nil runtime: 0.4056ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"overhear"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=5 skip=0 batch_size=nil fields=nil runtime: 0.2768ms
+Completed 200 OK in 6ms (Views: 2.4ms)
