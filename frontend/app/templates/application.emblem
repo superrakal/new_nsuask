@@ -2,6 +2,7 @@ nav.navbar-default
   .container-fluid
     = link-to 'root'
       .big_logo.hidden-xs.logo
+        .logo-image
         |NSU.ask
       .small_logo.visible-xs.logo
         |NSU.ask

@@ -9689,3 +9689,21 @@ Funnel: App JS Files (1)                      | 84ms
 SourcemapConcat (3)                           | 47ms (15 ms)        
 TreeMerger (appAndDependencies) (1)           | 31ms                
 
+file changed templates/application.emblem
+
+Build successful - 513ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 136ms               
+ES6: App Tree                                 | 71ms                
+Funnel: App JS Files                          | 35ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 136ms               
+ES6: App Tree (1)                             | 71ms                
+SourcemapConcat (3)                           | 45ms (15 ms)        
+Funnel: App JS Files (1)                      | 35ms                
+CoffeeScriptFilter (2)                        | 30ms (15 ms)        
+
