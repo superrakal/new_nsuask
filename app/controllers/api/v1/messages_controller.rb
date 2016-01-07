@@ -9,7 +9,7 @@ module Api
 
       def index
         @messages = filtered_collection(Message)
-        @messages = @messages.page(params[:page]).per(params[:per_page])
+        @messages = @messages.order(created_at: :desc).page(params[:page]).per(params[:per_page])
         respond_with @messages, meta: {total_pages: @messages.total_pages}
       end
 

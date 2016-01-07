@@ -1,4 +1,4 @@
-nav
+nav.navbar-default
   .container-fluid
     = link-to 'root'
       .big_logo.hidden-xs.logo
@@ -9,7 +9,7 @@ nav
       .pull-right
         button.btn.btn-primary.login-button{action 'showLoginModal'}
           |Войти
-.container.page-wrapper
+.container
   = outlet
 
 /= partial 'partials/helper'

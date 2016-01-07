@@ -1,28 +1,29 @@
-.root
-  h1.title.text-center Выберите паблик
-  .row
-    .col-lg-4.col-md-4.col-sm-12.col-xs-12.public.text-center
-      = link-to controller.overhear_link
-        .img.overhear
-          .overlay
-            |Подслушано НГУ
-        = if session.isAuthenticated
-          .badge
-            = controller.new_overhear_count
-    .col-lg-4.col-md-4.col-sm-12.col-xs-12.public.text-center
-      = link-to controller.love_link
-        .img.love
-          .overlay
-            |Признавашки НГУ
-        = if session.isAuthenticated
-          .badge
-            = controller.new_love_count
-    .col-lg-4.col-md-4.col-sm-12.col-xs-12.public.text-center
-      = link-to controller.besit_link
-        .img.besit
-          .overlay
-            |БЕСИТ АКАДЕМ
-        = if session.isAuthenticated
-          .badge
-            = controller.new_besit_count
-    .clearfix
+h1.page-title.text-center Выберите паблик
+.row.clearfix
+  .col-lg-4.col-md-4.col-sm-12.col-xs-12.public.text-center
+    = link-to controller.overhear_link
+      .img.overhear
+        .overlay
+          |Подслушано НГУ
+      = if session.isAuthenticated
+        .badge
+          = controller.new_overhear_count
+  .col-lg-4.col-md-4.col-sm-12.col-xs-12.public.text-center
+    = link-to controller.love_link
+      .img.love
+        .overlay
+          |Признавашки НГУ
+      = if session.isAuthenticated
+        .badge
+          = controller.new_love_count
+  .col-lg-4.col-md-4.col-sm-12.col-xs-12.public.text-center
+    = link-to controller.besit_link
+      .img.besit
+        .overlay
+          |БЕСИТ АКАДЕМ
+      = if session.isAuthenticated
+        .badge
+          = controller.new_besit_count
+.text-center.copyright.hidden-xs
+  h4 @Ev1lCap
+

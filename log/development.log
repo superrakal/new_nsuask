@@ -14493,3 +14493,1013 @@ Processing by Api::V1::MessagesController#index as JSON
   MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={} flags=[] limit=25 skip=0 batch_size=nil fields=nil runtime: 0.3891ms
   MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={} flags=[] limit=25 skip=0 batch_size=nil fields=nil runtime: 0.2599ms
 Completed 200 OK in 7ms (Views: 2.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-02 23:15:58 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (9.0ms)
+Completed 200 OK in 5035ms (Views: 5035.1ms)
+
+
+Started GET "/api/v1/messages/overhear_new_messages/" for 127.0.0.1 at 2016-01-02 23:16:10 +0600
+Processing by Api::V1::MessagesController#overhear_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.7634ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 1.5194ms
+Completed 200 OK in 17ms (Views: 1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-02 23:16:29 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 73ms (Views: 72.7ms)
+
+
+Started GET "/api/v1/messages/overhear_new_messages/" for 127.0.0.1 at 2016-01-02 23:16:30 +0600
+Processing by Api::V1::MessagesController#overhear_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.3345ms
+Completed 200 OK in 2ms (Views: 1.5ms)
+
+
+Started GET "/api/v1/messages/love_new_messages/" for 127.0.0.1 at 2016-01-02 23:16:30 +0600
+Processing by Api::V1::MessagesController#love_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.3245ms
+Completed 200 OK in 2ms (Views: 1.6ms)
+
+
+Started GET "/api/v1/messages/besit_new_messages/" for 127.0.0.1 at 2016-01-02 23:16:30 +0600
+Processing by Api::V1::MessagesController#besit_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2832ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.2482ms
+Completed 200 OK in 3ms (Views: 1.5ms)
+
+
+Started GET "/api/v1/messages?category=overhear&page=1&per_page=5" for 127.0.0.1 at 2016-01-02 23:16:32 +0600
+Processing by Api::V1::MessagesController#index as JSON
+  Parameters: {"category"=>"overhear", "page"=>"1", "per_page"=>"5"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear"}} runtime: 0.4439ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"category"=>"overhear"} flags=[] limit=5 skip=0 batch_size=nil fields=nil runtime: 0.4525ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"category"=>"overhear"} flags=[] limit=5 skip=0 batch_size=nil fields=nil runtime: 0.3099ms
+Completed 200 OK in 10ms (Views: 3.8ms)
+
+
+Started GET "/api/v1/messages/love_new_messages/" for 127.0.0.1 at 2016-01-02 23:16:51 +0600
+Processing by Api::V1::MessagesController#love_new_messages as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.3827ms
+Completed 200 OK in 2ms (Views: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-02 23:17:09 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 78ms (Views: 78.1ms)
+
+
+Started GET "/api/v1/messages/overhear_new_messages/" for 127.0.0.1 at 2016-01-02 23:17:09 +0600
+Processing by Api::V1::MessagesController#overhear_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2985ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.2079ms
+Completed 200 OK in 3ms (Views: 1.4ms)
+
+
+Started GET "/api/v1/messages/love_new_messages/" for 127.0.0.1 at 2016-01-02 23:17:09 +0600
+Processing by Api::V1::MessagesController#love_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.3226ms
+Completed 200 OK in 2ms (Views: 1.4ms)
+
+
+Started GET "/api/v1/messages/besit_new_messages/" for 127.0.0.1 at 2016-01-02 23:17:09 +0600
+Processing by Api::V1::MessagesController#besit_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.3355ms
+Completed 200 OK in 2ms (Views: 1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-02 23:17:35 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 74ms (Views: 73.4ms)
+
+
+Started GET "/api/v1/messages/overhear_new_messages/" for 127.0.0.1 at 2016-01-02 23:17:35 +0600
+Processing by Api::V1::MessagesController#overhear_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.4251ms
+Completed 200 OK in 3ms (Views: 1.8ms)
+
+
+Started GET "/api/v1/messages/love_new_messages/" for 127.0.0.1 at 2016-01-02 23:17:35 +0600
+Processing by Api::V1::MessagesController#love_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.3803ms
+Completed 200 OK in 3ms (Views: 1.8ms)
+
+
+Started GET "/api/v1/messages/besit_new_messages/" for 127.0.0.1 at 2016-01-02 23:17:35 +0600
+Processing by Api::V1::MessagesController#besit_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.3707ms
+Completed 200 OK in 3ms (Views: 1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-02 23:18:04 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 75ms (Views: 75.3ms)
+
+
+Started GET "/api/v1/messages/overhear_new_messages/" for 127.0.0.1 at 2016-01-02 23:18:05 +0600
+Processing by Api::V1::MessagesController#overhear_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3085ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.2842ms
+Completed 200 OK in 3ms (Views: 1.6ms)
+
+
+Started GET "/api/v1/messages/love_new_messages/" for 127.0.0.1 at 2016-01-02 23:18:05 +0600
+Processing by Api::V1::MessagesController#love_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.4065ms
+Completed 200 OK in 3ms (Views: 1.7ms)
+
+
+Started GET "/api/v1/messages/besit_new_messages/" for 127.0.0.1 at 2016-01-02 23:18:05 +0600
+Processing by Api::V1::MessagesController#besit_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.3529ms
+Completed 200 OK in 2ms (Views: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-02 23:18:11 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 71ms (Views: 71.1ms)
+
+
+Started GET "/api/v1/messages/overhear_new_messages/" for 127.0.0.1 at 2016-01-02 23:18:12 +0600
+Processing by Api::V1::MessagesController#overhear_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.4342ms
+Completed 200 OK in 4ms (Views: 2.6ms)
+
+
+Started GET "/api/v1/messages/love_new_messages/" for 127.0.0.1 at 2016-01-02 23:18:12 +0600
+Processing by Api::V1::MessagesController#love_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.4442ms
+Completed 200 OK in 4ms (Views: 2.9ms)
+
+
+Started GET "/api/v1/messages/besit_new_messages/" for 127.0.0.1 at 2016-01-02 23:18:12 +0600
+Processing by Api::V1::MessagesController#besit_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.4330ms
+Completed 200 OK in 4ms (Views: 2.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-02 23:19:10 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 73ms (Views: 72.6ms)
+
+
+Started GET "/api/v1/messages/overhear_new_messages/" for 127.0.0.1 at 2016-01-02 23:19:10 +0600
+Processing by Api::V1::MessagesController#overhear_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3283ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.3023ms
+Completed 200 OK in 3ms (Views: 1.7ms)
+
+
+Started GET "/api/v1/messages/love_new_messages/" for 127.0.0.1 at 2016-01-02 23:19:10 +0600
+Processing by Api::V1::MessagesController#love_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.3400ms
+Completed 200 OK in 3ms (Views: 1.6ms)
+
+
+Started GET "/api/v1/messages/besit_new_messages/" for 127.0.0.1 at 2016-01-02 23:19:10 +0600
+Processing by Api::V1::MessagesController#besit_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.3638ms
+Completed 200 OK in 3ms (Views: 1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-02 23:19:38 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 76ms (Views: 76.2ms)
+
+
+Started GET "/api/v1/messages/overhear_new_messages/" for 127.0.0.1 at 2016-01-02 23:19:39 +0600
+Processing by Api::V1::MessagesController#overhear_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3791ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.3512ms
+Completed 200 OK in 5ms (Views: 2.8ms)
+
+
+Started GET "/api/v1/messages/love_new_messages/" for 127.0.0.1 at 2016-01-02 23:19:39 +0600
+Processing by Api::V1::MessagesController#love_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.4370ms
+Completed 200 OK in 4ms (Views: 2.4ms)
+
+
+Started GET "/api/v1/messages/besit_new_messages/" for 127.0.0.1 at 2016-01-02 23:19:39 +0600
+Processing by Api::V1::MessagesController#besit_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.4406ms
+Completed 200 OK in 4ms (Views: 2.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-02 23:20:01 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 128ms (Views: 127.8ms)
+
+
+Started GET "/api/v1/messages/overhear_new_messages/" for 127.0.0.1 at 2016-01-02 23:20:01 +0600
+Processing by Api::V1::MessagesController#overhear_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3245ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.2639ms
+Completed 200 OK in 3ms (Views: 1.5ms)
+
+
+Started GET "/api/v1/messages/love_new_messages/" for 127.0.0.1 at 2016-01-02 23:20:01 +0600
+Processing by Api::V1::MessagesController#love_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.3226ms
+Completed 200 OK in 3ms (Views: 1.6ms)
+
+
+Started GET "/api/v1/messages/besit_new_messages/" for 127.0.0.1 at 2016-01-02 23:20:01 +0600
+Processing by Api::V1::MessagesController#besit_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.3242ms
+Completed 200 OK in 2ms (Views: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-02 23:20:16 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 79ms (Views: 79.0ms)
+
+
+Started GET "/api/v1/messages/overhear_new_messages/" for 127.0.0.1 at 2016-01-02 23:20:16 +0600
+Processing by Api::V1::MessagesController#overhear_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.3679ms
+Completed 200 OK in 2ms (Views: 1.4ms)
+
+
+Started GET "/api/v1/messages/love_new_messages/" for 127.0.0.1 at 2016-01-02 23:20:16 +0600
+Processing by Api::V1::MessagesController#love_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.4239ms
+Completed 200 OK in 3ms (Views: 1.5ms)
+
+
+Started GET "/api/v1/messages/besit_new_messages/" for 127.0.0.1 at 2016-01-02 23:20:16 +0600
+Processing by Api::V1::MessagesController#besit_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.3691ms
+Completed 200 OK in 4ms (Views: 3.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-02 23:21:12 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 76ms (Views: 76.2ms)
+
+
+Started GET "/api/v1/messages/overhear_new_messages/" for 127.0.0.1 at 2016-01-02 23:21:13 +0600
+Processing by Api::V1::MessagesController#overhear_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3719ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.2718ms
+Completed 200 OK in 4ms (Views: 2.5ms)
+
+
+Started GET "/api/v1/messages/love_new_messages/" for 127.0.0.1 at 2016-01-02 23:21:13 +0600
+Processing by Api::V1::MessagesController#love_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.3960ms
+Completed 200 OK in 4ms (Views: 2.6ms)
+
+
+Started GET "/api/v1/messages/besit_new_messages/" for 127.0.0.1 at 2016-01-02 23:21:13 +0600
+Processing by Api::V1::MessagesController#besit_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2644ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.2077ms
+Completed 200 OK in 3ms (Views: 1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-02 23:21:20 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 70ms (Views: 69.9ms)
+
+
+Started GET "/api/v1/messages/overhear_new_messages/" for 127.0.0.1 at 2016-01-02 23:21:21 +0600
+Processing by Api::V1::MessagesController#overhear_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3951ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.3121ms
+Completed 200 OK in 4ms (Views: 2.6ms)
+
+
+Started GET "/api/v1/messages/love_new_messages/" for 127.0.0.1 at 2016-01-02 23:21:21 +0600
+Processing by Api::V1::MessagesController#love_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2611ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.2034ms
+Completed 200 OK in 3ms (Views: 1.4ms)
+
+
+Started GET "/api/v1/messages/besit_new_messages/" for 127.0.0.1 at 2016-01-02 23:21:21 +0600
+Processing by Api::V1::MessagesController#besit_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.3197ms
+Completed 200 OK in 2ms (Views: 1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-02 23:21:45 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 62ms (Views: 62.0ms)
+
+
+Started GET "/api/v1/messages/overhear_new_messages/" for 127.0.0.1 at 2016-01-02 23:21:46 +0600
+Processing by Api::V1::MessagesController#overhear_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.3517ms
+Completed 200 OK in 3ms (Views: 1.7ms)
+
+
+Started GET "/api/v1/messages/love_new_messages/" for 127.0.0.1 at 2016-01-02 23:21:46 +0600
+Processing by Api::V1::MessagesController#love_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.3953ms
+Completed 200 OK in 3ms (Views: 1.7ms)
+
+
+Started GET "/api/v1/messages/besit_new_messages/" for 127.0.0.1 at 2016-01-02 23:21:46 +0600
+Processing by Api::V1::MessagesController#besit_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.3295ms
+Completed 200 OK in 2ms (Views: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-02 23:21:48 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 49ms (Views: 48.5ms)
+
+
+Started GET "/api/v1/messages/overhear_new_messages/" for 127.0.0.1 at 2016-01-02 23:21:48 +0600
+Processing by Api::V1::MessagesController#overhear_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.3788ms
+Completed 200 OK in 2ms (Views: 1.6ms)
+
+
+Started GET "/api/v1/messages/love_new_messages/" for 127.0.0.1 at 2016-01-02 23:21:48 +0600
+Processing by Api::V1::MessagesController#love_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.3455ms
+Completed 200 OK in 2ms (Views: 1.5ms)
+
+
+Started GET "/api/v1/messages/besit_new_messages/" for 127.0.0.1 at 2016-01-02 23:21:48 +0600
+Processing by Api::V1::MessagesController#besit_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.3436ms
+Completed 200 OK in 2ms (Views: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-02 23:22:06 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 84ms (Views: 83.7ms)
+
+
+Started GET "/api/v1/messages/overhear_new_messages/" for 127.0.0.1 at 2016-01-02 23:22:07 +0600
+Processing by Api::V1::MessagesController#overhear_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.3355ms
+Completed 200 OK in 2ms (Views: 1.4ms)
+
+
+Started GET "/api/v1/messages/love_new_messages/" for 127.0.0.1 at 2016-01-02 23:22:07 +0600
+Processing by Api::V1::MessagesController#love_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.3526ms
+Completed 200 OK in 2ms (Views: 1.6ms)
+
+
+Started GET "/api/v1/messages/besit_new_messages/" for 127.0.0.1 at 2016-01-02 23:22:07 +0600
+Processing by Api::V1::MessagesController#besit_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.3414ms
+Completed 200 OK in 2ms (Views: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-02 23:22:15 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 136ms (Views: 135.8ms)
+
+
+Started GET "/api/v1/messages/overhear_new_messages/" for 127.0.0.1 at 2016-01-02 23:22:16 +0600
+Processing by Api::V1::MessagesController#overhear_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.3612ms
+Completed 200 OK in 3ms (Views: 1.6ms)
+
+
+Started GET "/api/v1/messages/love_new_messages/" for 127.0.0.1 at 2016-01-02 23:22:16 +0600
+Processing by Api::V1::MessagesController#love_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.3684ms
+Completed 200 OK in 2ms (Views: 1.5ms)
+
+
+Started GET "/api/v1/messages/besit_new_messages/" for 127.0.0.1 at 2016-01-02 23:22:16 +0600
+Processing by Api::V1::MessagesController#besit_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.3164ms
+Completed 200 OK in 2ms (Views: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-02 23:24:06 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 71ms (Views: 71.0ms)
+
+
+Started GET "/api/v1/messages/overhear_new_messages/" for 127.0.0.1 at 2016-01-02 23:24:07 +0600
+Processing by Api::V1::MessagesController#overhear_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3006ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.2298ms
+Completed 200 OK in 3ms (Views: 1.5ms)
+
+
+Started GET "/api/v1/messages/love_new_messages/" for 127.0.0.1 at 2016-01-02 23:24:08 +0600
+Processing by Api::V1::MessagesController#love_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.3297ms
+Completed 200 OK in 2ms (Views: 1.4ms)
+
+
+Started GET "/api/v1/messages/besit_new_messages/" for 127.0.0.1 at 2016-01-02 23:24:08 +0600
+Processing by Api::V1::MessagesController#besit_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.3052ms
+Completed 200 OK in 2ms (Views: 1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-02 23:24:18 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 71ms (Views: 70.4ms)
+
+
+Started GET "/api/v1/messages/overhear_new_messages/" for 127.0.0.1 at 2016-01-02 23:24:19 +0600
+Processing by Api::V1::MessagesController#overhear_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2630ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.2031ms
+Completed 200 OK in 3ms (Views: 1.5ms)
+
+
+Started GET "/api/v1/messages/love_new_messages/" for 127.0.0.1 at 2016-01-02 23:24:20 +0600
+Processing by Api::V1::MessagesController#love_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.3181ms
+Completed 200 OK in 3ms (Views: 2.4ms)
+
+
+Started GET "/api/v1/messages/besit_new_messages/" for 127.0.0.1 at 2016-01-02 23:24:20 +0600
+Processing by Api::V1::MessagesController#besit_new_messages as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.3066ms
+Completed 200 OK in 2ms (Views: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-02 23:28:01 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 69ms (Views: 68.9ms)
+
+
+Started GET "/api/v1/messages/new_messages_count/" for 127.0.0.1 at 2016-01-02 23:28:02 +0600
+Processing by Api::V1::MessagesController#new_messages_count as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3278ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.2627ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.2205ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.2804ms
+Completed 200 OK in 13ms (Views: 1.7ms)
+
+
+Started GET "/api/v1/messages?category=overhear&page=1&per_page=5" for 127.0.0.1 at 2016-01-02 23:28:04 +0600
+Processing by Api::V1::MessagesController#index as JSON
+  Parameters: {"category"=>"overhear", "page"=>"1", "per_page"=>"5"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear"}} runtime: 0.3972ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"category"=>"overhear"} flags=[] limit=5 skip=0 batch_size=nil fields=nil runtime: 0.5052ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"category"=>"overhear"} flags=[] limit=5 skip=0 batch_size=nil fields=nil runtime: 0.3300ms
+Completed 200 OK in 9ms (Views: 3.9ms)
+
+
+Started GET "/api/v1/messages?category=love&page=1&per_page=5" for 127.0.0.1 at 2016-01-02 23:28:08 +0600
+Processing by Api::V1::MessagesController#index as JSON
+  Parameters: {"category"=>"love", "page"=>"1", "per_page"=>"5"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love"}} runtime: 0.4270ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"category"=>"love"} flags=[] limit=5 skip=0 batch_size=nil fields=nil runtime: 0.3474ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"category"=>"love"} flags=[] limit=5 skip=0 batch_size=nil fields=nil runtime: 0.3145ms
+Completed 200 OK in 5ms (Views: 2.2ms)
+
+
+Started GET "/api/v1/messages?category=besit&page=1&per_page=5" for 127.0.0.1 at 2016-01-02 23:28:11 +0600
+Processing by Api::V1::MessagesController#index as JSON
+  Parameters: {"category"=>"besit", "page"=>"1", "per_page"=>"5"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit"}} runtime: 0.4234ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"category"=>"besit"} flags=[] limit=5 skip=0 batch_size=nil fields=nil runtime: 0.3474ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"category"=>"besit"} flags=[] limit=5 skip=0 batch_size=nil fields=nil runtime: 0.2136ms
+Completed 200 OK in 5ms (Views: 2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-07 20:14:56 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (9.0ms)
+Completed 200 OK in 5412ms (Views: 5412.0ms)
+
+
+Started GET "/api/v1/messages/new_messages_count/" for 127.0.0.1 at 2016-01-07 20:15:09 +0600
+Processing by Api::V1::MessagesController#new_messages_count as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.7942ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 41.1773ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.2866ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.2251ms
+Completed 200 OK in 57ms (Views: 1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-07 20:16:11 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 84ms (Views: 84.1ms)
+
+
+Started GET "/api/v1/messages/new_messages_count/" for 127.0.0.1 at 2016-01-07 20:16:12 +0600
+Processing by Api::V1::MessagesController#new_messages_count as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3102ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.2241ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.1876ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.1764ms
+Completed 200 OK in 4ms (Views: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-07 20:16:41 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 95ms (Views: 94.5ms)
+
+
+Started GET "/api/v1/messages/new_messages_count/" for 127.0.0.1 at 2016-01-07 20:16:42 +0600
+Processing by Api::V1::MessagesController#new_messages_count as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3946ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.3340ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.2942ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.3459ms
+Completed 200 OK in 6ms (Views: 3.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-07 20:18:02 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 84ms (Views: 84.2ms)
+
+
+Started GET "/api/v1/messages/new_messages_count/" for 127.0.0.1 at 2016-01-07 20:18:02 +0600
+Processing by Api::V1::MessagesController#new_messages_count as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3068ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.2260ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.2158ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.2315ms
+Completed 200 OK in 4ms (Views: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-07 20:19:21 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 88ms (Views: 87.4ms)
+
+
+Started GET "/api/v1/messages/new_messages_count/" for 127.0.0.1 at 2016-01-07 20:19:21 +0600
+Processing by Api::V1::MessagesController#new_messages_count as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2532ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.2131ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.1647ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.1688ms
+Completed 200 OK in 3ms (Views: 1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-07 20:19:27 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 80ms (Views: 79.7ms)
+
+
+Started GET "/api/v1/messages/new_messages_count/" for 127.0.0.1 at 2016-01-07 20:19:28 +0600
+Processing by Api::V1::MessagesController#new_messages_count as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3014ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.2685ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.2298ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.2270ms
+Completed 200 OK in 4ms (Views: 1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-07 20:21:54 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 76ms (Views: 76.2ms)
+
+
+Started GET "/api/v1/messages/new_messages_count/" for 127.0.0.1 at 2016-01-07 20:21:55 +0600
+Processing by Api::V1::MessagesController#new_messages_count as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2651ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.2391ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.1700ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.1686ms
+Completed 200 OK in 3ms (Views: 1.4ms)
+
+
+Started GET "/api/v1/messages?category=overhear&page=1&per_page=5" for 127.0.0.1 at 2016-01-07 20:21:58 +0600
+Processing by Api::V1::MessagesController#index as JSON
+  Parameters: {"category"=>"overhear", "page"=>"1", "per_page"=>"5"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2966ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear"}} runtime: 0.2029ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"overhear"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=5 skip=0 batch_size=nil fields=nil runtime: 0.4628ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"overhear"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=5 skip=0 batch_size=nil fields=nil runtime: 0.2773ms
+Completed 200 OK in 9ms (Views: 3.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-07 20:22:58 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 89ms (Views: 88.7ms)
+
+
+Started GET "/api/v1/messages/new_messages_count/" for 127.0.0.1 at 2016-01-07 20:22:58 +0600
+Processing by Api::V1::MessagesController#new_messages_count as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3273ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.3059ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.2697ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.2437ms
+Completed 200 OK in 4ms (Views: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-07 20:23:47 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 82ms (Views: 81.6ms)
+
+
+Started GET "/api/v1/messages/new_messages_count/" for 127.0.0.1 at 2016-01-07 20:23:48 +0600
+Processing by Api::V1::MessagesController#new_messages_count as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3369ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.2613ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.2875ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.2444ms
+Completed 200 OK in 4ms (Views: 1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-07 20:24:06 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 87ms (Views: 86.9ms)
+
+
+Started GET "/api/v1/messages/new_messages_count/" for 127.0.0.1 at 2016-01-07 20:24:07 +0600
+Processing by Api::V1::MessagesController#new_messages_count as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.3662ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.2744ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.2596ms
+Completed 200 OK in 4ms (Views: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-07 20:24:19 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 95ms (Views: 95.0ms)
+
+
+Started GET "/api/v1/messages/new_messages_count/" for 127.0.0.1 at 2016-01-07 20:24:19 +0600
+Processing by Api::V1::MessagesController#new_messages_count as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.3629ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.2449ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.2463ms
+Completed 200 OK in 4ms (Views: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-07 20:24:27 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 88ms (Views: 88.1ms)
+
+
+Started GET "/api/v1/messages/new_messages_count/" for 127.0.0.1 at 2016-01-07 20:24:28 +0600
+Processing by Api::V1::MessagesController#new_messages_count as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2837ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.2651ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.2303ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.2623ms
+Completed 200 OK in 4ms (Views: 1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-07 20:24:33 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 111ms (Views: 110.7ms)
+
+
+Started GET "/api/v1/messages/new_messages_count/" for 127.0.0.1 at 2016-01-07 20:24:34 +0600
+Processing by Api::V1::MessagesController#new_messages_count as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.6340ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.2644ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.2601ms
+Completed 200 OK in 4ms (Views: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-07 20:24:41 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 85ms (Views: 85.3ms)
+
+
+Started GET "/api/v1/messages/new_messages_count/" for 127.0.0.1 at 2016-01-07 20:24:42 +0600
+Processing by Api::V1::MessagesController#new_messages_count as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.3872ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.2112ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.2131ms
+Completed 200 OK in 3ms (Views: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-07 20:25:50 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 160ms (Views: 159.6ms)
+
+
+Started GET "/api/v1/messages/new_messages_count/" for 127.0.0.1 at 2016-01-07 20:25:51 +0600
+Processing by Api::V1::MessagesController#new_messages_count as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2875ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.2549ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.2077ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.2019ms
+Completed 200 OK in 4ms (Views: 1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-07 20:26:37 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 139ms (Views: 138.6ms)
+
+
+Started GET "/api/v1/messages/new_messages_count/" for 127.0.0.1 at 2016-01-07 20:26:38 +0600
+Processing by Api::V1::MessagesController#new_messages_count as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3545ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.3364ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.2947ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.2882ms
+Completed 200 OK in 4ms (Views: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-07 20:27:08 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 176ms (Views: 175.5ms)
+
+
+Started GET "/api/v1/messages/new_messages_count/" for 127.0.0.1 at 2016-01-07 20:27:09 +0600
+Processing by Api::V1::MessagesController#new_messages_count as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3819ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.2835ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.2639ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.2306ms
+Completed 200 OK in 4ms (Views: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-07 20:27:42 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 95ms (Views: 94.9ms)
+
+
+Started GET "/api/v1/messages/new_messages_count/" for 127.0.0.1 at 2016-01-07 20:27:43 +0600
+Processing by Api::V1::MessagesController#new_messages_count as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3221ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.2532ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.2141ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.2613ms
+Completed 200 OK in 4ms (Views: 1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-07 20:28:19 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 124ms (Views: 123.5ms)
+
+
+Started GET "/api/v1/messages/new_messages_count/" for 127.0.0.1 at 2016-01-07 20:28:20 +0600
+Processing by Api::V1::MessagesController#new_messages_count as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2959ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.3061ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.2387ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.2589ms
+Completed 200 OK in 4ms (Views: 1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-07 20:28:25 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 82ms (Views: 81.6ms)
+
+
+Started GET "/api/v1/messages/new_messages_count/" for 127.0.0.1 at 2016-01-07 20:28:26 +0600
+Processing by Api::V1::MessagesController#new_messages_count as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2799ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.2577ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.2086ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.1941ms
+Completed 200 OK in 4ms (Views: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-07 20:28:35 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 74ms (Views: 74.0ms)
+
+
+Started GET "/api/v1/messages/new_messages_count/" for 127.0.0.1 at 2016-01-07 20:28:36 +0600
+Processing by Api::V1::MessagesController#new_messages_count as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.3717ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.2286ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.2227ms
+Completed 200 OK in 3ms (Views: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-07 20:28:50 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 102ms (Views: 101.8ms)
+
+
+Started GET "/api/v1/messages/new_messages_count/" for 127.0.0.1 at 2016-01-07 20:28:51 +0600
+Processing by Api::V1::MessagesController#new_messages_count as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.3405ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.2303ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.2043ms
+Completed 200 OK in 4ms (Views: 1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-07 20:28:55 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 83ms (Views: 82.5ms)
+
+
+Started GET "/api/v1/messages/new_messages_count/" for 127.0.0.1 at 2016-01-07 20:28:56 +0600
+Processing by Api::V1::MessagesController#new_messages_count as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.3710ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.1945ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.2167ms
+Completed 200 OK in 3ms (Views: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-07 20:29:06 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 84ms (Views: 83.4ms)
+
+
+Started GET "/api/v1/messages/new_messages_count/" for 127.0.0.1 at 2016-01-07 20:29:07 +0600
+Processing by Api::V1::MessagesController#new_messages_count as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.3185ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.1953ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.1750ms
+Completed 200 OK in 3ms (Views: 1.4ms)
+
+
+Started GET "/api/v1/messages?category=overhear&page=1&per_page=5" for 127.0.0.1 at 2016-01-07 20:29:13 +0600
+Processing by Api::V1::MessagesController#index as JSON
+  Parameters: {"category"=>"overhear", "page"=>"1", "per_page"=>"5"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear"}} runtime: 0.3645ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"overhear"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=5 skip=0 batch_size=nil fields=nil runtime: 0.4725ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"overhear"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=5 skip=0 batch_size=nil fields=nil runtime: 0.4518ms
+Completed 200 OK in 6ms (Views: 2.9ms)
+
+
+Started GET "/messages/overhear" for 127.0.0.1 at 2016-01-07 20:29:15 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"messages/overhear"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 46ms (Views: 45.8ms)
+
+
+Started GET "/api/v1/messages?category=overhear&page=1&per_page=5" for 127.0.0.1 at 2016-01-07 20:29:16 +0600
+Processing by Api::V1::MessagesController#index as JSON
+  Parameters: {"category"=>"overhear", "page"=>"1", "per_page"=>"5"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6011ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear"}} runtime: 0.3421ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"overhear"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=5 skip=0 batch_size=nil fields=nil runtime: 0.3943ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"overhear"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=5 skip=0 batch_size=nil fields=nil runtime: 0.3045ms
+Completed 200 OK in 9ms (Views: 2.8ms)
+
+
+Started GET "/api/v1/messages/new_messages_count/" for 127.0.0.1 at 2016-01-07 20:29:17 +0600
+Processing by Api::V1::MessagesController#new_messages_count as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.5524ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.3669ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.2623ms
+Completed 200 OK in 6ms (Views: 2.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-07 20:29:19 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 102ms (Views: 101.3ms)
+
+
+Started GET "/api/v1/messages/new_messages_count/" for 127.0.0.1 at 2016-01-07 20:29:20 +0600
+Processing by Api::V1::MessagesController#new_messages_count as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3114ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.2446ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.2310ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.3028ms
+Completed 200 OK in 4ms (Views: 1.4ms)
+
+
+Started POST "/api/v1/messages" for 127.0.0.1 at 2016-01-07 20:29:22 +0600
+Processing by Api::V1::MessagesController#create as JSON
+  Parameters: {"message"=>{"text"=>"12321312", "category"=>"overhear", "state"=>"new", "created_at"=>nil}}
+Unpermitted parameters: state, created_at
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3092ms
+  MOPED: 127.0.0.1:27017 INSERT       database=nsuask_development collection=messages documents=[{"state"=>"new", "_id"=>BSON::ObjectId('568e7642d3054d0c21000000'), "text"=>"12321312", "category"=>"overhear", "updated_at"=>2016-01-07 14:29:22 UTC, "created_at"=>2016-01-07 14:29:22 UTC}] flags=[]
+                         COMMAND      database=nsuask_development command={:getlasterror=>1, :w=>1} runtime: 0.5047ms
+Completed 201 Created in 12ms (Views: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-07 20:29:23 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 52ms (Views: 51.8ms)
+
+
+Started GET "/api/v1/messages/new_messages_count/" for 127.0.0.1 at 2016-01-07 20:29:24 +0600
+Processing by Api::V1::MessagesController#new_messages_count as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.4895ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.3977ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.4799ms
+Completed 200 OK in 7ms (Views: 3.1ms)
+
+
+Started GET "/api/v1/messages?category=overhear&page=1&per_page=5" for 127.0.0.1 at 2016-01-07 20:29:25 +0600
+Processing by Api::V1::MessagesController#index as JSON
+  Parameters: {"category"=>"overhear", "page"=>"1", "per_page"=>"5"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear"}} runtime: 0.3531ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"overhear"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=5 skip=0 batch_size=nil fields=nil runtime: 0.5162ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"overhear"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=5 skip=0 batch_size=nil fields=nil runtime: 0.4406ms
+Completed 200 OK in 6ms (Views: 3.0ms)
+
+
+Started GET "/messages/overhear" for 127.0.0.1 at 2016-01-07 20:29:39 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"messages/overhear"}
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 107ms (Views: 107.0ms)
+
+
+Started GET "/api/v1/messages?category=overhear&page=1&per_page=5" for 127.0.0.1 at 2016-01-07 20:29:40 +0600
+Processing by Api::V1::MessagesController#index as JSON
+  Parameters: {"category"=>"overhear", "page"=>"1", "per_page"=>"5"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear"}} runtime: 0.5722ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"overhear"}, "$orderby"=>{"created_at"=>1}} flags=[] limit=5 skip=0 batch_size=nil fields=nil runtime: 0.5989ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"overhear"}, "$orderby"=>{"created_at"=>1}} flags=[] limit=5 skip=0 batch_size=nil fields=nil runtime: 0.5245ms
+Completed 200 OK in 30ms (Views: 5.1ms)
+
+
+Started GET "/messages/overhear" for 127.0.0.1 at 2016-01-07 20:29:43 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"messages/overhear"}
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 61ms (Views: 60.3ms)
+
+
+Started GET "/api/v1/messages?category=overhear&page=1&per_page=5" for 127.0.0.1 at 2016-01-07 20:29:44 +0600
+Processing by Api::V1::MessagesController#index as JSON
+  Parameters: {"category"=>"overhear", "page"=>"1", "per_page"=>"5"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear"}} runtime: 0.4437ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"overhear"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=5 skip=0 batch_size=nil fields=nil runtime: 0.4792ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"overhear"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=5 skip=0 batch_size=nil fields=nil runtime: 0.4098ms
+Completed 200 OK in 18ms (Views: 4.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-07 20:29:52 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 48ms (Views: 48.1ms)
+
+
+Started GET "/api/v1/messages/new_messages_count/" for 127.0.0.1 at 2016-01-07 20:29:53 +0600
+Processing by Api::V1::MessagesController#new_messages_count as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.3760ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.2134ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.1936ms
+Completed 200 OK in 4ms (Views: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-07 20:36:53 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 133ms (Views: 132.4ms)
+
+
+Started GET "/api/v1/messages/new_messages_count/" for 127.0.0.1 at 2016-01-07 20:36:54 +0600
+Processing by Api::V1::MessagesController#new_messages_count as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3409ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.2997ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.2627ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.2596ms
+Completed 200 OK in 4ms (Views: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-07 20:37:00 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 50ms (Views: 49.4ms)
+
+
+Started GET "/api/v1/messages/new_messages_count/" for 127.0.0.1 at 2016-01-07 20:37:01 +0600
+Processing by Api::V1::MessagesController#new_messages_count as */*
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3912ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear", "state"=>"new"}} runtime: 0.2739ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love", "state"=>"new"}} runtime: 0.2310ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit", "state"=>"new"}} runtime: 0.2236ms
+Completed 200 OK in 5ms (Views: 2.5ms)
