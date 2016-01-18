@@ -1,17 +1,14 @@
-nav.navbar-default
-  .container-fluid
-    = link-to 'root'
-      .big_logo.hidden-xs.logo
-        .logo-image
-        |NSU.ask
-      .small_logo.visible-xs.logo
-        |NSU.ask
-    = unless session.isAuthenticated
-      .pull-right
-        button.btn.btn-primary.login-button{action 'showLoginModal'}
-          |Войти
-.container
-  = outlet
-
-/= partial 'partials/helper'
-= partial 'partials/login-form'
+nav.navbar.navbar-default
+  .container
+    .navbar-header
+      =link-to 'root' class='navbar-brand navbar-link'
+        span.glyphicon.glyphicon-question-sign
+        | NSUASK
+      button.navbar-toggle.collapsed.hidden-xs.hidden-sm.hidden-md.hidden-lg data-target="#navcol-1" data-toggle="collapse"
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+    #navcol-1.collapse.navbar-collapse
+      ul.nav.navbar-nav.navbar-right
+= outlet

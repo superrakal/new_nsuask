@@ -1,0 +1,58 @@
+button.btn.btn-primary.btn-lg{action 'openModal'}
+  span.glyphicon.glyphicon-pencil
+  | Написать сообщение
+
+.message_box_wrapper
+  .tools
+    .container
+      .close{action 'closeModal'}
+        span.glyphicon.glyphicon-remove
+  .row
+    .container
+      = if isMessageSaved
+        .col-sm-12.text-center
+          h2.text-uppercase Сообщение отправлено
+          p
+            |Ваше сообщение будет опубликовано, как только модератор проверит его.
+            br
+            |Спасибо, что поделились с нами своими мыслями.
+          button.btn.btn-default.btn-lg{action 'closeModal'}
+            span.glyphicon.glyphicon-remove
+            |&nbsp;Закрыть
+      = else
+        .row
+          .col-sm-12.text-center
+            h2.text-uppercase Выберите паблик
+            .col-sm-4.col-xs-12.text-center
+              .public.overhear{action 'setCategory' 'overhear'}
+                = if isActiveOverhear
+                  .active
+                    span.glyphicon.glyphicon-ok
+            .col-sm-4.col-xs-12.text-center
+              .public.love{action 'setCategory' 'love'}
+                = if isActiveLove
+                  .active
+                    span.glyphicon.glyphicon-ok
+            .col-sm-4.col-xs-12.text-center
+              .public.besit{action 'setCategory' 'besit'}
+                = if isActiveBesit
+                  .active
+                    span.glyphicon.glyphicon-ok
+        .row
+          .col-sm-12.text-center
+            h2.text-uppercase Напишите сообщение
+            .col-sm-12.message_input
+              = textarea value=message.text
+        .row
+          .col-sm-12.text-center
+            = if isSaving
+              button.btn.btn-default.btn-lg.text-center
+                i.fa.fa-spin.fa-circle-o-notch
+                |&nbsp;Отправка...
+            = else
+              button.btn.btn-default.btn-lg{action 'saveMessage'} disabled=isAvailableToSend
+                span.glyphicon.glyphicon-ok
+                |&nbsp;Отправить
+
+
+

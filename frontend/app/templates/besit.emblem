@@ -1,0 +1,32 @@
+.container.admin_wrapper
+  ul.nav.nav-tabs
+    = link-to 'overhear' tagName='li'
+      a
+        .public.overhear
+        span Подслушано НГУ
+    = link-to 'love' tagName='li'
+      a
+        .public.love
+        span Признавашки НГУ
+    = link-to 'besit' tagName='li'
+      a
+        .public.besit
+        span БЕСИТ АКАДЕМ
+
+  .container-fluid.messages
+    = if model.length
+      = each model as |message|
+        .message
+          .tools
+            .pull-left
+              i.fa.fa-calendar
+              |&nbsp;
+              = message.formattedCreatedAt
+            .pull-right
+              span.glyphicon.glyphicon-remove{action 'delete' message}
+          .message-body
+            = message.text
+        hr
+      = infinity-loader infinityModel=model loadingText="Идет подгрузка данных..." loadedText="Все данные подгружены"
+    = else
+      h3.text-center Сообщений нет

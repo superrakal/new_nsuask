@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/nsuask/frontend/tmp/babel-output_path-jRFwSWQt.tmp/frontend/tests/unit/models/message-test.js

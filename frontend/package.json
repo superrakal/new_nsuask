@@ -42,5 +42,8 @@
     "ember-disable-proxy-controllers": "^1.0.0",
     "ember-export-application-global": "^1.0.2",
     "ember-infinity": "0.2.1"
+  },
+  "dependencies": {
+    "ember-inline-svg": "~0.1.5"
   }
 }

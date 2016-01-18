@@ -22,7 +22,7 @@ module.exports = function(environment) {
     },
     'simple-auth': {
       authorizer: 'simple-auth-authorizer:devise',
-      routeAfterAuthentication: 'root'
+      routeAfterAuthentication: 'overhear'
     }
   };
 

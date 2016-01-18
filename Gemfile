@@ -9,7 +9,6 @@ gem 'jbuilder', '~> 2.0'
 # MongoDB support
 gem 'mongoid', '~>4.0.0'
 gem 'mongoid-autoinc'
-gem 'sidekiq'
 gem 'ransack', github: 'Zhomart/ransack', branch: 'mongoid'
 gem 'kaminari'
 
@@ -18,14 +17,11 @@ gem 'slim-rails'
 gem 'html2slim'
 gem 'compass-rails', github: 'Compass/compass-rails', branch: 'master'
 gem 'twitter-bootstrap-rails'
+gem 'bootstrap-glyphicons'
 gem 'font-awesome-rails'
 
 gem 'prerender_rails'
-gem 'redis'
 gem 'state_machines-mongoid'
-
-#Adminpanel
-gem 'rails_admin', '~> 0.6.8'
 
 #Auth
 gem 'devise'

@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/nsuask/frontend/tmp/custom_replace-tmp_dest_dir-MQ3nUZZE.tmp/vendor-suffix.js

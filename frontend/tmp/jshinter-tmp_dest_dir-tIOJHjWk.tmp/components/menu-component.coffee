@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/nsuask/frontend/app/components/menu-component.coffee

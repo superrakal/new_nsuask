@@ -1,29 +1,42 @@
-h1.page-title.text-center Выберите паблик
-.row.clearfix
-  .col-lg-4.col-md-4.col-sm-12.col-xs-12.public.text-center
-    = link-to controller.overhear_link
-      .img.overhear
-        .overlay
-          |Подслушано НГУ
-      = if session.isAuthenticated
-        .badge
-          = controller.new_overhear_count
-  .col-lg-4.col-md-4.col-sm-12.col-xs-12.public.text-center
-    = link-to controller.love_link
-      .img.love
-        .overlay
-          |Признавашки НГУ
-      = if session.isAuthenticated
-        .badge
-          = controller.new_love_count
-  .col-lg-4.col-md-4.col-sm-12.col-xs-12.public.text-center
-    = link-to controller.besit_link
-      .img.besit
-        .overlay
-          |БЕСИТ АКАДЕМ
-      = if session.isAuthenticated
-        .badge
-          = controller.new_besit_count
-.text-center.copyright.hidden-xs
-  h4 @Ev1lCap
+.jumbotron.hero
+  .container
+    .row
+      .col-md-4.col-md-push-7.phone-preview
+        .iphone-mockup
+          .phone.device
+            .screen
+      .col-md-6.col-md-pull-3.get-it
+        h1 NSUASK
+        p.text-uppercase Сервис анонимных сообщений НГУ
+        p
+          message-box store=store
+
+section.testimonials
+  h2.text-center Изложите свои мысли
+  blockquote
+    p Сформулируйте, скорректируйте и затем отправьте нам сообщение и мы его обязательно опубликуем, если оно будет соответствовать требованиям цензуры
+    footer Команда NSUASK
+section.features
+  .container
+    .row
+      .col-md-6
+        h2.text-center Последовательность действий
+        p.text-center Последовательность действий для отправки сообщения на публикацию в нужный Вам паблик
+      .col-md-6
+        .row.icon-features
+          .col-xs-4.icon-feature
+            span.glyphicon.glyphicon-ok
+            p Выберите паблик
+          .col-xs-4.icon-feature
+            span.glyphicon.glyphicon-pencil
+            p Напишите сообщение
+          .col-xs-4.icon-feature
+            span.glyphicon.glyphicon-share-alt
+            p На публикацию
+footer.site-footer
+  .container
+    .row
+      .col-sm-12
+        h5 NSUASK © 2016
+
 

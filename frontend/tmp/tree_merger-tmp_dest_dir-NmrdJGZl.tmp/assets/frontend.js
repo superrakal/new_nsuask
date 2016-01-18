@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/nsuask/frontend/tmp/class-tmp_cache_dir-n1ILQq5r.tmp/assets/frontend.js

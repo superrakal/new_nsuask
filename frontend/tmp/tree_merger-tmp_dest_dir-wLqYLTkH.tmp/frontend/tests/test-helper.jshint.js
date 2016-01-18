@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/nsuask/frontend/tmp/jshinter-tmp_dest_dir-k777x85t.tmp/test-helper.jshint.js

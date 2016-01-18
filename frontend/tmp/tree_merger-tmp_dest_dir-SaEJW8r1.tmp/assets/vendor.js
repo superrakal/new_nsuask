@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/nsuask/frontend/tmp/caching-writer-dest-dir_W6c5qP.tmp/assets/vendor.js

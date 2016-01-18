@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/nsuask/frontend/tmp/funnel-output_path-uILtLMee.tmp/ember-qunit-notifications/CONTRIBUTING.md

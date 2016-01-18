@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/nsuask/frontend/tmp/funnel-output_path-flimL3hw.tmp/ember-data/README.md

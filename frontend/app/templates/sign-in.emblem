@@ -1,0 +1,11 @@
+.sign_in_wrapper
+  h1.text-center.text-uppercase Авторизация
+  form
+    .form-group
+      = input type='email' placeholder="Логин" class="form-control" value=controller.identification
+    .form-group
+      = input type='password' placeholder="Пароль" class="form-control"  value=controller.password
+    .form-group
+      button.btn.btn-block.btn-lg.btn-primary{action 'authenticate'}
+        span.glyphicon.glyphicon-user
+        |&nbsp;Войти

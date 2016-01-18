@@ -1,1 +1,0 @@
-/home/egor/RubymineProjects/nsuask/frontend/tests/test-helper.js
