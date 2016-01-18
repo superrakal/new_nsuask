@@ -15325,3 +15325,112 @@ Slowest Trees (cumulative)                    | Total (avg)
 Concat: Vendor (1)                            | 1939ms              
 CoffeeScriptFilter (2)                        | 150ms (75 ms)       
 
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...
+File: frontend/routes/404.coffee (3)
+unexpected identifier
+[stdin]:3:4: error: unexpected identifier
+404Route = Ember.Route.extend()
+   ^^^^^
+File: frontend/routes/404.coffee (3)
+unexpected identifier
+[stdin]:3:4: error: unexpected identifier
+404Route = Ember.Route.extend()
+   ^^^^^
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building...
+File: frontend/routes/404.js
+frontend/routes/404.js: Identifier directly after number (6:18)
+SyntaxError: frontend/routes/404.js: Identifier directly after number (6:18)
+  4 | NotFoundRoute = Ember.Route.extend();
+  5 | 
+> 6 | export default 404Route;
+    |                   ^
+  7 | 
+  at Parser.pp.raise (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/node_modules/babylon/lib/parser/location.js:24:13)
+  at Parser.readNumber (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/node_modules/babylon/lib/tokenizer/index.js:657:75)
+  at Parser.getTokenFromCode (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/node_modules/babylon/lib/tokenizer/index.js:474:21)
+  at Parser.readToken (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/node_modules/babylon/lib/tokenizer/index.js:160:17)
+  at Parser.nextToken (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/node_modules/babylon/lib/tokenizer/index.js:151:19)
+  at Parser.next (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/node_modules/babylon/lib/tokenizer/index.js:88:10)
+  at Parser.eat (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/node_modules/babylon/lib/tokenizer/index.js:95:12)
+  at Parser.pp.parseExport (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/node_modules/babylon/lib/parser/statement.js:679:19)
+  at Parser.pp.parseStatement (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/node_modules/babylon/lib/parser/statement.js:115:90)
+  at Parser.pp.parseTopLevel (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/node_modules/babylon/lib/parser/statement.js:30:21)
+  at Parser.parse (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/node_modules/babylon/lib/parser/index.js:70:17)
+  at Object.parse (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/node_modules/babylon/lib/index.js:45:50)
+  at Object.exports.default (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/lib/helpers/parse.js:36:18)
+  at File.parse (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/lib/transformation/file/index.js:574:40)
+  at File.parseCode (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/lib/transformation/file/index.js:691:20)
+  at /home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/lib/transformation/pipeline.js:167:12
+  at File.wrap (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/lib/transformation/file/index.js:639:16)
+  at Pipeline.transform (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/lib/transformation/pipeline.js:165:17)
+  at Babel.transform (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/index.js:94:21)
+  at Babel.processString (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/index.js:123:25)
+  at /home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/broccoli-persistent-filter/lib/strategies/persistent.js:35:42
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/broccoli-persistent-filter/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/broccoli-persistent-filter/node_modules/rsvp/dist/rsvp.js:505:17)
+  at lib$rsvp$$internal$$publish (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/broccoli-persistent-filter/node_modules/rsvp/dist/rsvp.js:476:11)
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/broccoli-persistent-filter/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+File: frontend/routes/404.js
+frontend/routes/404.js: Identifier directly after number (6:18)
+SyntaxError: frontend/routes/404.js: Identifier directly after number (6:18)
+  4 | NotFoundRoute = Ember.Route.extend();
+  5 | 
+> 6 | export default 404Route;
+    |                   ^
+  7 | 
+  at Parser.pp.raise (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/node_modules/babylon/lib/parser/location.js:24:13)
+  at Parser.readNumber (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/node_modules/babylon/lib/tokenizer/index.js:657:75)
+  at Parser.getTokenFromCode (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/node_modules/babylon/lib/tokenizer/index.js:474:21)
+  at Parser.readToken (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/node_modules/babylon/lib/tokenizer/index.js:160:17)
+  at Parser.nextToken (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/node_modules/babylon/lib/tokenizer/index.js:151:19)
+  at Parser.next (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/node_modules/babylon/lib/tokenizer/index.js:88:10)
+  at Parser.eat (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/node_modules/babylon/lib/tokenizer/index.js:95:12)
+  at Parser.pp.parseExport (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/node_modules/babylon/lib/parser/statement.js:679:19)
+  at Parser.pp.parseStatement (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/node_modules/babylon/lib/parser/statement.js:115:90)
+  at Parser.pp.parseTopLevel (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/node_modules/babylon/lib/parser/statement.js:30:21)
+  at Parser.parse (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/node_modules/babylon/lib/parser/index.js:70:17)
+  at Object.parse (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/node_modules/babylon/lib/index.js:45:50)
+  at Object.exports.default (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/lib/helpers/parse.js:36:18)
+  at File.parse (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/lib/transformation/file/index.js:574:40)
+  at File.parseCode (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/lib/transformation/file/index.js:691:20)
+  at /home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/lib/transformation/pipeline.js:167:12
+  at File.wrap (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/lib/transformation/file/index.js:639:16)
+  at Pipeline.transform (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/babel-core/lib/transformation/pipeline.js:165:17)
+  at Babel.transform (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/index.js:94:21)
+  at Babel.processString (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/index.js:123:25)
+  at /home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/broccoli-persistent-filter/lib/strategies/persistent.js:35:42
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/broccoli-persistent-filter/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/broccoli-persistent-filter/node_modules/rsvp/dist/rsvp.js:505:17)
+  at lib$rsvp$$internal$$publish (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/broccoli-persistent-filter/node_modules/rsvp/dist/rsvp.js:476:11)
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-babel/node_modules/broccoli-babel-transpiler/node_modules/broccoli-persistent-filter/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...Building...
+
+Build successful - 3058ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 1885ms              
+Babel                                         | 201ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 1885ms              
+Babel (6)                                     | 339ms (56 ms)       
+CoffeeScriptFilter (2)                        | 167ms (83 ms)       
+

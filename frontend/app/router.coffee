@@ -10,5 +10,7 @@ Router.map ()->
   @route 'love'
   @route 'besit'
   @route 'sign_in'
+  @route 'admin'
+  @route 'not_found', path: '/*path'
 
 `export default Router`
