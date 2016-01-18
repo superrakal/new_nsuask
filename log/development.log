@@ -23936,3 +23936,904 @@ Processing by Api::V1::MessagesController#destroy as JSON
   MOPED: 127.0.0.1:27017 DELETE       database=nsuask_development collection=messages selector={"_id"=>BSON::ObjectId('569cac84d3054d0a2d000012')} flags=[:remove_first]
                          COMMAND      database=nsuask_development command={:getlasterror=>1, :w=>1} runtime: 0.3014ms
 Completed 204 No Content in 4ms
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-18 15:16:49 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 194ms
+
+Sprockets::Rails::Helper::AssetNotPrecompiled - Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( favicon.ico )` to `config/initializers/assets.rb` and restart your server:
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:350:in `raise_unless_precompiled_asset'
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:324:in `digest_path'
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:312:in `asset_path'
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:90:in `block in resolve_asset_path'
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:230:in `block in resolve_asset'
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:229:in `each'
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:229:in `detect'
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:229:in `resolve_asset'
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:89:in `resolve_asset_path'
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:79:in `compute_asset_path'
+  actionview (4.2.3) lib/action_view/helpers/asset_url_helper.rb:135:in `asset_path'
+  actionview (4.2.3) lib/action_view/helpers/asset_url_helper.rb:292:in `image_path'
+  actionview (4.2.3) lib/action_view/helpers/asset_tag_helper.rb:176:in `favicon_link_tag'
+  app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb___3720851048711030770_70185141867220'
+  actionview (4.2.3) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.3) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.3) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.3) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:66:in `render_with_layout'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.3) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.3) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.3) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.3) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.3) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.3) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.3) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.3) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.2.3) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.3) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.3) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.3) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:115:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:115:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:553:in `block (2 levels) in compile'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:503:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:503:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:88:in `run_callbacks'
+  actionpack (4.2.3) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  actionpack (4.2.3) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.3) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.3) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `call'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  ember-cli-rails (0.4.3) lib/ember-cli/middleware.rb:14:in `call'
+  warden (1.2.4) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.4) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.4) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/4081a786e9333ded/variables" for 127.0.0.1 at 2016-01-18 15:16:50 +0600
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-18 15:16:51 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 44ms
+
+Sprockets::Rails::Helper::AssetNotPrecompiled - Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( favicon.ico )` to `config/initializers/assets.rb` and restart your server:
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:350:in `raise_unless_precompiled_asset'
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:324:in `digest_path'
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:312:in `asset_path'
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:90:in `block in resolve_asset_path'
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:230:in `block in resolve_asset'
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:229:in `each'
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:229:in `detect'
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:229:in `resolve_asset'
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:89:in `resolve_asset_path'
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:79:in `compute_asset_path'
+  actionview (4.2.3) lib/action_view/helpers/asset_url_helper.rb:135:in `asset_path'
+  actionview (4.2.3) lib/action_view/helpers/asset_url_helper.rb:292:in `image_path'
+  actionview (4.2.3) lib/action_view/helpers/asset_tag_helper.rb:176:in `favicon_link_tag'
+  app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb___3720851048711030770_70185141867220'
+  actionview (4.2.3) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.3) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.3) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.3) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:66:in `render_with_layout'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.3) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.3) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.3) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.3) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.3) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.3) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.3) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.3) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.2.3) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.3) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.3) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.3) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:115:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:115:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:553:in `block (2 levels) in compile'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:503:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:503:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:88:in `run_callbacks'
+  actionpack (4.2.3) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  actionpack (4.2.3) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.3) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.3) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `call'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  ember-cli-rails (0.4.3) lib/ember-cli/middleware.rb:14:in `call'
+  warden (1.2.4) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.4) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.4) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/d5c0e2aa81cb4c50/variables" for 127.0.0.1 at 2016-01-18 15:16:51 +0600
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-18 15:16:51 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 48ms
+
+Sprockets::Rails::Helper::AssetNotPrecompiled - Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( favicon.ico )` to `config/initializers/assets.rb` and restart your server:
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:350:in `raise_unless_precompiled_asset'
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:324:in `digest_path'
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:312:in `asset_path'
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:90:in `block in resolve_asset_path'
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:230:in `block in resolve_asset'
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:229:in `each'
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:229:in `detect'
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:229:in `resolve_asset'
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:89:in `resolve_asset_path'
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:79:in `compute_asset_path'
+  actionview (4.2.3) lib/action_view/helpers/asset_url_helper.rb:135:in `asset_path'
+  actionview (4.2.3) lib/action_view/helpers/asset_url_helper.rb:292:in `image_path'
+  actionview (4.2.3) lib/action_view/helpers/asset_tag_helper.rb:176:in `favicon_link_tag'
+  app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb___3720851048711030770_70185141867220'
+  actionview (4.2.3) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.3) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.3) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.3) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:66:in `render_with_layout'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.3) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.3) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.3) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.3) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.3) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.3) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.3) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.3) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.2.3) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.3) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.3) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.3) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:115:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:115:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:553:in `block (2 levels) in compile'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:503:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:503:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:88:in `run_callbacks'
+  actionpack (4.2.3) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  actionpack (4.2.3) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.3) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.3) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `call'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  ember-cli-rails (0.4.3) lib/ember-cli/middleware.rb:14:in `call'
+  warden (1.2.4) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.4) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.4) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/2e581e9fcd8c637e/variables" for 127.0.0.1 at 2016-01-18 15:16:51 +0600
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-18 15:16:52 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 40ms
+
+Sprockets::Rails::Helper::AssetNotPrecompiled - Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( favicon.ico )` to `config/initializers/assets.rb` and restart your server:
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:350:in `raise_unless_precompiled_asset'
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:324:in `digest_path'
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:312:in `asset_path'
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:90:in `block in resolve_asset_path'
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:230:in `block in resolve_asset'
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:229:in `each'
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:229:in `detect'
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:229:in `resolve_asset'
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:89:in `resolve_asset_path'
+  sprockets-rails (3.0.0) lib/sprockets/rails/helper.rb:79:in `compute_asset_path'
+  actionview (4.2.3) lib/action_view/helpers/asset_url_helper.rb:135:in `asset_path'
+  actionview (4.2.3) lib/action_view/helpers/asset_url_helper.rb:292:in `image_path'
+  actionview (4.2.3) lib/action_view/helpers/asset_tag_helper.rb:176:in `favicon_link_tag'
+  app/views/layouts/application.html.erb:13:in `_app_views_layouts_application_html_erb___3720851048711030770_70185141867220'
+  actionview (4.2.3) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.3) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.3) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.3) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:66:in `render_with_layout'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.3) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.3) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.3) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.3) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.3) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.3) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.3) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.3) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.3) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.2.3) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.3) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.3) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.3) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.3) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:115:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:115:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:553:in `block (2 levels) in compile'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:503:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:503:in `call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:88:in `run_callbacks'
+  actionpack (4.2.3) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.3) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.3) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.3) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.3) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  actionpack (4.2.3) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.3) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.3) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.3) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `call'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.3) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.3) lib/action_dispatch/routing/route_set.rb:821:in `call'
+  ember-cli-rails (0.4.3) lib/ember-cli/middleware.rb:14:in `call'
+  warden (1.2.4) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.4) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.4) lib/warden/manager.rb:34:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/egor/.rvm/rubies/ruby-2.1.6/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+
+Started POST "/__better_errors/55731e1112de57aa/variables" for 127.0.0.1 at 2016-01-18 15:16:52 +0600
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-18 15:17:20 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (8.5ms)
+Completed 200 OK in 1795ms (Views: 1795.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-18 15:19:03 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 187ms (Views: 187.3ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2016-01-18 15:19:04 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"images/favicon.ico"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 90ms (Views: 90.3ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2016-01-18 15:19:08 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"admin"}
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 54ms (Views: 53.5ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2016-01-18 15:19:08 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"images/favicon.ico"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 38ms (Views: 38.0ms)
+
+
+Started GET "/overhear" for 127.0.0.1 at 2016-01-18 15:19:12 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"overhear"}
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 71ms (Views: 70.6ms)
+
+
+Started GET "/api/v1/messages?category=overhear&page=1&per_page=10" for 127.0.0.1 at 2016-01-18 15:19:12 +0600
+Processing by Api::V1::MessagesController#index as JSON
+  Parameters: {"category"=>"overhear", "page"=>"1", "per_page"=>"10"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6893ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear"}} runtime: 0.2611ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"overhear"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.3204ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"overhear"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2072ms
+Completed 200 OK in 18ms (Views: 1.8ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2016-01-18 15:19:13 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"images/favicon.ico"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 39ms (Views: 38.7ms)
+
+
+Started GET "/api/v1/messages?category=love&page=1&per_page=10" for 127.0.0.1 at 2016-01-18 15:19:14 +0600
+Processing by Api::V1::MessagesController#index as JSON
+  Parameters: {"category"=>"love", "page"=>"1", "per_page"=>"10"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love"}} runtime: 0.3798ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"love"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2160ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"love"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1891ms
+Completed 200 OK in 4ms (Views: 1.3ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2016-01-18 15:19:14 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"images/favicon.ico"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 40ms (Views: 39.7ms)
+
+
+Started GET "/api/v1/messages?category=besit&page=1&per_page=10" for 127.0.0.1 at 2016-01-18 15:19:15 +0600
+Processing by Api::V1::MessagesController#index as JSON
+  Parameters: {"category"=>"besit", "page"=>"1", "per_page"=>"10"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit"}} runtime: 0.3526ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"besit"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2744ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"besit"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2589ms
+Completed 200 OK in 5ms (Views: 1.8ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2016-01-18 15:19:15 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"images/favicon.ico"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 90ms (Views: 89.4ms)
+
+
+Started GET "/api/v1/messages?category=overhear&page=1&per_page=10" for 127.0.0.1 at 2016-01-18 15:19:15 +0600
+Processing by Api::V1::MessagesController#index as JSON
+  Parameters: {"category"=>"overhear", "page"=>"1", "per_page"=>"10"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear"}} runtime: 0.3264ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"overhear"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2022ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"overhear"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1798ms
+Completed 200 OK in 4ms (Views: 1.5ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2016-01-18 15:19:15 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"images/favicon.ico"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 52ms (Views: 52.2ms)
+
+
+Started GET "/api/v1/messages?category=love&page=1&per_page=10" for 127.0.0.1 at 2016-01-18 15:19:34 +0600
+Processing by Api::V1::MessagesController#index as JSON
+  Parameters: {"category"=>"love", "page"=>"1", "per_page"=>"10"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love"}} runtime: 0.3288ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"love"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2091ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"love"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2456ms
+Completed 200 OK in 4ms (Views: 1.4ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2016-01-18 15:19:34 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"images/favicon.ico"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 40ms (Views: 40.2ms)
+
+
+Started GET "/api/v1/messages?category=besit&page=1&per_page=10" for 127.0.0.1 at 2016-01-18 15:19:35 +0600
+Processing by Api::V1::MessagesController#index as JSON
+  Parameters: {"category"=>"besit", "page"=>"1", "per_page"=>"10"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit"}} runtime: 0.4675ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"besit"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.3183ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"besit"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.3173ms
+Completed 200 OK in 6ms (Views: 2.1ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2016-01-18 15:19:35 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"images/favicon.ico"}
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 42ms (Views: 41.4ms)
+
+
+Started GET "/api/v1/messages?category=overhear&page=1&per_page=10" for 127.0.0.1 at 2016-01-18 15:20:34 +0600
+Processing by Api::V1::MessagesController#index as JSON
+  Parameters: {"category"=>"overhear", "page"=>"1", "per_page"=>"10"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3030ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear"}} runtime: 0.2217ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"overhear"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2098ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"overhear"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1578ms
+Completed 200 OK in 5ms (Views: 1.3ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2016-01-18 15:20:34 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"images/favicon.ico"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 39ms (Views: 39.0ms)
+
+
+Started GET "/api/v1/messages?category=love&page=1&per_page=10" for 127.0.0.1 at 2016-01-18 15:20:35 +0600
+Processing by Api::V1::MessagesController#index as JSON
+  Parameters: {"category"=>"love", "page"=>"1", "per_page"=>"10"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love"}} runtime: 0.4711ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"love"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.3068ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"love"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2582ms
+Completed 200 OK in 6ms (Views: 1.9ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2016-01-18 15:20:35 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"images/favicon.ico"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 38ms (Views: 37.6ms)
+
+
+Started GET "/api/v1/messages?category=besit&page=1&per_page=10" for 127.0.0.1 at 2016-01-18 15:20:36 +0600
+Processing by Api::V1::MessagesController#index as JSON
+  Parameters: {"category"=>"besit", "page"=>"1", "per_page"=>"10"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit"}} runtime: 0.3638ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"besit"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2255ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"besit"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2031ms
+Completed 200 OK in 4ms (Views: 1.3ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2016-01-18 15:20:36 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"images/favicon.ico"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 37ms (Views: 36.9ms)
+
+
+Started GET "/api/v1/messages?category=overhear&page=1&per_page=10" for 127.0.0.1 at 2016-01-18 15:20:37 +0600
+Processing by Api::V1::MessagesController#index as JSON
+  Parameters: {"category"=>"overhear", "page"=>"1", "per_page"=>"10"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear"}} runtime: 0.3731ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"overhear"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2975ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"overhear"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2737ms
+Completed 200 OK in 5ms (Views: 1.8ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2016-01-18 15:20:37 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"images/favicon.ico"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 61ms (Views: 60.4ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2016-01-18 15:20:37 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"images/favicon.ico"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 51ms (Views: 50.5ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2016-01-18 15:20:40 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"images/favicon.ico"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 41ms (Views: 40.5ms)
+
+
+Started GET "/api/v1/messages?category=overhear&page=1&per_page=10" for 127.0.0.1 at 2016-01-18 15:20:40 +0600
+Processing by Api::V1::MessagesController#index as JSON
+  Parameters: {"category"=>"overhear", "page"=>"1", "per_page"=>"10"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.2964ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear"}} runtime: 0.2384ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"overhear"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2055ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"overhear"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1788ms
+Completed 200 OK in 4ms (Views: 1.3ms)
+
+
+Started GET "/api/v1/messages?category=love&page=1&per_page=10" for 127.0.0.1 at 2016-01-18 15:20:41 +0600
+Processing by Api::V1::MessagesController#index as JSON
+  Parameters: {"category"=>"love", "page"=>"1", "per_page"=>"10"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love"}} runtime: 0.3183ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"love"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2024ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"love"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1516ms
+Completed 200 OK in 4ms (Views: 1.2ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2016-01-18 15:20:41 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"images/favicon.ico"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 44ms (Views: 43.6ms)
+
+
+Started GET "/api/v1/messages?category=besit&page=1&per_page=10" for 127.0.0.1 at 2016-01-18 15:20:42 +0600
+Processing by Api::V1::MessagesController#index as JSON
+  Parameters: {"category"=>"besit", "page"=>"1", "per_page"=>"10"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit"}} runtime: 0.4902ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"besit"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2260ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"besit"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1886ms
+Completed 200 OK in 4ms (Views: 1.4ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2016-01-18 15:20:42 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"images/favicon.ico"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 41ms (Views: 40.4ms)
+
+
+Started GET "/api/v1/messages?category=overhear&page=1&per_page=10" for 127.0.0.1 at 2016-01-18 15:20:42 +0600
+Processing by Api::V1::MessagesController#index as JSON
+  Parameters: {"category"=>"overhear", "page"=>"1", "per_page"=>"10"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear"}} runtime: 0.3510ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"overhear"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2389ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"overhear"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2077ms
+Completed 200 OK in 4ms (Views: 1.3ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2016-01-18 15:20:42 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"images/favicon.ico"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 38ms (Views: 38.3ms)
+
+
+Started GET "/api/v1/messages?category=love&page=1&per_page=10" for 127.0.0.1 at 2016-01-18 15:20:43 +0600
+Processing by Api::V1::MessagesController#index as JSON
+  Parameters: {"category"=>"love", "page"=>"1", "per_page"=>"10"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love"}} runtime: 0.3338ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"love"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1798ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"love"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1907ms
+Completed 200 OK in 4ms (Views: 1.2ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2016-01-18 15:20:43 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"images/favicon.ico"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 48ms (Views: 47.7ms)
+
+
+Started GET "/api/v1/messages?category=besit&page=1&per_page=10" for 127.0.0.1 at 2016-01-18 15:20:43 +0600
+Processing by Api::V1::MessagesController#index as JSON
+  Parameters: {"category"=>"besit", "page"=>"1", "per_page"=>"10"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit"}} runtime: 0.3703ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"besit"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2127ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"besit"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2146ms
+Completed 200 OK in 4ms (Views: 1.4ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2016-01-18 15:20:43 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"images/favicon.ico"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 48ms (Views: 47.4ms)
+
+
+Started GET "/besit" for 127.0.0.1 at 2016-01-18 15:21:20 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"besit"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 42ms (Views: 42.3ms)
+
+
+Started GET "/api/v1/messages?category=besit&page=1&per_page=10" for 127.0.0.1 at 2016-01-18 15:21:21 +0600
+Processing by Api::V1::MessagesController#index as JSON
+  Parameters: {"category"=>"besit", "page"=>"1", "per_page"=>"10"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3378ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit"}} runtime: 0.2241ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"besit"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2937ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"besit"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1879ms
+Completed 200 OK in 5ms (Views: 1.6ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2016-01-18 15:21:21 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"images/favicon.ico"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 46ms (Views: 45.5ms)
+
+
+Started GET "/api/v1/messages?category=overhear&page=1&per_page=10" for 127.0.0.1 at 2016-01-18 15:21:22 +0600
+Processing by Api::V1::MessagesController#index as JSON
+  Parameters: {"category"=>"overhear", "page"=>"1", "per_page"=>"10"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear"}} runtime: 0.3653ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"overhear"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2322ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"overhear"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1917ms
+Completed 200 OK in 4ms (Views: 1.3ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2016-01-18 15:21:22 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"images/favicon.ico"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 38ms (Views: 37.6ms)
+
+
+Started GET "/api/v1/messages?category=love&page=1&per_page=10" for 127.0.0.1 at 2016-01-18 15:21:23 +0600
+Processing by Api::V1::MessagesController#index as JSON
+  Parameters: {"category"=>"love", "page"=>"1", "per_page"=>"10"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"love"}} runtime: 0.3307ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"love"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2534ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"love"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.1836ms
+Completed 200 OK in 4ms (Views: 1.3ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2016-01-18 15:21:23 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"images/favicon.ico"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 47ms (Views: 47.0ms)
+
+
+Started GET "/api/v1/messages?category=besit&page=1&per_page=10" for 127.0.0.1 at 2016-01-18 15:21:23 +0600
+Processing by Api::V1::MessagesController#index as JSON
+  Parameters: {"category"=>"besit", "page"=>"1", "per_page"=>"10"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"besit"}} runtime: 0.5567ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"besit"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2711ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"besit"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2589ms
+Completed 200 OK in 7ms (Views: 1.7ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2016-01-18 15:21:23 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"images/favicon.ico"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 46ms (Views: 46.0ms)
+
+
+Started GET "/api/v1/messages?category=overhear&page=1&per_page=10" for 127.0.0.1 at 2016-01-18 15:21:24 +0600
+Processing by Api::V1::MessagesController#index as JSON
+  Parameters: {"category"=>"overhear", "page"=>"1", "per_page"=>"10"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear"}} runtime: 0.3662ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"overhear"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2275ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"overhear"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2480ms
+Completed 200 OK in 4ms (Views: 1.4ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2016-01-18 15:21:24 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"images/favicon.ico"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 42ms (Views: 42.3ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2016-01-18 15:21:25 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"images/favicon.ico"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 50ms (Views: 50.2ms)
