@@ -4,7 +4,6 @@ LoveController = Ember.Controller.extend
 
   actions:
     delete: (message) ->
-      message.destroyRecord().then =>
-        @transitionToRoute 'love'
+      message.destroyRecord()
 
 `export default LoveController`

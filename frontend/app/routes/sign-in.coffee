@@ -1,8 +1,9 @@
 `import Ember from 'ember'`
 
 SignInRoute = Ember.Route.extend
+
   beforeModel: ->
-    if @session.isAuthenticated
+    if @get('session.isAuthenticated')
       @transitionTo 'overhear'
 
 

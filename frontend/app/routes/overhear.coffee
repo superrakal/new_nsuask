@@ -4,7 +4,7 @@
 OverhearRoute = Ember.Route.extend InfinityRoute,
 
   beforeModel: ->
-    unless @session.isAuthenticated
+    unless @get('session.isAuthenticated')
       @transitionTo 'sign_in'
 
   model: ->

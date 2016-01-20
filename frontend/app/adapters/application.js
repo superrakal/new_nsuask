@@ -1,29 +1,7 @@
 import ActiveModelAdapter from 'active-model-adapter';
-import Ember              from 'ember';
+import DataAdapterMixin   from 'ember-simple-auth/mixins/data-adapter-mixin';
 
-export default ActiveModelAdapter.extend({
-  namespace: 'api/v1',
-
-  ignoreMessage: function(message) {
-    Ember.$.ajax({
-      async: true,
-      data: {id: message.id},
-      dataType: 'json',
-      type: 'GET',
-      url: this.buildURL(message.constructor.typeKey, message.id) + '/ignore'
-    });
-    return true;
-  },
-
-  pushMessage: function(message) {
-    Ember.$.ajax({
-      async: true,
-      data: {id: message.id},
-      dataType: 'json',
-      type: 'GET',
-      url: this.buildURL(message.constructor.typeKey, message.id) + '/push'
-    });
-    return true;
-  }
-
+export default ActiveModelAdapter.extend(DataAdapterMixin, {
+  authorizer: 'authorizer:devise',
+  namespace: 'api/v1'
 });

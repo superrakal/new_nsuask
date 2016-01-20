@@ -21,7 +21,6 @@ gem 'bootstrap-glyphicons'
 gem 'font-awesome-rails'
 
 gem 'prerender_rails'
-gem 'state_machines-mongoid'
 
 #Auth
 gem 'devise'
@@ -33,21 +32,9 @@ gem 'oj'
 gem 'ember-cli-rails', '~> 0.4.0'
 
 group :test, :development do
-  gem 'capybara', '~> 2.3.0'
-  gem 'rspec-rails', '~> 3.0.0'
-  gem 'rspec-mocks'
-  gem 'factory_girl_rails'
-  gem 'database_cleaner'
-  gem 'cucumber-rails', require: false
-  gem 'selenium-webdriver'
-  gem 'rack'
-  gem 'coveralls', require: false
-  gem 'simplecov', require: false
   gem 'unicorn_service', '~>0.5.1', require: false
   gem 'nginx-config', require: false
   gem 'email_spec'
-  gem 'delorean'
-  gem 'better_errors'
 end
 
 group :development do

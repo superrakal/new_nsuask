@@ -6,18 +6,11 @@ Rails.application.routes.draw do
 
   namespace :api do
     namespace :v1 do
-      resources :messages, except: [:update] do
-        member do
-          get 'push'
-          get 'ignore'
-        end
-        get 'new_messages_count', on: :collection
-      end
+      resources :messages, except: [:update]
       resources :users, only: [:index, :show]
     end
   end
 
   root 'welcome#index'
-  get '/send_message' => 'welcome#helper_mail'
   get '/*path' => 'welcome#index', format: 'html'
 end

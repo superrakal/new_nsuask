@@ -37,6 +37,10 @@ footer.site-footer
   .container
     .row
       .col-sm-12
-        h5 NSUASK © 2016
+        p
+          |@Ev1lCap ©
+          |&nbsp;
+          = year
+
 
 

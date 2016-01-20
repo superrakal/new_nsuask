@@ -1,11 +1,10 @@
 `import Ember from 'ember'`
-`import LoginControllerMixin from 'simple-auth/mixins/login-controller-mixin'`
 
-SignInController = Ember.Controller.extend LoginControllerMixin,
+SignInController = Ember.Controller.extend
 
   actions:
     authenticate: ->
       data = @getProperties('identification', 'password')
-      @get('session').authenticate('simple-auth-authenticator:devise', data)
+      @get('session').authenticate('authenticator:devise', data.identification, data.password)
 
 `export default SignInController`

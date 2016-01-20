@@ -15434,3 +15434,3325 @@ Concat: Vendor (1)                            | 1885ms
 Babel (6)                                     | 339ms (56 ms)       
 CoffeeScriptFilter (2)                        | 167ms (83 ms)       
 
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...BuildingBuilding...
+
+Build successful - 3503ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 2124ms              
+Babel                                         | 177ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 2124ms              
+Babel (6)                                     | 554ms (92 ms)       
+CoffeeScriptFilter (2)                        | 191ms (95 ms)       
+
+file changed templates/root.emblem
+
+Build successful - 629ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 160ms               
+Funnel: App JS Files                          | 105ms               
+TreeMerger (appAndDependencies)               | 40ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 160ms               
+Funnel: App JS Files (1)                      | 105ms               
+SourcemapConcat (3)                           | 50ms (16 ms)        
+TreeMerger (appAndDependencies) (1)           | 40ms                
+
+file added templates/root.emblem___jb_bak___
+file deleted templates/root.emblem___jb_bak___
+file changed templates/root.emblem
+
+Build successful - 561ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 141ms               
+ES6: App Tree                                 | 87ms                
+Funnel: App JS Files                          | 36ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 141ms               
+ES6: App Tree (1)                             | 87ms                
+SourcemapConcat (3)                           | 45ms (15 ms)        
+Funnel: App JS Files (1)                      | 36ms                
+
+file added templates/root.emblem___jb_bak___
+file deleted templates/root.emblem___jb_bak___
+file changed templates/root.emblem
+
+Build successful - 637ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 127ms               
+Funnel: App JS Files                          | 97ms                
+TreeMerger (appAndDependencies)               | 35ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 127ms               
+Funnel: App JS Files (1)                      | 97ms                
+SourcemapConcat (3)                           | 47ms (15 ms)        
+CoffeeScriptFilter (2)                        | 38ms (19 ms)        
+TreeMerger (appAndDependencies) (1)           | 35ms                
+TreeMerger (187)                              | 35ms (0 ms)         
+
+file added app.coffee___jb_bak___
+file deleted app.coffee___jb_bak___
+file changed app.coffee
+
+Build successful - 545ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 128ms               
+Funnel: App JS Files                          | 91ms                
+TreeMerger (appAndDependencies)               | 36ms                
+Concat: Test Support JS                       | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 128ms               
+Funnel: App JS Files (1)                      | 91ms                
+SourcemapConcat (3)                           | 46ms (15 ms)        
+TreeMerger (appAndDependencies) (1)           | 36ms                
+CoffeeScriptFilter (2)                        | 31ms (15 ms)        
+Concat: Test Support JS (1)                   | 29ms                
+
+file deleted ember.js
+file deleted ember-docs.json
+file deleted ember-template-compiler.js
+file deleted ember.min.js
+file deleted Makefile
+file deleted bower.json
+file deleted composer.json
+file deleted README.md
+file deleted ember.prod.js
+file deleted ember-testing.js
+file deleted component.json
+file deleted ember.debug.js
+file deleted package.json
+file deleted index.js
+file deleted bower.json
+file deleted failed.png
+file deleted README.md
+file deleted CONTRIBUTING.md
+file deleted passed.png
+file deleted jquery.min.js
+file deleted jquery.min.map
+file deleted jquery.js
+file deleted CHANGELOG.md
+file deleted src/lib/create/parsing-flags.js
+file deleted src/lib/create/valid.js
+file deleted src/lib/create/from-string.js
+file deleted src/lib/create/from-string-and-format.js
+file deleted src/lib/create/from-array.js
+file deleted src/lib/create/date-from-array.js
+file deleted src/lib/create/local.js
+file deleted src/lib/create/check-overflow.js
+file deleted src/lib/create/utc.js
+file deleted src/lib/create/from-string-and-array.js
+file deleted src/lib/create/from-anything.js
+file deleted src/lib/create/from-object.js
+file deleted src/lib/create
+file deleted src/lib/moment/compare.js
+file deleted src/lib/moment/diff.js
+file deleted src/lib/moment/start-end-of.js
+file deleted src/lib/moment/from.js
+file deleted src/lib/moment/valid.js
+file deleted src/lib/moment/prototype.js
+file deleted src/lib/moment/calendar.js
+file deleted src/lib/moment/to-type.js
+file deleted src/lib/moment/get-set.js
+file deleted src/lib/moment/to.js
+file deleted src/lib/moment/min-max.js
+file deleted src/lib/moment/format.js
+file deleted src/lib/moment/locale.js
+file deleted src/lib/moment/moment.js
+file deleted src/lib/moment/clone.js
+file deleted src/lib/moment/add-subtract.js
+file deleted src/lib/moment/constructor.js
+file deleted src/lib/moment
+file deleted src/lib/parse/token.js
+file deleted src/lib/parse/regex.js
+file deleted src/lib/parse
+file deleted src/lib/units/hour.js
+file deleted src/lib/units/day-of-month.js
+file deleted src/lib/units/units.js
+file deleted src/lib/units/year.js
+file deleted src/lib/units/timestamp.js
+file deleted src/lib/units/week-year.js
+file deleted src/lib/units/day-of-year.js
+file deleted src/lib/units/constants.js
+file deleted src/lib/units/month.js
+file deleted src/lib/units/week.js
+file deleted src/lib/units/quarter.js
+file deleted src/lib/units/minute.js
+file deleted src/lib/units/day-of-week.js
+file deleted src/lib/units/second.js
+file deleted src/lib/units/offset.js
+file deleted src/lib/units/aliases.js
+file deleted src/lib/units/timezone.js
+file deleted src/lib/units/millisecond.js
+file deleted src/lib/units
+file deleted src/lib/format/format.js
+file deleted src/lib/format
+file deleted src/lib/duration/get.js
+file deleted src/lib/duration/prototype.js
+file deleted src/lib/duration/abs.js
+file deleted src/lib/duration/bubble.js
+file deleted src/lib/duration/humanize.js
+file deleted src/lib/duration/create.js
+file deleted src/lib/duration/iso-string.js
+file deleted src/lib/duration/duration.js
+file deleted src/lib/duration/add-subtract.js
+file deleted src/lib/duration/constructor.js
+file deleted src/lib/duration/as.js
+file deleted src/lib/duration
+file deleted src/lib/locale/ordinal.js
+file deleted src/lib/locale/en.js
+file deleted src/lib/locale/prototype.js
+file deleted src/lib/locale/calendar.js
+file deleted src/lib/locale/locales.js
+file deleted src/lib/locale/invalid.js
+file deleted src/lib/locale/locale.js
+file deleted src/lib/locale/relative.js
+file deleted src/lib/locale/formats.js
+file deleted src/lib/locale/pre-post-format.js
+file deleted src/lib/locale/lists.js
+file deleted src/lib/locale/constructor.js
+file deleted src/lib/locale/set.js
+file deleted src/lib/locale
+file deleted src/lib/utils/map.js
+file deleted src/lib/utils/is-array.js
+file deleted src/lib/utils/is-date.js
+file deleted src/lib/utils/deprecate.js
+file deleted src/lib/utils/abs-ceil.js
+file deleted src/lib/utils/to-int.js
+file deleted src/lib/utils/defaults.js
+file deleted src/lib/utils/hooks.js
+file deleted src/lib/utils/abs-floor.js
+file deleted src/lib/utils/compare-arrays.js
+file deleted src/lib/utils/zero-fill.js
+file deleted src/lib/utils/has-own-prop.js
+file deleted src/lib/utils/extend.js
+file deleted src/lib/utils
+file deleted src/lib
+file deleted src/locale/id.js
+file deleted src/locale/mr.js
+file deleted src/locale/lb.js
+file deleted src/locale/ca.js
+file deleted src/locale/is.js
+file deleted src/locale/ja.js
+file deleted src/locale/sk.js
+file deleted src/locale/lt.js
+file deleted src/locale/th.js
+file deleted src/locale/gl.js
+file deleted src/locale/bo.js
+file deleted src/locale/es.js
+file deleted src/locale/eo.js
+file deleted src/locale/me.js
+file deleted src/locale/tr.js
+file deleted src/locale/ml.js
+file deleted src/locale/eu.js
+file deleted src/locale/uk.js
+file deleted src/locale/jv.js
+file deleted src/locale/tzm.js
+file deleted src/locale/fa.js
+file deleted src/locale/af.js
+file deleted src/locale/sr-cyrl.js
+file deleted src/locale/nb.js
+file deleted src/locale/cv.js
+file deleted src/locale/be.js
+file deleted src/locale/zh-cn.js
+file deleted src/locale/ta.js
+file deleted src/locale/de.js
+file deleted src/locale/de-at.js
+file deleted src/locale/da.js
+file deleted src/locale/ms-my.js
+file deleted src/locale/sl.js
+file deleted src/locale/ru.js
+file deleted src/locale/hu.js
+file deleted src/locale/fr.js
+file deleted src/locale/zh-tw.js
+file deleted src/locale/fr-ca.js
+file deleted src/locale/lv.js
+file deleted src/locale/ar-sa.js
+file deleted src/locale/ro.js
+file deleted src/locale/fi.js
+file deleted src/locale/cy.js
+file deleted src/locale/sv.js
+file deleted src/locale/fy.js
+file deleted src/locale/ar-ma.js
+file deleted src/locale/tzl.js
+file deleted src/locale/el.js
+file deleted src/locale/br.js
+file deleted src/locale/tl-ph.js
+file deleted src/locale/ar.js
+file deleted src/locale/si.js
+file deleted src/locale/sq.js
+file deleted src/locale/ka.js
+file deleted src/locale/cs.js
+file deleted src/locale/nl.js
+file deleted src/locale/az.js
+file deleted src/locale/pl.js
+file deleted src/locale/hi.js
+file deleted src/locale/en-gb.js
+file deleted src/locale/nn.js
+file deleted src/locale/bs.js
+file deleted src/locale/ar-tn.js
+file deleted src/locale/en-au.js
+file deleted src/locale/pt-br.js
+file deleted src/locale/tzm-latn.js
+file deleted src/locale/pt.js
+file deleted src/locale/mk.js
+file deleted src/locale/et.js
+file deleted src/locale/uz.js
+file deleted src/locale/ms.js
+file deleted src/locale/it.js
+file deleted src/locale/bg.js
+file deleted src/locale/hy-am.js
+file deleted src/locale/my.js
+file deleted src/locale/ko.js
+file deleted src/locale/km.js
+file deleted src/locale/sr.js
+file deleted src/locale/fo.js
+file deleted src/locale/bn.js
+file deleted src/locale/he.js
+file deleted src/locale/hr.js
+file deleted src/locale/vi.js
+file deleted src/locale/en-ca.js
+file deleted src/locale/ne.js
+file deleted src/locale
+file deleted src/moment.js
+file deleted src
+file deleted min/moment-with-locales.min.js
+file deleted min/moment-with-locales.js
+file deleted min/locales.js
+file deleted min/tests.js
+file deleted min/moment.min.js
+file deleted min/locales.min.js
+file deleted min
+file deleted bower.json
+file deleted README.md
+file deleted id.js
+file deleted locale/id.js
+file deleted mr.js
+file deleted locale/mr.js
+file deleted lb.js
+file deleted locale/lb.js
+file deleted ca.js
+file deleted locale/ca.js
+file deleted is.js
+file deleted locale/is.js
+file deleted ja.js
+file deleted locale/ja.js
+file deleted sk.js
+file deleted locale/sk.js
+file deleted lt.js
+file deleted locale/lt.js
+file deleted th.js
+file deleted locale/th.js
+file deleted gl.js
+file deleted locale/gl.js
+file deleted bo.js
+file deleted locale/bo.js
+file deleted es.js
+file deleted locale/es.js
+file deleted eo.js
+file deleted locale/eo.js
+file deleted me.js
+file deleted locale/me.js
+file deleted tr.js
+file deleted locale/tr.js
+file deleted ml.js
+file deleted locale/ml.js
+file deleted eu.js
+file deleted locale/eu.js
+file deleted uk.js
+file deleted locale/uk.js
+file deleted jv.js
+file deleted locale/jv.js
+file deleted tzm.js
+file deleted locale/tzm.js
+file deleted fa.js
+file deleted locale/fa.js
+file deleted af.js
+file deleted locale/af.js
+file deleted sr-cyrl.js
+file deleted locale/sr-cyrl.js
+file deleted nb.js
+file deleted locale/nb.js
+file deleted cv.js
+file deleted locale/cv.js
+file deleted be.js
+file deleted locale/be.js
+file deleted zh-cn.js
+file deleted locale/zh-cn.js
+file deleted ta.js
+file deleted locale/ta.js
+file deleted de.js
+file deleted locale/de.js
+file deleted de-at.js
+file deleted locale/de-at.js
+file deleted da.js
+file deleted locale/da.js
+file deleted ms-my.js
+file deleted locale/ms-my.js
+file deleted sl.js
+file deleted locale/sl.js
+file deleted ru.js
+file deleted locale/ru.js
+file deleted hu.js
+file deleted locale/hu.js
+file deleted fr.js
+file deleted locale/fr.js
+file deleted zh-tw.js
+file deleted locale/zh-tw.js
+file deleted fr-ca.js
+file deleted locale/fr-ca.js
+file deleted lv.js
+file deleted locale/lv.js
+file deleted ar-sa.js
+file deleted locale/ar-sa.js
+file deleted ro.js
+file deleted locale/ro.js
+file deleted fi.js
+file deleted locale/fi.js
+file deleted cy.js
+file deleted locale/cy.js
+file deleted sv.js
+file deleted locale/sv.js
+file deleted fy.js
+file deleted locale/fy.js
+file deleted ar-ma.js
+file deleted locale/ar-ma.js
+file deleted tzl.js
+file deleted locale/tzl.js
+file deleted el.js
+file deleted locale/el.js
+file deleted br.js
+file deleted locale/br.js
+file deleted tl-ph.js
+file deleted locale/tl-ph.js
+file deleted ar.js
+file deleted locale/ar.js
+file deleted si.js
+file deleted locale/si.js
+file deleted sq.js
+file deleted locale/sq.js
+file deleted ka.js
+file deleted locale/ka.js
+file deleted cs.js
+file deleted locale/cs.js
+file deleted nl.js
+file deleted locale/nl.js
+file deleted az.js
+file deleted locale/az.js
+file deleted pl.js
+file deleted locale/pl.js
+file deleted hi.js
+file deleted locale/hi.js
+file deleted en-gb.js
+file deleted locale/en-gb.js
+file deleted nn.js
+file deleted locale/nn.js
+file deleted bs.js
+file deleted locale/bs.js
+file deleted ar-tn.js
+file deleted locale/ar-tn.js
+file deleted en-au.js
+file deleted locale/en-au.js
+file deleted pt-br.js
+file deleted locale/pt-br.js
+file deleted tzm-latn.js
+file deleted locale/tzm-latn.js
+file deleted pt.js
+file deleted locale/pt.js
+file deleted mk.js
+file deleted locale/mk.js
+file deleted et.js
+file deleted locale/et.js
+file deleted uz.js
+file deleted locale/uz.js
+file deleted ms.js
+file deleted locale/ms.js
+file deleted it.js
+file deleted locale/it.js
+file deleted bg.js
+file deleted locale/bg.js
+file deleted hy-am.js
+file deleted locale/hy-am.js
+file deleted my.js
+file deleted locale/my.js
+file deleted ko.js
+file deleted locale/ko.js
+file deleted km.js
+file deleted locale/km.js
+file deleted sr.js
+file deleted locale/sr.js
+file deleted fo.js
+file deleted locale/fo.js
+file deleted bn.js
+file deleted locale/bn.js
+file deleted he.js
+file deleted locale/he.js
+file deleted hr.js
+file deleted locale/hr.js
+file deleted vi.js
+file deleted locale/vi.js
+file deleted en-ca.js
+file deleted locale/en-ca.js
+file deleted ne.js
+file deleted locale/ne.js
+file deleted locale
+file deleted LICENSE
+file deleted moment.js
+file deleted templates/amd.js
+file deleted templates/globals.js
+file deleted templates/amd-named.js
+file deleted templates/test-header.js
+file deleted templates/locale-header.js
+file deleted templates
+file deleted qunit.js
+file deleted qunit.css
+file deleted app-shims.js
+file deleted bower.json
+file deleted test-shims.js
+file deleted README.md
+file deleted LICENSE.md
+file deleted ember-qunit.map
+file deleted bower.json
+file deleted ember-qunit.amd.map
+file deleted ember-qunit.amd.js
+file deleted ember-qunit.js
+file deleted ember-resolver-tests.js
+file deleted ember-resolver.js
+file deleted index.js
+file deleted bower.json
+file deleted README.md
+file deleted CONTRIBUTING.md
+file deleted package.json
+file deleted karma.conf.js
+file deleted CODE_OF_CONDUCT.md
+file deleted ember-load-initializers.js
+file deleted bower.json
+file deleted README.md
+file deleted LICENSE.md
+file deleted testem.json
+file deleted bower.json
+file deleted README.md
+file deleted loader.js
+file deleted package.json
+file deleted LICENSE.md
+file deleted simple-auth-testing.js
+file deleted simple-auth.js
+file deleted simple-auth-oauth2.amd.js
+file deleted simple-auth-devise.amd.js
+file deleted bower.json
+file deleted README.md
+file deleted simple-auth-torii.amd.js
+file deleted simple-auth-devise.js
+file deleted LICENSE
+file deleted simple-auth-torii.js
+file deleted simple-auth-oauth2.js
+file deleted simple-auth.amd.js
+file deleted simple-auth-cookie-store.js
+file deleted simple-auth-testing.amd.js
+file deleted simple-auth-cookie-store.amd.js
+file deleted ember-data.js.map
+file deleted ember-data.js
+file deleted Makefile
+file deleted ember-data.min.js
+file deleted bower.json
+file deleted composer.json
+file deleted README.md
+file deleted ember-data.prod.js
+file deleted component.json
+file deleted package.json
+file deleted LICENSE-MIT
+file deleted src/hint-theme.scss
+file deleted src/hint-rounded.scss
+file deleted src/hint.base.scss
+file deleted src/hint.scss
+file deleted src/hint-variables.scss
+file deleted src/hint-effects.scss
+file deleted src/hint-position.scss
+file deleted src/hint-mixins.scss
+file deleted src/hint-always.scss
+file deleted src/hint-core.scss
+file deleted src/hint-color-types.scss
+file deleted src
+file deleted hint.min.css
+file deleted hint.base.css
+file deleted bower.json
+file deleted demo.html
+file deleted README.md
+file deleted hint.base.min.css
+file deleted component.json
+file deleted package.json
+file deleted hint.css
+Path or pattern "bower_components/loader.js/loader.js" did not match any files
+Error: Path or pattern "bower_components/loader.js/loader.js" did not match any files
+  at Object.multiGlob (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-kitchen-sink-helpers/index.js:203:13)
+  at Class.module.exports.CachingWriter.extend.addFiles (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/concat-with-maps.js:74:13)
+  at Class.module.exports.CachingWriter.extend.updateCache (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/concat-with-maps.js:52:12)
+  at /home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/node_modules/broccoli-caching-writer/index.js:92:34
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:505:17)
+  at lib$rsvp$$internal$$publish (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:476:11)
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...Building...
+
+Build successful - 2853ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 1963ms              
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 1963ms              
+CoffeeScriptFilter (2)                        | 150ms (75 ms)       
+
+file changed adapters/application.js
+
+adapters/application.js: line 2, col 8, 'Ember' is defined but never used.
+
+1 error
+
+===== 1 JSHint Error
+
+
+Build successful - 566ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 140ms               
+Funnel: App JS Files                          | 102ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 140ms               
+Funnel: App JS Files (1)                      | 102ms               
+SourcemapConcat (3)                           | 47ms (15 ms)        
+Babel (6)                                     | 29ms (4 ms)         
+
+file changed adapters/application.js
+
+Build successful - 574ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 135ms               
+Concat: App                                   | 96ms                
+SourcemapConcat                               | 35ms                
+Funnel: App JS Files                          | 32ms                
+Concat: Test Support JS                       | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 135ms               
+Concat: App (1)                               | 96ms                
+SourcemapConcat (3)                           | 60ms (20 ms)        
+Funnel: App JS Files (1)                      | 32ms                
+CoffeeScriptFilter (2)                        | 31ms (15 ms)        
+Concat: Test Support JS (1)                   | 29ms                
+
+file deleted helpers
+
+Build successful - 528ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 148ms               
+Funnel: App JS Files                          | 102ms               
+TreeMerger (appAndDependencies)               | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 148ms               
+Funnel: App JS Files (1)                      | 102ms               
+SourcemapConcat (3)                           | 45ms (15 ms)        
+TreeMerger (appAndDependencies) (1)           | 27ms                
+
+file deleted styles/app.css
+file deleted styles
+ENOENT, no such file or directory '/home/egor/RubymineProjects/nsuask/frontend/tmp/funnel-input_base_path-4cn8t8Ue.tmp/0/app/styles/'
+Error: ENOENT, no such file or directory '/home/egor/RubymineProjects/nsuask/frontend/tmp/funnel-input_base_path-4cn8t8Ue.tmp/0/app/styles/'
+  at Object.fs.readdirSync (fs.js:659:18)
+  at _walkSync (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/ember-cli-preprocess-registry/node_modules/broccoli-funnel/node_modules/walk-sync/index.js:66:20)
+  at Function.entries (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/ember-cli-preprocess-registry/node_modules/broccoli-funnel/node_modules/walk-sync/index.js:47:10)
+  at Funnel.processFilters (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/ember-cli-preprocess-registry/node_modules/broccoli-funnel/index.js:233:26)
+  at Funnel.build (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/ember-cli-preprocess-registry/node_modules/broccoli-funnel/index.js:172:10)
+  at /home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/ember-cli-preprocess-registry/node_modules/broccoli-funnel/node_modules/broccoli-plugin/read_compat.js:61:34
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:505:17)
+  at lib$rsvp$$internal$$publish (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:476:11)
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+file added styles
+file added styles/app.css
+file changed styles/app.css
+
+Build successful - 481ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 136ms               
+Concat: App                                   | 77ms                
+Funnel: App JS Files                          | 32ms                
+Concat: Test Support JS                       | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 136ms               
+Concat: App (1)                               | 77ms                
+SourcemapConcat (3)                           | 45ms (15 ms)        
+Funnel: App JS Files (1)                      | 32ms                
+Concat: Test Support JS (1)                   | 25ms                
+CoffeeScriptFilter (2)                        | 24ms (12 ms)        
+
+file added app.coffee___jb_old___
+file changed app.coffee
+file deleted app.coffee___jb_old___
+
+Build successful - 521ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 135ms               
+ES6: App Tree                                 | 69ms                
+Funnel: App JS Files                          | 31ms                
+TreeMerger (appAndDependencies)               | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 135ms               
+ES6: App Tree (1)                             | 69ms                
+SourcemapConcat (3)                           | 46ms (15 ms)        
+Funnel: App JS Files (1)                      | 31ms                
+TreeMerger (appAndDependencies) (1)           | 28ms                
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...Building...
+
+Build successful - 2816ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 1927ms              
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 1927ms              
+CoffeeScriptFilter (2)                        | 152ms (76 ms)       
+
+file changed app.coffee
+
+Build successful - 568ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 131ms               
+Funnel: App JS Files                          | 102ms               
+Concat: App                                   | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 131ms               
+Funnel: App JS Files (1)                      | 102ms               
+SourcemapConcat (3)                           | 49ms (16 ms)        
+Concat: App (1)                               | 29ms                
+
+file added environment.js___jb_old___
+file changed environment.js
+file deleted environment.js___jb_old___
+
+Build successful - 527ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 136ms               
+Concat: App                                   | 84ms                
+Funnel: App JS Files                          | 35ms                
+Concat: Test Support JS                       | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 136ms               
+Concat: App (1)                               | 84ms                
+SourcemapConcat (3)                           | 46ms (15 ms)        
+Funnel: App JS Files (1)                      | 35ms                
+CoffeeScriptFilter (2)                        | 33ms (16 ms)        
+Concat: Test Support JS (1)                   | 26ms                
+
+file added instance-initializers
+
+Build successful - 508ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 135ms               
+ES6: App Tree                                 | 60ms                
+Funnel: App JS Files                          | 36ms                
+Concat: Test Support JS                       | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 135ms               
+ES6: App Tree (1)                             | 60ms                
+SourcemapConcat (3)                           | 45ms (15 ms)        
+Funnel: App JS Files (1)                      | 36ms                
+Concat: Test Support JS (1)                   | 26ms                
+
+file added instance-initializers/session.js
+file changed environment.js
+
+Build successful - 552ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 139ms               
+Funnel: App JS Files                          | 93ms                
+Concat: Test Support JS                       | 29ms                
+SourcemapConcat                               | 27ms                
+TreeMerger (appAndDependencies)               | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 139ms               
+Funnel: App JS Files (1)                      | 93ms                
+SourcemapConcat (3)                           | 54ms (18 ms)        
+Concat: Test Support JS (1)                   | 29ms                
+TreeMerger (appAndDependencies) (1)           | 27ms                
+
+file changed instance-initializers/session.js
+
+Build successful - 591ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 149ms               
+Funnel: App JS Files                          | 88ms                
+Concat: App                                   | 36ms                
+ES6: App Tree                                 | 30ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 149ms               
+Funnel: App JS Files (1)                      | 88ms                
+SourcemapConcat (3)                           | 52ms (17 ms)        
+Concat: App (1)                               | 36ms                
+ES6: App Tree (1)                             | 30ms                
+
+file deleted ember.js
+file deleted ember-docs.json
+file deleted ember-template-compiler.js
+file deleted ember.min.js
+file deleted Makefile
+file deleted bower.json
+file deleted composer.json
+file deleted README.md
+file deleted ember.prod.js
+file deleted ember-testing.js
+file deleted component.json
+file deleted ember.debug.js
+file deleted package.json
+file deleted index.js
+file deleted bower.json
+file deleted failed.png
+file deleted README.md
+file deleted CONTRIBUTING.md
+file deleted passed.png
+file deleted jquery.min.js
+file deleted jquery.min.map
+file deleted jquery.js
+file deleted CHANGELOG.md
+file deleted src/lib/create/parsing-flags.js
+file deleted src/lib/create/valid.js
+file deleted src/lib/create/from-string.js
+file deleted src/lib/create/from-string-and-format.js
+file deleted src/lib/create/from-array.js
+file deleted src/lib/create/date-from-array.js
+file deleted src/lib/create/local.js
+file deleted src/lib/create/check-overflow.js
+file deleted src/lib/create/utc.js
+file deleted src/lib/create/from-string-and-array.js
+file deleted src/lib/create/from-anything.js
+file deleted src/lib/create/from-object.js
+file deleted src/lib/create
+file deleted src/lib/moment/compare.js
+file deleted src/lib/moment/diff.js
+file deleted src/lib/moment/start-end-of.js
+file deleted src/lib/moment/from.js
+file deleted src/lib/moment/valid.js
+file deleted src/lib/moment/prototype.js
+file deleted src/lib/moment/calendar.js
+file deleted src/lib/moment/to-type.js
+file deleted src/lib/moment/get-set.js
+file deleted src/lib/moment/to.js
+file deleted src/lib/moment/min-max.js
+file deleted src/lib/moment/format.js
+file deleted src/lib/moment/locale.js
+file deleted src/lib/moment/moment.js
+file deleted src/lib/moment/clone.js
+file deleted src/lib/moment/add-subtract.js
+file deleted src/lib/moment/constructor.js
+file deleted src/lib/moment
+file deleted src/lib/parse/token.js
+file deleted src/lib/parse/regex.js
+file deleted src/lib/parse
+file deleted src/lib/units/hour.js
+file deleted src/lib/units/day-of-month.js
+file deleted src/lib/units/units.js
+file deleted src/lib/units/year.js
+file deleted src/lib/units/timestamp.js
+file deleted src/lib/units/week-year.js
+file deleted src/lib/units/day-of-year.js
+file deleted src/lib/units/constants.js
+file deleted src/lib/units/month.js
+file deleted src/lib/units/week.js
+file deleted src/lib/units/quarter.js
+file deleted src/lib/units/minute.js
+file deleted src/lib/units/day-of-week.js
+file deleted src/lib/units/second.js
+file deleted src/lib/units/offset.js
+file deleted src/lib/units/aliases.js
+file deleted src/lib/units/timezone.js
+file deleted src/lib/units/millisecond.js
+file deleted src/lib/units
+file deleted src/lib/format/format.js
+file deleted src/lib/format
+file deleted src/lib/duration/get.js
+file deleted src/lib/duration/prototype.js
+file deleted src/lib/duration/abs.js
+file deleted src/lib/duration/bubble.js
+file deleted src/lib/duration/humanize.js
+file deleted src/lib/duration/create.js
+file deleted src/lib/duration/iso-string.js
+file deleted src/lib/duration/duration.js
+file deleted src/lib/duration/add-subtract.js
+file deleted src/lib/duration/constructor.js
+file deleted src/lib/duration/as.js
+file deleted src/lib/duration
+file deleted src/lib/locale/ordinal.js
+file deleted src/lib/locale/en.js
+file deleted src/lib/locale/prototype.js
+file deleted src/lib/locale/calendar.js
+file deleted src/lib/locale/locales.js
+file deleted src/lib/locale/invalid.js
+file deleted src/lib/locale/locale.js
+file deleted src/lib/locale/relative.js
+file deleted src/lib/locale/formats.js
+file deleted src/lib/locale/pre-post-format.js
+file deleted src/lib/locale/lists.js
+file deleted src/lib/locale/constructor.js
+file deleted src/lib/locale/set.js
+file deleted src/lib/locale
+file deleted src/lib/utils/map.js
+file deleted src/lib/utils/is-array.js
+file deleted src/lib/utils/is-date.js
+file deleted src/lib/utils/deprecate.js
+file deleted src/lib/utils/abs-ceil.js
+file deleted src/lib/utils/to-int.js
+file deleted src/lib/utils/defaults.js
+file deleted src/lib/utils/hooks.js
+file deleted src/lib/utils/abs-floor.js
+file deleted src/lib/utils/compare-arrays.js
+file deleted src/lib/utils/zero-fill.js
+file deleted src/lib/utils/has-own-prop.js
+file deleted src/lib/utils/extend.js
+file deleted src/lib/utils
+file deleted src/lib
+file deleted src/locale/id.js
+file deleted src/locale/mr.js
+file deleted src/locale/lb.js
+file deleted src/locale/ca.js
+file deleted src/locale/is.js
+file deleted src/locale/ja.js
+file deleted src/locale/sk.js
+file deleted src/locale/lt.js
+file deleted src/locale/th.js
+file deleted src/locale/gl.js
+file deleted src/locale/bo.js
+file deleted src/locale/es.js
+file deleted src/locale/eo.js
+file deleted src/locale/me.js
+file deleted src/locale/tr.js
+file deleted src/locale/ml.js
+file deleted src/locale/eu.js
+file deleted src/locale/uk.js
+file deleted src/locale/jv.js
+file deleted src/locale/tzm.js
+file deleted src/locale/fa.js
+file deleted src/locale/af.js
+file deleted src/locale/sr-cyrl.js
+file deleted src/locale/nb.js
+file deleted src/locale/cv.js
+file deleted src/locale/be.js
+file deleted src/locale/zh-cn.js
+file deleted src/locale/ta.js
+file deleted src/locale/de.js
+file deleted src/locale/de-at.js
+file deleted src/locale/da.js
+file deleted src/locale/ms-my.js
+file deleted src/locale/sl.js
+file deleted src/locale/ru.js
+file deleted src/locale/hu.js
+file deleted src/locale/fr.js
+file deleted src/locale/zh-tw.js
+file deleted src/locale/fr-ca.js
+file deleted src/locale/lv.js
+file deleted src/locale/ar-sa.js
+file deleted src/locale/ro.js
+file deleted src/locale/fi.js
+file deleted src/locale/cy.js
+file deleted src/locale/sv.js
+file deleted src/locale/fy.js
+file deleted src/locale/ar-ma.js
+file deleted src/locale/tzl.js
+file deleted src/locale/el.js
+file deleted src/locale/br.js
+file deleted src/locale/tl-ph.js
+file deleted src/locale/ar.js
+file deleted src/locale/si.js
+file deleted src/locale/sq.js
+file deleted src/locale/ka.js
+file deleted src/locale/cs.js
+file deleted src/locale/nl.js
+file deleted src/locale/az.js
+file deleted src/locale/pl.js
+file deleted src/locale/hi.js
+file deleted src/locale/en-gb.js
+file deleted src/locale/nn.js
+file deleted src/locale/bs.js
+file deleted src/locale/ar-tn.js
+file deleted src/locale/en-au.js
+file deleted src/locale/pt-br.js
+file deleted src/locale/tzm-latn.js
+file deleted src/locale/pt.js
+file deleted src/locale/mk.js
+file deleted src/locale/et.js
+file deleted src/locale/uz.js
+file deleted src/locale/ms.js
+file deleted src/locale/it.js
+file deleted src/locale/bg.js
+file deleted src/locale/hy-am.js
+file deleted src/locale/my.js
+file deleted src/locale/ko.js
+file deleted src/locale/km.js
+file deleted src/locale/sr.js
+file deleted src/locale/fo.js
+file deleted src/locale/bn.js
+file deleted src/locale/he.js
+file deleted src/locale/hr.js
+file deleted src/locale/vi.js
+file deleted src/locale/en-ca.js
+file deleted src/locale/ne.js
+file deleted src/locale
+file deleted src/moment.js
+file deleted src
+file deleted min/moment-with-locales.min.js
+file deleted min/moment-with-locales.js
+file deleted min/locales.js
+file deleted min/tests.js
+file deleted min/moment.min.js
+file deleted min/locales.min.js
+file deleted min
+file deleted bower.json
+file deleted README.md
+file deleted id.js
+file deleted locale/id.js
+file deleted mr.js
+file deleted locale/mr.js
+file deleted lb.js
+file deleted locale/lb.js
+file deleted ca.js
+file deleted locale/ca.js
+file deleted is.js
+file deleted locale/is.js
+file deleted ja.js
+file deleted locale/ja.js
+file deleted sk.js
+file deleted locale/sk.js
+file deleted lt.js
+file deleted locale/lt.js
+file deleted th.js
+file deleted locale/th.js
+file deleted gl.js
+file deleted locale/gl.js
+file deleted bo.js
+file deleted locale/bo.js
+file deleted es.js
+file deleted locale/es.js
+file deleted eo.js
+file deleted locale/eo.js
+file deleted me.js
+file deleted locale/me.js
+file deleted tr.js
+file deleted locale/tr.js
+file deleted ml.js
+file deleted locale/ml.js
+file deleted eu.js
+file deleted locale/eu.js
+file deleted uk.js
+file deleted locale/uk.js
+file deleted jv.js
+file deleted locale/jv.js
+file deleted tzm.js
+file deleted locale/tzm.js
+file deleted fa.js
+file deleted locale/fa.js
+file deleted af.js
+file deleted locale/af.js
+file deleted sr-cyrl.js
+file deleted locale/sr-cyrl.js
+file deleted nb.js
+file deleted locale/nb.js
+file deleted cv.js
+file deleted locale/cv.js
+file deleted be.js
+file deleted locale/be.js
+file deleted zh-cn.js
+file deleted locale/zh-cn.js
+file deleted ta.js
+file deleted locale/ta.js
+file deleted de.js
+file deleted locale/de.js
+file deleted de-at.js
+file deleted locale/de-at.js
+file deleted da.js
+file deleted locale/da.js
+file deleted ms-my.js
+file deleted locale/ms-my.js
+file deleted sl.js
+file deleted locale/sl.js
+file deleted ru.js
+file deleted locale/ru.js
+file deleted hu.js
+file deleted locale/hu.js
+file deleted fr.js
+file deleted locale/fr.js
+file deleted zh-tw.js
+file deleted locale/zh-tw.js
+file deleted fr-ca.js
+file deleted locale/fr-ca.js
+file deleted lv.js
+file deleted locale/lv.js
+file deleted ar-sa.js
+file deleted locale/ar-sa.js
+file deleted ro.js
+file deleted locale/ro.js
+file deleted fi.js
+file deleted locale/fi.js
+file deleted cy.js
+file deleted locale/cy.js
+file deleted sv.js
+file deleted locale/sv.js
+file deleted fy.js
+file deleted locale/fy.js
+file deleted ar-ma.js
+file deleted locale/ar-ma.js
+file deleted tzl.js
+file deleted locale/tzl.js
+file deleted el.js
+file deleted locale/el.js
+file deleted br.js
+file deleted locale/br.js
+file deleted tl-ph.js
+file deleted locale/tl-ph.js
+file deleted ar.js
+file deleted locale/ar.js
+file deleted si.js
+file deleted locale/si.js
+file deleted sq.js
+file deleted locale/sq.js
+file deleted ka.js
+file deleted locale/ka.js
+file deleted cs.js
+file deleted locale/cs.js
+file deleted nl.js
+file deleted locale/nl.js
+file deleted az.js
+file deleted locale/az.js
+file deleted pl.js
+file deleted locale/pl.js
+file deleted hi.js
+file deleted locale/hi.js
+file deleted en-gb.js
+file deleted locale/en-gb.js
+file deleted nn.js
+file deleted locale/nn.js
+file deleted bs.js
+file deleted locale/bs.js
+file deleted ar-tn.js
+file deleted locale/ar-tn.js
+file deleted en-au.js
+file deleted locale/en-au.js
+file deleted pt-br.js
+file deleted locale/pt-br.js
+file deleted tzm-latn.js
+file deleted locale/tzm-latn.js
+file deleted pt.js
+file deleted locale/pt.js
+file deleted mk.js
+file deleted locale/mk.js
+file deleted et.js
+file deleted locale/et.js
+file deleted uz.js
+file deleted locale/uz.js
+file deleted ms.js
+file deleted locale/ms.js
+file deleted it.js
+file deleted locale/it.js
+file deleted bg.js
+file deleted locale/bg.js
+file deleted hy-am.js
+file deleted locale/hy-am.js
+file deleted my.js
+file deleted locale/my.js
+file deleted ko.js
+file deleted locale/ko.js
+file deleted km.js
+file deleted locale/km.js
+file deleted sr.js
+file deleted locale/sr.js
+file deleted fo.js
+file deleted locale/fo.js
+file deleted bn.js
+file deleted locale/bn.js
+file deleted he.js
+file deleted locale/he.js
+file deleted hr.js
+file deleted locale/hr.js
+file deleted vi.js
+file deleted locale/vi.js
+file deleted en-ca.js
+file deleted locale/en-ca.js
+file deleted ne.js
+file deleted locale/ne.js
+file deleted locale
+file deleted LICENSE
+file deleted moment.js
+file deleted templates/amd.js
+file deleted templates/globals.js
+file deleted templates/amd-named.js
+file deleted templates/test-header.js
+file deleted templates/locale-header.js
+file deleted templates
+file deleted qunit.js
+file deleted qunit.css
+file deleted app-shims.js
+file deleted bower.json
+file deleted test-shims.js
+file deleted README.md
+file deleted LICENSE.md
+file deleted ember-qunit.map
+file deleted bower.json
+file deleted ember-qunit.amd.map
+file deleted ember-qunit.amd.js
+file deleted ember-qunit.js
+file deleted ember-resolver-tests.js
+file deleted ember-resolver.js
+file deleted index.js
+file deleted bower.json
+file deleted README.md
+file deleted CONTRIBUTING.md
+file deleted package.json
+file deleted karma.conf.js
+file deleted CODE_OF_CONDUCT.md
+file deleted ember-load-initializers.js
+file deleted bower.json
+file deleted README.md
+file deleted LICENSE.md
+file deleted testem.json
+file deleted bower.json
+file deleted README.md
+file deleted loader.js
+file deleted package.json
+file deleted LICENSE.md
+file deleted simple-auth-testing.js
+file deleted simple-auth.js
+file deleted simple-auth-oauth2.amd.js
+file deleted simple-auth-devise.amd.js
+file deleted bower.json
+file deleted README.md
+file deleted simple-auth-torii.amd.js
+file deleted simple-auth-devise.js
+file deleted LICENSE
+file deleted simple-auth-torii.js
+file deleted simple-auth-oauth2.js
+file deleted simple-auth.amd.js
+file deleted simple-auth-cookie-store.js
+file deleted simple-auth-testing.amd.js
+file deleted simple-auth-cookie-store.amd.js
+file deleted ember-data.js.map
+file deleted ember-data.js
+file deleted Makefile
+file deleted ember-data.min.js
+file deleted bower.json
+file deleted composer.json
+file deleted README.md
+file deleted ember-data.prod.js
+file deleted component.json
+file deleted package.json
+file deleted LICENSE-MIT
+file deleted src/hint-theme.scss
+file deleted src/hint-rounded.scss
+file deleted src/hint.base.scss
+file deleted src/hint.scss
+file deleted src/hint-variables.scss
+file deleted src/hint-effects.scss
+file deleted src/hint-position.scss
+file deleted src/hint-mixins.scss
+file deleted src/hint-always.scss
+file deleted src/hint-core.scss
+file deleted src/hint-color-types.scss
+file deleted src
+file deleted hint.min.css
+file deleted hint.base.css
+file deleted bower.json
+file deleted demo.html
+file deleted README.md
+file deleted hint.base.min.css
+file deleted component.json
+file deleted package.json
+file deleted hint.css
+Path or pattern "bower_components/loader.js/loader.js" did not match any files
+Error: Path or pattern "bower_components/loader.js/loader.js" did not match any files
+  at Object.multiGlob (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-kitchen-sink-helpers/index.js:203:13)
+  at Class.module.exports.CachingWriter.extend.addFiles (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/concat-with-maps.js:74:13)
+  at Class.module.exports.CachingWriter.extend.updateCache (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/concat-with-maps.js:52:12)
+  at /home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/node_modules/broccoli-caching-writer/index.js:92:34
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:505:17)
+  at lib$rsvp$$internal$$publish (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:476:11)
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+file added authenticators
+ENOENT, no such file or directory '/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-content-security-policy/addon/'
+Error: ENOENT, no such file or directory '/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-content-security-policy/addon/'
+  at Object.fs.readdirSync (fs.js:659:18)
+  at walkSync (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/walk-sync/index.js:14:20)
+  at Funnel.processFilters (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-funnel/index.js:113:15)
+  at Funnel.rebuild (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-funnel/index.js:108:10)
+  at RSVP.resolve.then.then.broccoliInfo (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli/lib/api_compat.js:42:21)
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:505:17)
+  at /home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1001:13
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+file added authenticators/devise.js
+ENOENT, no such file or directory '/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-infinity/node_modules/ember-version-is/addon/'
+Error: ENOENT, no such file or directory '/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-infinity/node_modules/ember-version-is/addon/'
+  at Object.fs.readdirSync (fs.js:659:18)
+  at walkSync (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/walk-sync/index.js:14:20)
+  at Funnel.processFilters (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-funnel/index.js:113:15)
+  at Funnel.rebuild (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-funnel/index.js:108:10)
+  at RSVP.resolve.then.then.broccoliInfo (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli/lib/api_compat.js:42:21)
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:505:17)
+  at /home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1001:13
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+file added authenticators/devise.js___jb_bak___
+file deleted authenticators/devise.js___jb_bak___
+file added authenticators/devise.js___jb_old___
+file changed authenticators/devise.js
+file deleted authenticators/devise.js___jb_old___
+ENOENT, no such file or directory '/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-simple-auth/app/'
+Error: ENOENT, no such file or directory '/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-simple-auth/app/'
+  at Object.fs.readdirSync (fs.js:659:18)
+  at /home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-merge-trees/index.js:32:21
+  at Array.map (native)
+  at mergeRelativePath (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-merge-trees/index.js:30:29)
+  at /home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-merge-trees/index.js:23:5
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:505:17)
+  at lib$rsvp$$internal$$publish (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:476:11)
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+file changed environment.js
+ENOENT, no such file or directory '/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-simple-auth/app/'
+Error: ENOENT, no such file or directory '/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-simple-auth/app/'
+  at Object.fs.readdirSync (fs.js:659:18)
+  at /home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-merge-trees/index.js:32:21
+  at Array.map (native)
+  at mergeRelativePath (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-merge-trees/index.js:30:29)
+  at /home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-merge-trees/index.js:23:5
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:505:17)
+  at lib$rsvp$$internal$$publish (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:476:11)
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+file changed environment.js
+ENOENT, no such file or directory '/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-simple-auth/app/'
+Error: ENOENT, no such file or directory '/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-simple-auth/app/'
+  at Object.fs.readdirSync (fs.js:659:18)
+  at /home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-merge-trees/index.js:32:21
+  at Array.map (native)
+  at mergeRelativePath (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-merge-trees/index.js:30:29)
+  at /home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-merge-trees/index.js:23:5
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:505:17)
+  at lib$rsvp$$internal$$publish (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:476:11)
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...
+EEXIST, file already exists '/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-simple-auth/app/routes/application.js'
+Error: EEXIST, file already exists '/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-simple-auth/app/routes/application.js'
+  at Object.fs.symlinkSync (fs.js:735:18)
+  at symlink (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/symlink-or-copy/index.js:82:14)
+  at symlinkOrCopySync (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/symlink-or-copy/index.js:58:5)
+  at rebuildEntry (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/index.js:72:9)
+  at /home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/promise-map-series/index.js:11:14
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:505:17)
+  at lib$rsvp$$internal$$publish (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:476:11)
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+EEXIST, file already exists '/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-simple-auth/app/routes/application.js'
+Error: EEXIST, file already exists '/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-simple-auth/app/routes/application.js'
+  at Object.fs.symlinkSync (fs.js:735:18)
+  at symlink (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/symlink-or-copy/index.js:82:14)
+  at symlinkOrCopySync (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/symlink-or-copy/index.js:58:5)
+  at rebuildEntry (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/index.js:72:9)
+  at /home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/promise-map-series/index.js:11:14
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:505:17)
+  at lib$rsvp$$internal$$publish (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:476:11)
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...BuildingBuilding...
+
+Build successful - 3347ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 2004ms              
+Babel                                         | 242ms               
+Babel                                         | 187ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 2004ms              
+Babel (7)                                     | 490ms (70 ms)       
+
+file changed routes/application.js
+
+Build successful - 589ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 137ms               
+ES6: App Tree                                 | 94ms                
+Funnel: App JS Files                          | 36ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 137ms               
+ES6: App Tree (1)                             | 94ms                
+SourcemapConcat (3)                           | 52ms (17 ms)        
+Funnel: App JS Files (1)                      | 36ms                
+CoffeeScriptFilter (2)                        | 30ms (15 ms)        
+
+file changed routes/application.js
+
+Build successful - 601ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 151ms               
+ES6: App Tree                                 | 87ms                
+Funnel: App JS Files                          | 35ms                
+TreeMerger (appAndDependencies)               | 32ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 151ms               
+ES6: App Tree (1)                             | 87ms                
+SourcemapConcat (3)                           | 49ms (16 ms)        
+Funnel: App JS Files (1)                      | 35ms                
+TreeMerger (appAndDependencies) (1)           | 32ms                
+CoffeeScriptFilter (2)                        | 31ms (15 ms)        
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...Building...
+
+Build successful - 2942ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 1947ms              
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 1947ms              
+CoffeeScriptFilter (2)                        | 165ms (82 ms)       
+
+file deleted ember.js
+file deleted ember-docs.json
+file deleted ember-template-compiler.js
+file deleted ember.min.js
+file deleted Makefile
+file deleted bower.json
+file deleted composer.json
+file deleted README.md
+file deleted ember.prod.js
+file deleted ember-testing.js
+file deleted component.json
+file deleted ember.debug.js
+file deleted package.json
+file deleted index.js
+file deleted bower.json
+file deleted failed.png
+file deleted README.md
+file deleted CONTRIBUTING.md
+file deleted passed.png
+file deleted jquery.min.js
+file deleted jquery.min.map
+file deleted jquery.js
+file deleted CHANGELOG.md
+file deleted src/lib/create/parsing-flags.js
+file deleted src/lib/create/valid.js
+file deleted src/lib/create/from-string.js
+file deleted src/lib/create/from-string-and-format.js
+file deleted src/lib/create/from-array.js
+file deleted src/lib/create/date-from-array.js
+file deleted src/lib/create/local.js
+file deleted src/lib/create/check-overflow.js
+file deleted src/lib/create/utc.js
+file deleted src/lib/create/from-string-and-array.js
+file deleted src/lib/create/from-anything.js
+file deleted src/lib/create/from-object.js
+file deleted src/lib/create
+file deleted src/lib/moment/compare.js
+file deleted src/lib/moment/diff.js
+file deleted src/lib/moment/start-end-of.js
+file deleted src/lib/moment/from.js
+file deleted src/lib/moment/valid.js
+file deleted src/lib/moment/prototype.js
+file deleted src/lib/moment/calendar.js
+file deleted src/lib/moment/to-type.js
+file deleted src/lib/moment/get-set.js
+file deleted src/lib/moment/to.js
+file deleted src/lib/moment/min-max.js
+file deleted src/lib/moment/format.js
+file deleted src/lib/moment/locale.js
+file deleted src/lib/moment/moment.js
+file deleted src/lib/moment/clone.js
+file deleted src/lib/moment/add-subtract.js
+file deleted src/lib/moment/constructor.js
+file deleted src/lib/moment
+file deleted src/lib/parse/token.js
+file deleted src/lib/parse/regex.js
+file deleted src/lib/parse
+file deleted src/lib/units/hour.js
+file deleted src/lib/units/day-of-month.js
+file deleted src/lib/units/units.js
+file deleted src/lib/units/year.js
+file deleted src/lib/units/timestamp.js
+file deleted src/lib/units/week-year.js
+file deleted src/lib/units/day-of-year.js
+file deleted src/lib/units/constants.js
+file deleted src/lib/units/month.js
+file deleted src/lib/units/week.js
+file deleted src/lib/units/quarter.js
+file deleted src/lib/units/minute.js
+file deleted src/lib/units/day-of-week.js
+file deleted src/lib/units/second.js
+file deleted src/lib/units/offset.js
+file deleted src/lib/units/aliases.js
+file deleted src/lib/units/timezone.js
+file deleted src/lib/units/millisecond.js
+file deleted src/lib/units
+file deleted src/lib/format/format.js
+file deleted src/lib/format
+file deleted src/lib/duration/get.js
+file deleted src/lib/duration/prototype.js
+file deleted src/lib/duration/abs.js
+file deleted src/lib/duration/bubble.js
+file deleted src/lib/duration/humanize.js
+file deleted src/lib/duration/create.js
+file deleted src/lib/duration/iso-string.js
+file deleted src/lib/duration/duration.js
+file deleted src/lib/duration/add-subtract.js
+file deleted src/lib/duration/constructor.js
+file deleted src/lib/duration/as.js
+file deleted src/lib/duration
+file deleted src/lib/locale/ordinal.js
+file deleted src/lib/locale/en.js
+file deleted src/lib/locale/prototype.js
+file deleted src/lib/locale/calendar.js
+file deleted src/lib/locale/locales.js
+file deleted src/lib/locale/invalid.js
+file deleted src/lib/locale/locale.js
+file deleted src/lib/locale/relative.js
+file deleted src/lib/locale/formats.js
+file deleted src/lib/locale/pre-post-format.js
+file deleted src/lib/locale/lists.js
+file deleted src/lib/locale/constructor.js
+file deleted src/lib/locale/set.js
+file deleted src/lib/locale
+file deleted src/lib/utils/map.js
+file deleted src/lib/utils/is-array.js
+file deleted src/lib/utils/is-date.js
+file deleted src/lib/utils/deprecate.js
+file deleted src/lib/utils/abs-ceil.js
+file deleted src/lib/utils/to-int.js
+file deleted src/lib/utils/defaults.js
+file deleted src/lib/utils/hooks.js
+file deleted src/lib/utils/abs-floor.js
+file deleted src/lib/utils/compare-arrays.js
+file deleted src/lib/utils/zero-fill.js
+file deleted src/lib/utils/has-own-prop.js
+file deleted src/lib/utils/extend.js
+file deleted src/lib/utils
+file deleted src/lib
+file deleted src/locale/id.js
+file deleted src/locale/mr.js
+file deleted src/locale/lb.js
+file deleted src/locale/ca.js
+file deleted src/locale/is.js
+file deleted src/locale/ja.js
+file deleted src/locale/sk.js
+file deleted src/locale/lt.js
+file deleted src/locale/th.js
+file deleted src/locale/gl.js
+file deleted src/locale/bo.js
+file deleted src/locale/es.js
+file deleted src/locale/eo.js
+file deleted src/locale/me.js
+file deleted src/locale/tr.js
+file deleted src/locale/ml.js
+file deleted src/locale/eu.js
+file deleted src/locale/uk.js
+file deleted src/locale/jv.js
+file deleted src/locale/tzm.js
+file deleted src/locale/fa.js
+file deleted src/locale/af.js
+file deleted src/locale/sr-cyrl.js
+file deleted src/locale/nb.js
+file deleted src/locale/cv.js
+file deleted src/locale/be.js
+file deleted src/locale/zh-cn.js
+file deleted src/locale/ta.js
+file deleted src/locale/de.js
+file deleted src/locale/de-at.js
+file deleted src/locale/da.js
+file deleted src/locale/ms-my.js
+file deleted src/locale/sl.js
+file deleted src/locale/ru.js
+file deleted src/locale/hu.js
+file deleted src/locale/fr.js
+file deleted src/locale/zh-tw.js
+file deleted src/locale/fr-ca.js
+file deleted src/locale/lv.js
+file deleted src/locale/ar-sa.js
+file deleted src/locale/ro.js
+file deleted src/locale/fi.js
+file deleted src/locale/cy.js
+file deleted src/locale/sv.js
+file deleted src/locale/fy.js
+file deleted src/locale/ar-ma.js
+file deleted src/locale/tzl.js
+file deleted src/locale/el.js
+file deleted src/locale/br.js
+file deleted src/locale/tl-ph.js
+file deleted src/locale/ar.js
+file deleted src/locale/si.js
+file deleted src/locale/sq.js
+file deleted src/locale/ka.js
+file deleted src/locale/cs.js
+file deleted src/locale/nl.js
+file deleted src/locale/az.js
+file deleted src/locale/pl.js
+file deleted src/locale/hi.js
+file deleted src/locale/en-gb.js
+file deleted src/locale/nn.js
+file deleted src/locale/bs.js
+file deleted src/locale/ar-tn.js
+file deleted src/locale/en-au.js
+file deleted src/locale/pt-br.js
+file deleted src/locale/tzm-latn.js
+file deleted src/locale/pt.js
+file deleted src/locale/mk.js
+file deleted src/locale/et.js
+file deleted src/locale/uz.js
+file deleted src/locale/ms.js
+file deleted src/locale/it.js
+file deleted src/locale/bg.js
+file deleted src/locale/hy-am.js
+file deleted src/locale/my.js
+file deleted src/locale/ko.js
+file deleted src/locale/km.js
+file deleted src/locale/sr.js
+file deleted src/locale/fo.js
+file deleted src/locale/bn.js
+file deleted src/locale/he.js
+file deleted src/locale/hr.js
+file deleted src/locale/vi.js
+file deleted src/locale/en-ca.js
+file deleted src/locale/ne.js
+file deleted src/locale
+file deleted src/moment.js
+file deleted src
+file deleted min/moment-with-locales.min.js
+file deleted min/moment-with-locales.js
+file deleted min/locales.js
+file deleted min/tests.js
+file deleted min/moment.min.js
+file deleted min/locales.min.js
+file deleted min
+file deleted bower.json
+file deleted README.md
+file deleted id.js
+file deleted locale/id.js
+file deleted mr.js
+file deleted locale/mr.js
+file deleted lb.js
+file deleted locale/lb.js
+file deleted ca.js
+file deleted locale/ca.js
+file deleted is.js
+file deleted locale/is.js
+file deleted ja.js
+file deleted locale/ja.js
+file deleted sk.js
+file deleted locale/sk.js
+file deleted lt.js
+file deleted locale/lt.js
+file deleted th.js
+file deleted locale/th.js
+file deleted gl.js
+file deleted locale/gl.js
+file deleted bo.js
+file deleted locale/bo.js
+file deleted es.js
+file deleted locale/es.js
+file deleted eo.js
+file deleted locale/eo.js
+file deleted me.js
+file deleted locale/me.js
+file deleted tr.js
+file deleted locale/tr.js
+file deleted ml.js
+file deleted locale/ml.js
+file deleted eu.js
+file deleted locale/eu.js
+file deleted uk.js
+file deleted locale/uk.js
+file deleted jv.js
+file deleted locale/jv.js
+file deleted tzm.js
+file deleted locale/tzm.js
+file deleted fa.js
+file deleted locale/fa.js
+file deleted af.js
+file deleted locale/af.js
+file deleted sr-cyrl.js
+file deleted locale/sr-cyrl.js
+file deleted nb.js
+file deleted locale/nb.js
+file deleted cv.js
+file deleted locale/cv.js
+file deleted be.js
+file deleted locale/be.js
+file deleted zh-cn.js
+file deleted locale/zh-cn.js
+file deleted ta.js
+file deleted locale/ta.js
+file deleted de.js
+file deleted locale/de.js
+file deleted de-at.js
+file deleted locale/de-at.js
+file deleted da.js
+file deleted locale/da.js
+file deleted ms-my.js
+file deleted locale/ms-my.js
+file deleted sl.js
+file deleted locale/sl.js
+file deleted ru.js
+file deleted locale/ru.js
+file deleted hu.js
+file deleted locale/hu.js
+file deleted fr.js
+file deleted locale/fr.js
+file deleted zh-tw.js
+file deleted locale/zh-tw.js
+file deleted fr-ca.js
+file deleted locale/fr-ca.js
+file deleted lv.js
+file deleted locale/lv.js
+file deleted ar-sa.js
+file deleted locale/ar-sa.js
+file deleted ro.js
+file deleted locale/ro.js
+file deleted fi.js
+file deleted locale/fi.js
+file deleted cy.js
+file deleted locale/cy.js
+file deleted sv.js
+file deleted locale/sv.js
+file deleted fy.js
+file deleted locale/fy.js
+file deleted ar-ma.js
+file deleted locale/ar-ma.js
+file deleted tzl.js
+file deleted locale/tzl.js
+file deleted el.js
+file deleted locale/el.js
+file deleted br.js
+file deleted locale/br.js
+file deleted tl-ph.js
+file deleted locale/tl-ph.js
+file deleted ar.js
+file deleted locale/ar.js
+file deleted si.js
+file deleted locale/si.js
+file deleted sq.js
+file deleted locale/sq.js
+file deleted ka.js
+file deleted locale/ka.js
+file deleted cs.js
+file deleted locale/cs.js
+file deleted nl.js
+file deleted locale/nl.js
+file deleted az.js
+file deleted locale/az.js
+file deleted pl.js
+file deleted locale/pl.js
+file deleted hi.js
+file deleted locale/hi.js
+file deleted en-gb.js
+file deleted locale/en-gb.js
+file deleted nn.js
+file deleted locale/nn.js
+file deleted bs.js
+file deleted locale/bs.js
+file deleted ar-tn.js
+file deleted locale/ar-tn.js
+file deleted en-au.js
+file deleted locale/en-au.js
+file deleted pt-br.js
+file deleted locale/pt-br.js
+file deleted tzm-latn.js
+file deleted locale/tzm-latn.js
+file deleted pt.js
+file deleted locale/pt.js
+file deleted mk.js
+file deleted locale/mk.js
+file deleted et.js
+file deleted locale/et.js
+file deleted uz.js
+file deleted locale/uz.js
+file deleted ms.js
+file deleted locale/ms.js
+file deleted it.js
+file deleted locale/it.js
+file deleted bg.js
+file deleted locale/bg.js
+file deleted hy-am.js
+file deleted locale/hy-am.js
+file deleted my.js
+file deleted locale/my.js
+file deleted ko.js
+file deleted locale/ko.js
+file deleted km.js
+file deleted locale/km.js
+file deleted sr.js
+file deleted locale/sr.js
+file deleted fo.js
+file deleted locale/fo.js
+file deleted bn.js
+file deleted locale/bn.js
+file deleted he.js
+file deleted locale/he.js
+file deleted hr.js
+file deleted locale/hr.js
+file deleted vi.js
+file deleted locale/vi.js
+file deleted en-ca.js
+file deleted locale/en-ca.js
+file deleted ne.js
+file deleted locale/ne.js
+file deleted locale
+file deleted LICENSE
+file deleted moment.js
+file deleted templates/amd.js
+file deleted templates/globals.js
+file deleted templates/amd-named.js
+file deleted templates/test-header.js
+file deleted templates/locale-header.js
+file deleted templates
+file deleted qunit.js
+file deleted qunit.css
+file deleted app-shims.js
+file deleted bower.json
+file deleted test-shims.js
+file deleted README.md
+file deleted LICENSE.md
+file deleted ember-qunit.map
+file deleted bower.json
+file deleted ember-qunit.amd.map
+file deleted ember-qunit.amd.js
+file deleted ember-qunit.js
+file deleted ember-resolver-tests.js
+file deleted ember-resolver.js
+file deleted index.js
+file deleted bower.json
+file deleted README.md
+file deleted CONTRIBUTING.md
+file deleted package.json
+file deleted karma.conf.js
+file deleted CODE_OF_CONDUCT.md
+file deleted ember-load-initializers.js
+file deleted bower.json
+file deleted README.md
+file deleted LICENSE.md
+file deleted testem.json
+file deleted bower.json
+file deleted README.md
+file deleted loader.js
+file deleted package.json
+file deleted LICENSE.md
+file deleted ember-data.js.map
+file deleted ember-data.js
+file deleted Makefile
+file deleted ember-data.min.js
+file deleted bower.json
+file deleted composer.json
+file deleted README.md
+file deleted ember-data.prod.js
+file deleted component.json
+file deleted package.json
+file deleted LICENSE-MIT
+file deleted src/hint-theme.scss
+file deleted src/hint-rounded.scss
+file deleted src/hint.base.scss
+file deleted src/hint.scss
+file deleted src/hint-variables.scss
+file deleted src/hint-effects.scss
+file deleted src/hint-position.scss
+file deleted src/hint-mixins.scss
+file deleted src/hint-always.scss
+file deleted src/hint-core.scss
+file deleted src/hint-color-types.scss
+file deleted src
+file deleted hint.min.css
+file deleted hint.base.css
+file deleted bower.json
+file deleted demo.html
+file deleted README.md
+file deleted hint.base.min.css
+file deleted component.json
+file deleted package.json
+file deleted hint.css
+Path or pattern "bower_components/loader.js/loader.js" did not match any files
+Error: Path or pattern "bower_components/loader.js/loader.js" did not match any files
+  at Object.multiGlob (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-kitchen-sink-helpers/index.js:203:13)
+  at Class.module.exports.CachingWriter.extend.addFiles (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/concat-with-maps.js:74:13)
+  at Class.module.exports.CachingWriter.extend.updateCache (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/concat-with-maps.js:52:12)
+  at /home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/node_modules/broccoli-caching-writer/index.js:92:34
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:505:17)
+  at lib$rsvp$$internal$$publish (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:476:11)
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building...
+File: frontend/templates/sign-in.hbs
+Assertion Failed: Using `{{controller}}` or any path based on it ('frontend/templates/sign-in.hbs' @ L1:C155) has been removed in Ember 2.0
+Error: Assertion Failed: Using `{{controller}}` or any path based on it ('frontend/templates/sign-in.hbs' @ L1:C155) has been removed in Ember 2.0
+  at new Error (<anonymous>:null:null)
+  at Error.EmberError (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:4473:21)
+  at Object._emberMetalCore.default.assert (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:1215:13)
+  at assertPath (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:11223:29)
+  at assertPaths (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:11218:7)
+  at assertHash (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:11207:7)
+  at /home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:11193:7
+  at Walker.visit (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17954:7)
+  at visitors.ElementNode (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17970:16)
+  at Walker.children (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17987:7)
+  at Walker.visit (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17955:12)
+  at visitors.ElementNode (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17970:16)
+  at Walker.children (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17987:7)
+  at Walker.visit (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17955:12)
+  at visitors.ElementNode (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17970:16)
+  at Walker.children (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17987:7)
+  at Walker.visit (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17955:12)
+  at visitors.Program (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17964:16)
+  at Walker.children (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17987:7)
+  at Walker.visit (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17955:12)
+  at AssertNoViewAndControllerPaths_transform [as transform] (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:11186:12)
+  at Object.preprocess (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17245:27)
+  at compileSpec (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:12142:37)
+  at Object.exports.default [as precompile] (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:12079:12)
+  at Object.module.exports.template (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-htmlbars/utils.js:29:40)
+  at TemplateCompiler.processString (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-htmlbars/index.js:55:36)
+  at TemplateCompiler.Filter.processFile (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/index.js:136:31)
+  at Promise.resolve.then.catch.err.file (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/index.js:85:21)
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:505:17)
+  at /home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1001:13
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+File: frontend/templates/sign-in.hbs
+Assertion Failed: Using `{{controller}}` or any path based on it ('frontend/templates/sign-in.hbs' @ L1:C155) has been removed in Ember 2.0
+Error: Assertion Failed: Using `{{controller}}` or any path based on it ('frontend/templates/sign-in.hbs' @ L1:C155) has been removed in Ember 2.0
+  at new Error (<anonymous>:null:null)
+  at Error.EmberError (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:4473:21)
+  at Object._emberMetalCore.default.assert (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:1215:13)
+  at assertPath (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:11223:29)
+  at assertPaths (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:11218:7)
+  at assertHash (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:11207:7)
+  at /home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:11193:7
+  at Walker.visit (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17954:7)
+  at visitors.ElementNode (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17970:16)
+  at Walker.children (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17987:7)
+  at Walker.visit (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17955:12)
+  at visitors.ElementNode (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17970:16)
+  at Walker.children (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17987:7)
+  at Walker.visit (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17955:12)
+  at visitors.ElementNode (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17970:16)
+  at Walker.children (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17987:7)
+  at Walker.visit (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17955:12)
+  at visitors.Program (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17964:16)
+  at Walker.children (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17987:7)
+  at Walker.visit (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17955:12)
+  at AssertNoViewAndControllerPaths_transform [as transform] (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:11186:12)
+  at Object.preprocess (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17245:27)
+  at compileSpec (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:12142:37)
+  at Object.exports.default [as precompile] (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:12079:12)
+  at Object.module.exports.template (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-htmlbars/utils.js:29:40)
+  at TemplateCompiler.processString (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-htmlbars/index.js:55:36)
+  at TemplateCompiler.Filter.processFile (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/index.js:136:31)
+  at Promise.resolve.then.catch.err.file (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/index.js:85:21)
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:505:17)
+  at /home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1001:13
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building...
+File: frontend/templates/sign-in.hbs
+Assertion Failed: Using `{{controller}}` or any path based on it ('frontend/templates/sign-in.hbs' @ L1:C155) has been removed in Ember 2.0
+Error: Assertion Failed: Using `{{controller}}` or any path based on it ('frontend/templates/sign-in.hbs' @ L1:C155) has been removed in Ember 2.0
+  at new Error (<anonymous>:null:null)
+  at Error.EmberError (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:4473:21)
+  at Object._emberMetalCore.default.assert (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:1215:13)
+  at assertPath (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:11223:29)
+  at assertPaths (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:11218:7)
+  at assertHash (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:11207:7)
+  at /home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:11193:7
+  at Walker.visit (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17954:7)
+  at visitors.ElementNode (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17970:16)
+  at Walker.children (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17987:7)
+  at Walker.visit (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17955:12)
+  at visitors.ElementNode (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17970:16)
+  at Walker.children (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17987:7)
+  at Walker.visit (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17955:12)
+  at visitors.ElementNode (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17970:16)
+  at Walker.children (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17987:7)
+  at Walker.visit (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17955:12)
+  at visitors.Program (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17964:16)
+  at Walker.children (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17987:7)
+  at Walker.visit (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17955:12)
+  at AssertNoViewAndControllerPaths_transform [as transform] (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:11186:12)
+  at Object.preprocess (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17245:27)
+  at compileSpec (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:12142:37)
+  at Object.exports.default [as precompile] (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:12079:12)
+  at Object.module.exports.template (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-htmlbars/utils.js:29:40)
+  at TemplateCompiler.processString (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-htmlbars/index.js:55:36)
+  at TemplateCompiler.Filter.processFile (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/index.js:136:31)
+  at Promise.resolve.then.catch.err.file (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/index.js:85:21)
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:505:17)
+  at /home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1001:13
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+File: frontend/templates/sign-in.hbs
+Assertion Failed: Using `{{controller}}` or any path based on it ('frontend/templates/sign-in.hbs' @ L1:C155) has been removed in Ember 2.0
+Error: Assertion Failed: Using `{{controller}}` or any path based on it ('frontend/templates/sign-in.hbs' @ L1:C155) has been removed in Ember 2.0
+  at new Error (<anonymous>:null:null)
+  at Error.EmberError (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:4473:21)
+  at Object._emberMetalCore.default.assert (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:1215:13)
+  at assertPath (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:11223:29)
+  at assertPaths (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:11218:7)
+  at assertHash (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:11207:7)
+  at /home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:11193:7
+  at Walker.visit (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17954:7)
+  at visitors.ElementNode (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17970:16)
+  at Walker.children (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17987:7)
+  at Walker.visit (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17955:12)
+  at visitors.ElementNode (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17970:16)
+  at Walker.children (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17987:7)
+  at Walker.visit (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17955:12)
+  at visitors.ElementNode (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17970:16)
+  at Walker.children (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17987:7)
+  at Walker.visit (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17955:12)
+  at visitors.Program (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17964:16)
+  at Walker.children (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17987:7)
+  at Walker.visit (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17955:12)
+  at AssertNoViewAndControllerPaths_transform [as transform] (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:11186:12)
+  at Object.preprocess (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:17245:27)
+  at compileSpec (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:12142:37)
+  at Object.exports.default [as precompile] (/home/egor/RubymineProjects/nsuask/frontend/bower_components/ember/ember-template-compiler.js:12079:12)
+  at Object.module.exports.template (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-htmlbars/utils.js:29:40)
+  at TemplateCompiler.processString (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-htmlbars/index.js:55:36)
+  at TemplateCompiler.Filter.processFile (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/index.js:136:31)
+  at Promise.resolve.then.catch.err.file (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/index.js:85:21)
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:505:17)
+  at /home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1001:13
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-htmlbars/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...Building...
+Path or pattern "bower_components/ember-qunit/named-amd/main.js" did not match any files
+Error: Path or pattern "bower_components/ember-qunit/named-amd/main.js" did not match any files
+  at Object.multiGlob (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-kitchen-sink-helpers/index.js:203:13)
+  at Class.module.exports.CachingWriter.extend.addFiles (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/concat-with-maps.js:74:13)
+  at Class.module.exports.CachingWriter.extend.updateCache (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/concat-with-maps.js:52:12)
+  at /home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/node_modules/broccoli-caching-writer/index.js:92:34
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:505:17)
+  at lib$rsvp$$internal$$publish (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:476:11)
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+Path or pattern "bower_components/ember-qunit/named-amd/main.js" did not match any files
+Error: Path or pattern "bower_components/ember-qunit/named-amd/main.js" did not match any files
+  at Object.multiGlob (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-kitchen-sink-helpers/index.js:203:13)
+  at Class.module.exports.CachingWriter.extend.addFiles (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/concat-with-maps.js:74:13)
+  at Class.module.exports.CachingWriter.extend.updateCache (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/concat-with-maps.js:52:12)
+  at /home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/node_modules/broccoli-caching-writer/index.js:92:34
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:505:17)
+  at lib$rsvp$$internal$$publish (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:476:11)
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...Building...
+Path or pattern "bower_components/ember-qunit/named-amd/main.js" did not match any files
+Error: Path or pattern "bower_components/ember-qunit/named-amd/main.js" did not match any files
+  at Object.multiGlob (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-kitchen-sink-helpers/index.js:203:13)
+  at Class.module.exports.CachingWriter.extend.addFiles (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/concat-with-maps.js:74:13)
+  at Class.module.exports.CachingWriter.extend.updateCache (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/concat-with-maps.js:52:12)
+  at /home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/node_modules/broccoli-caching-writer/index.js:92:34
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:505:17)
+  at lib$rsvp$$internal$$publish (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:476:11)
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+Path or pattern "bower_components/ember-qunit/named-amd/main.js" did not match any files
+Error: Path or pattern "bower_components/ember-qunit/named-amd/main.js" did not match any files
+  at Object.multiGlob (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-kitchen-sink-helpers/index.js:203:13)
+  at Class.module.exports.CachingWriter.extend.addFiles (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/concat-with-maps.js:74:13)
+  at Class.module.exports.CachingWriter.extend.updateCache (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/concat-with-maps.js:52:12)
+  at /home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/node_modules/broccoli-caching-writer/index.js:92:34
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:505:17)
+  at lib$rsvp$$internal$$publish (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:476:11)
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...Building...
+Path or pattern "bower_components/qunit/qunit/qunit.js" did not match any files
+Error: Path or pattern "bower_components/qunit/qunit/qunit.js" did not match any files
+  at Object.multiGlob (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-kitchen-sink-helpers/index.js:203:13)
+  at Class.module.exports.CachingWriter.extend.addFiles (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/concat-with-maps.js:74:13)
+  at Class.module.exports.CachingWriter.extend.updateCache (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/concat-with-maps.js:52:12)
+  at /home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/node_modules/broccoli-caching-writer/index.js:92:34
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:505:17)
+  at lib$rsvp$$internal$$publish (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:476:11)
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+Path or pattern "bower_components/qunit/qunit/qunit.js" did not match any files
+Error: Path or pattern "bower_components/qunit/qunit/qunit.js" did not match any files
+  at Object.multiGlob (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-kitchen-sink-helpers/index.js:203:13)
+  at Class.module.exports.CachingWriter.extend.addFiles (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/concat-with-maps.js:74:13)
+  at Class.module.exports.CachingWriter.extend.updateCache (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/concat-with-maps.js:52:12)
+  at /home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-sourcemap-concat/node_modules/broccoli-caching-writer/index.js:92:34
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:505:17)
+  at lib$rsvp$$internal$$publish (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:476:11)
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building...
+Attempting to watch missing directory: tests
+Error: Attempting to watch missing directory: tests
+  at EventEmitter.Watcher_addWatchDir [as addWatchDir] (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-sane-watcher/index.js:90:11)
+  at /home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli/lib/builder.js:85:35
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:505:17)
+  at /home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1001:13
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+Attempting to watch missing directory: tests
+Error: Attempting to watch missing directory: tests
+  at EventEmitter.Watcher_addWatchDir [as addWatchDir] (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-sane-watcher/index.js:90:11)
+  at /home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli/lib/builder.js:85:35
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:505:17)
+  at /home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1001:13
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...Building...
+
+Build successful - 2641ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 1637ms              
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 1637ms              
+CoffeeScriptFilter (2)                        | 160ms (80 ms)       
+
+file changed environment.js
+
+Build successful - 553ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 188ms               
+Funnel: App JS Files                          | 36ms                
+Concat: Test Support JS                       | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 188ms               
+SourcemapConcat (3)                           | 50ms (16 ms)        
+Funnel: App JS Files (1)                      | 36ms                
+CoffeeScriptFilter (2)                        | 33ms (16 ms)        
+Concat: Test Support JS (1)                   | 28ms                
+
+file changed controllers/sign-in.coffee
+
+Build successful - 768ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Funnel: App JS Files                          | 144ms               
+Concat: Vendor                                | 125ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Funnel: App JS Files (1)                      | 144ms               
+Concat: Vendor (1)                            | 125ms               
+SourcemapConcat (3)                           | 86ms (28 ms)        
+Babel (7)                                     | 40ms (5 ms)         
+
+file changed controllers/sign-in.coffee
+
+Build successful - 660ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Funnel: App JS Files                          | 122ms               
+Concat: Vendor                                | 116ms               
+Concat: Test Support JS                       | 44ms                
+SourcemapConcat                               | 41ms                
+SourcemapConcat                               | 38ms                
+Concat: App                                   | 35ms                
+ES6: App Tree                                 | 33ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Funnel: App JS Files (1)                      | 122ms               
+Concat: Vendor (1)                            | 116ms               
+SourcemapConcat (3)                           | 85ms (28 ms)        
+Concat: Test Support JS (1)                   | 44ms                
+Concat: App (1)                               | 35ms                
+ES6: App Tree (1)                             | 33ms                
+
+file changed controllers/sign-in.coffee
+
+Build successful - 523ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 128ms               
+Funnel: App JS Files                          | 97ms                
+Concat: Test Support JS                       | 27ms                
+TreeMerger (appAndDependencies)               | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 128ms               
+Funnel: App JS Files (1)                      | 97ms                
+SourcemapConcat (3)                           | 46ms (15 ms)        
+CoffeeScriptFilter (2)                        | 31ms (15 ms)        
+Concat: Test Support JS (1)                   | 27ms                
+TreeMerger (appAndDependencies) (1)           | 26ms                
+
+file changed routes/sign-in.coffee
+
+Build successful - 919ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 199ms               
+Funnel: App JS Files                          | 162ms               
+Concat: Test Support JS                       | 49ms                
+TreeMerger (appAndDependencies)               | 48ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 199ms               
+Funnel: App JS Files (1)                      | 162ms               
+SourcemapConcat (3)                           | 90ms (30 ms)        
+Concat: Test Support JS (1)                   | 49ms                
+TreeMerger (appAndDependencies) (1)           | 48ms                
+CoffeeScriptFilter (2)                        | 47ms (23 ms)        
+
+file changed routes/sign-in.coffee
+
+Build successful - 577ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 119ms               
+Funnel: App JS Files                          | 99ms                
+Concat: Test Support JS                       | 39ms                
+SourcemapConcat                               | 33ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 119ms               
+Funnel: App JS Files (1)                      | 99ms                
+SourcemapConcat (3)                           | 62ms (20 ms)        
+Concat: Test Support JS (1)                   | 39ms                
+
+file changed routes/sign-in.coffee
+
+Build successful - 546ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 127ms               
+Funnel: App JS Files                          | 93ms                
+SourcemapConcat                               | 29ms                
+Concat: App                                   | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 127ms               
+Funnel: App JS Files (1)                      | 93ms                
+SourcemapConcat (3)                           | 62ms (20 ms)        
+Concat: App (1)                               | 29ms                
+CoffeeScriptFilter (2)                        | 27ms (13 ms)        
+
+file changed routes/sign-in.coffee
+
+Build successful - 547ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 119ms               
+ES6: App Tree                                 | 72ms                
+Funnel: App JS Files                          | 36ms                
+Concat: Test Support JS                       | 28ms                
+TreeMerger (appAndDependencies)               | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 119ms               
+ES6: App Tree (1)                             | 72ms                
+SourcemapConcat (3)                           | 51ms (17 ms)        
+Funnel: App JS Files (1)                      | 36ms                
+CoffeeScriptFilter (2)                        | 33ms (16 ms)        
+Concat: Test Support JS (1)                   | 28ms                
+TreeMerger (appAndDependencies) (1)           | 27ms                
+
+file added adapters/application.js___jb_bak___
+file deleted adapters/application.js___jb_bak___
+file added adapters/application.js___jb_old___
+file changed adapters/application.js
+file deleted adapters/application.js___jb_old___
+
+adapters/application.js: line 2, col 8, 'DataAdapterMixin' is defined but never used.
+
+1 error
+
+===== 1 JSHint Error
+
+
+Build successful - 558ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 122ms               
+Funnel: App JS Files                          | 96ms                
+Concat: Test Support JS                       | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 122ms               
+Funnel: App JS Files (1)                      | 96ms                
+SourcemapConcat (3)                           | 48ms (16 ms)        
+Concat: Test Support JS (1)                   | 27ms                
+
+file changed adapters/application.js
+
+Build successful - 588ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 126ms               
+Funnel: App JS Files                          | 90ms                
+Concat: Test Support JS                       | 43ms                
+SourcemapConcat                               | 34ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 126ms               
+Funnel: App JS Files (1)                      | 90ms                
+SourcemapConcat (3)                           | 69ms (23 ms)        
+Concat: Test Support JS (1)                   | 43ms                
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...Building...
+
+Build successful - 2685ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 1632ms              
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 1632ms              
+CoffeeScriptFilter (2)                        | 159ms (79 ms)       
+
+file changed routes/sign-in.coffee
+
+Build successful - 888ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 180ms               
+Funnel: App JS Files                          | 164ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 180ms               
+Funnel: App JS Files (1)                      | 164ms               
+SourcemapConcat (3)                           | 73ms (24 ms)        
+Babel (7)                                     | 50ms (7 ms)         
+CoffeeScriptFilter (2)                        | 47ms (23 ms)        
+
+file changed routes/love.coffee
+file added routes/overhear.coffee___jb_bak___
+file deleted routes/overhear.coffee___jb_bak___
+file changed routes/overhear.coffee
+file added routes/besit.coffee___jb_bak___
+file deleted routes/besit.coffee___jb_bak___
+file changed routes/besit.coffee
+
+Build successful - 706ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 133ms               
+ES6: App Tree                                 | 97ms                
+Concat: Test Support JS                       | 40ms                
+Funnel: App JS Files                          | 37ms                
+Babel                                         | 36ms                
+SourcemapConcat                               | 35ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 133ms               
+ES6: App Tree (1)                             | 97ms                
+SourcemapConcat (3)                           | 76ms (25 ms)        
+CoffeeScriptFilter (2)                        | 46ms (23 ms)        
+Babel (7)                                     | 43ms (6 ms)         
+Concat: Test Support JS (1)                   | 40ms                
+Funnel: App JS Files (1)                      | 37ms                
+
+file added authorizers
+
+Build successful - 536ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 194ms               
+Funnel: App JS Files                          | 36ms                
+Concat: Test Support JS                       | 31ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 194ms               
+SourcemapConcat (3)                           | 50ms (16 ms)        
+Funnel: App JS Files (1)                      | 36ms                
+Concat: Test Support JS (1)                   | 31ms                
+CoffeeScriptFilter (2)                        | 29ms (14 ms)        
+
+file added authorizers/devise.js
+
+Build successful - 536ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 125ms               
+Funnel: App JS Files                          | 96ms                
+Concat: Test Support JS                       | 27ms                
+TreeMerger (appAndDependencies)               | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 125ms               
+Funnel: App JS Files (1)                      | 96ms                
+SourcemapConcat (3)                           | 51ms (17 ms)        
+Concat: Test Support JS (1)                   | 27ms                
+TreeMerger (appAndDependencies) (1)           | 26ms                
+
+file changed authorizers/devise.js
+
+Build successful - 582ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 127ms               
+Funnel: App JS Files                          | 110ms               
+SourcemapConcat                               | 32ms                
+Concat: App                                   | 30ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 127ms               
+Funnel: App JS Files (1)                      | 110ms               
+SourcemapConcat (3)                           | 59ms (19 ms)        
+Concat: App (1)                               | 30ms                
+
+file changed controllers/sign-in.coffee
+
+Build successful - 559ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 143ms               
+Funnel: App JS Files                          | 102ms               
+Concat: Test Support JS                       | 33ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 143ms               
+Funnel: App JS Files (1)                      | 102ms               
+SourcemapConcat (3)                           | 49ms (16 ms)        
+Concat: Test Support JS (1)                   | 33ms                
+CoffeeScriptFilter (2)                        | 28ms (14 ms)        
+
+file added controllers/sign-in.coffee___jb_old___
+file changed controllers/sign-in.coffee
+file deleted controllers/sign-in.coffee___jb_old___
+
+Build successful - 595ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 135ms               
+Funnel: App JS Files                          | 81ms                
+SourcemapConcat                               | 37ms                
+Concat: Test Support JS                       | 36ms                
+ES6: App Tree                                 | 36ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 135ms               
+Funnel: App JS Files (1)                      | 81ms                
+SourcemapConcat (3)                           | 67ms (22 ms)        
+Concat: Test Support JS (1)                   | 36ms                
+ES6: App Tree (1)                             | 36ms                
+
+file changed controllers/sign-in.coffee
+
+Build successful - 668ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 148ms               
+Funnel: App JS Files                          | 94ms                
+TreeMerger (appAndDependencies)               | 34ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 148ms               
+Funnel: App JS Files (1)                      | 94ms                
+SourcemapConcat (3)                           | 52ms (17 ms)        
+Funnel (32)                                   | 39ms (1 ms)         
+CoffeeScriptFilter (2)                        | 34ms (17 ms)        
+TreeMerger (appAndDependencies) (1)           | 34ms                
+Babel (7)                                     | 33ms (4 ms)         
+
+file changed controllers/sign-in.coffee
+
+Build successful - 589ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 138ms               
+Funnel: App JS Files                          | 89ms                
+ES6: App Tree                                 | 34ms                
+Concat: Test Support JS                       | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 138ms               
+Funnel: App JS Files (1)                      | 89ms                
+SourcemapConcat (3)                           | 48ms (16 ms)        
+ES6: App Tree (1)                             | 34ms                
+Concat: Test Support JS (1)                   | 29ms                
+
+file added authenticators/devise.js___jb_bak___
+file changed authenticators/devise.js___jb_bak___
+file added authenticators/devise.js___jb_old___
+file deleted authenticators/devise.js___jb_bak___
+file changed authenticators/devise.js
+file deleted authenticators/devise.js___jb_old___
+
+Build successful - 668ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 148ms               
+Funnel: App JS Files                          | 93ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 148ms               
+Funnel: App JS Files (1)                      | 93ms                
+SourcemapConcat (3)                           | 49ms (16 ms)        
+CoffeeScriptFilter (2)                        | 45ms (22 ms)        
+
+file changed authorizers/devise.js
+
+Build successful - 689ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 163ms               
+Funnel: App JS Files                          | 96ms                
+TreeMerger (appAndDependencies)               | 40ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 163ms               
+Funnel: App JS Files (1)                      | 96ms                
+SourcemapConcat (3)                           | 51ms (17 ms)        
+CoffeeScriptFilter (2)                        | 42ms (21 ms)        
+TreeMerger (appAndDependencies) (1)           | 40ms                
+
+file added authenticators/devise.js___jb_bak___
+file changed authenticators/devise.js___jb_bak___
+file added authenticators/devise.js___jb_old___
+file deleted authenticators/devise.js___jb_bak___
+file changed authenticators/devise.js
+file deleted authenticators/devise.js___jb_old___
+
+Build successful - 976ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Funnel: App JS Files                          | 322ms               
+Concat: Vendor                                | 151ms               
+ES6: App Tree                                 | 54ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Funnel: App JS Files (1)                      | 322ms               
+Concat: Vendor (1)                            | 151ms               
+ES6: App Tree (1)                             | 54ms                
+SourcemapConcat (3)                           | 54ms (18 ms)        
+
+file added environment.js___jb_bak___
+file changed environment.js___jb_bak___
+file added environment.js___jb_old___
+file deleted environment.js___jb_bak___
+file changed environment.js
+file deleted environment.js___jb_old___
+
+Build successful - 769ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 244ms               
+Funnel: App JS Files                          | 134ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 244ms               
+Funnel: App JS Files (1)                      | 134ms               
+SourcemapConcat (3)                           | 60ms (20 ms)        
+
+file changed environment.js
+
+Build successful - 935ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 205ms               
+Funnel: App JS Files                          | 153ms               
+Concat: App                                   | 50ms                
+TreeMerger (appAndDependencies)               | 50ms                
+Concat: Test Support JS                       | 46ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 205ms               
+Funnel: App JS Files (1)                      | 153ms               
+SourcemapConcat (3)                           | 84ms (28 ms)        
+Concat: App (1)                               | 50ms                
+TreeMerger (appAndDependencies) (1)           | 50ms                
+Concat: Test Support JS (1)                   | 46ms                
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...Building...
+
+Build successful - 2578ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 1608ms              
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 1608ms              
+CoffeeScriptFilter (2)                        | 179ms (89 ms)       
+
+file changed app.coffee
+
+Build successful - 877ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Funnel: App JS Files                          | 158ms               
+Concat: Vendor                                | 142ms               
+ES6: App Tree                                 | 50ms                
+TreeMerger (appAndDependencies)               | 48ms                
+Concat: Test Support JS                       | 46ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Funnel: App JS Files (1)                      | 158ms               
+Concat: Vendor (1)                            | 142ms               
+SourcemapConcat (3)                           | 70ms (23 ms)        
+ES6: App Tree (1)                             | 50ms                
+TreeMerger (166)                              | 49ms (0 ms)         
+Babel (6)                                     | 49ms (8 ms)         
+TreeMerger (appAndDependencies) (1)           | 48ms                
+Concat: Test Support JS (1)                   | 46ms                
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...Building...
+
+Build successful - 2928ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 1934ms              
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 1934ms              
+CoffeeScriptFilter (2)                        | 184ms (92 ms)       
+
+file changed app.coffee
+
+Build successful - 527ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 125ms               
+Funnel: App JS Files                          | 91ms                
+TreeMerger (appAndDependencies)               | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 125ms               
+Funnel: App JS Files (1)                      | 91ms                
+SourcemapConcat (3)                           | 51ms (17 ms)        
+CoffeeScriptFilter (2)                        | 31ms (15 ms)        
+TreeMerger (appAndDependencies) (1)           | 28ms                
+
+file added authenticators/devise.js___jb_bak___
+file changed authenticators/devise.js___jb_bak___
+file deleted authenticators/devise.js___jb_bak___
+file changed authenticators/devise.js
+file added app.coffee___jb_bak___
+file deleted app.coffee___jb_bak___
+file added app.coffee___jb_old___
+file changed app.coffee
+file deleted app.coffee___jb_old___
+
+Build successful - 620ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 131ms               
+ES6: App Tree                                 | 91ms                
+Concat: Test Support JS                       | 39ms                
+Funnel: App JS Files                          | 37ms                
+SourcemapConcat                               | 37ms                
+Concat: App                                   | 35ms                
+SourcemapConcat                               | 35ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 131ms               
+ES6: App Tree (1)                             | 91ms                
+SourcemapConcat (3)                           | 77ms (25 ms)        
+Concat: Test Support JS (1)                   | 39ms                
+Funnel: App JS Files (1)                      | 37ms                
+Concat: App (1)                               | 35ms                
+
+file added controllers/overhear.coffee___jb_bak___
+file changed controllers/overhear.coffee___jb_bak___
+file deleted controllers/overhear.coffee___jb_bak___
+file changed controllers/overhear.coffee
+
+Build successful - 570ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 127ms               
+ES6: App Tree                                 | 88ms                
+Funnel: App JS Files                          | 35ms                
+TreeMerger (appAndDependencies)               | 30ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 127ms               
+ES6: App Tree (1)                             | 88ms                
+SourcemapConcat (3)                           | 46ms (15 ms)        
+Funnel: App JS Files (1)                      | 35ms                
+Babel (6)                                     | 33ms (5 ms)         
+CoffeeScriptFilter (2)                        | 30ms (15 ms)        
+TreeMerger (appAndDependencies) (1)           | 30ms                
+
+file changed controllers/overhear.coffee
+
+Build successful - 549ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 124ms               
+ES6: App Tree                                 | 93ms                
+Funnel: App JS Files                          | 39ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 124ms               
+ES6: App Tree (1)                             | 93ms                
+SourcemapConcat (3)                           | 46ms (15 ms)        
+Funnel: App JS Files (1)                      | 39ms                
+CoffeeScriptFilter (2)                        | 34ms (17 ms)        
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...Building...
+
+Build successful - 2631ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 1749ms              
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 1749ms              
+CoffeeScriptFilter (2)                        | 158ms (79 ms)       
+
+file added templates/besit.emblem___jb_bak___
+file changed templates/besit.emblem___jb_bak___
+file added templates/besit.emblem___jb_old___
+file deleted templates/besit.emblem___jb_bak___
+file changed templates/besit.emblem
+file deleted templates/besit.emblem___jb_old___
+
+Build successful - 549ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 134ms               
+Funnel: App JS Files                          | 96ms                
+Concat: Test Support JS                       | 30ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 134ms               
+Funnel: App JS Files (1)                      | 96ms                
+SourcemapConcat (3)                           | 50ms (16 ms)        
+Concat: Test Support JS (1)                   | 30ms                
+
+file added templates/besit.emblem___jb_old___
+file changed templates/besit.emblem
+file deleted templates/besit.emblem___jb_old___
+
+Build successful - 552ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 118ms               
+Funnel: App JS Files                          | 94ms                
+TreeMerger (appAndDependencies)               | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 118ms               
+Funnel: App JS Files (1)                      | 94ms                
+SourcemapConcat (3)                           | 51ms (17 ms)        
+TreeMerger (appAndDependencies) (1)           | 28ms                
+CoffeeScriptFilter (2)                        | 27ms (13 ms)        
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...Building...
+
+Build successful - 2719ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 1801ms              
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 1801ms              
+CoffeeScriptFilter (2)                        | 166ms (83 ms)       
+
+file changed controllers/overhear.coffee
+
+Build successful - 558ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 120ms               
+Funnel: App JS Files                          | 99ms                
+Babel                                         | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 120ms               
+Funnel: App JS Files (1)                      | 99ms                
+SourcemapConcat (3)                           | 50ms (16 ms)        
+Babel (6)                                     | 34ms (5 ms)         
+CoffeeScriptFilter (2)                        | 28ms (14 ms)        
+
+file changed controllers/love.coffee
+file added controllers/besit.coffee___jb_bak___
+file deleted controllers/besit.coffee___jb_bak___
+file added controllers/besit.coffee___jb_old___
+file changed controllers/besit.coffee
+file deleted controllers/besit.coffee___jb_old___
+
+Build successful - 848ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 183ms               
+Funnel: App JS Files                          | 153ms               
+TreeMerger (appAndDependencies)               | 45ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 183ms               
+Funnel: App JS Files (1)                      | 153ms               
+SourcemapConcat (3)                           | 62ms (20 ms)        
+CoffeeScriptFilter (2)                        | 51ms (25 ms)        
+TreeMerger (appAndDependencies) (1)           | 45ms                
+
+file added mixins
+file added mixins/controller-mixin.coffee
+file changed mixins/controller-mixin.coffee
+
+Build successful - 511ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 114ms               
+Funnel: App JS Files                          | 91ms                
+Concat: Test Support JS                       | 27ms                
+TreeMerger (appAndDependencies)               | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 114ms               
+Funnel: App JS Files (1)                      | 91ms                
+SourcemapConcat (3)                           | 47ms (15 ms)        
+Concat: Test Support JS (1)                   | 27ms                
+TreeMerger (appAndDependencies) (1)           | 26ms                
+
+file deleted mixins/controller-mixin.coffee
+file deleted mixins
+ENOENT, no such file or directory '/home/egor/RubymineProjects/nsuask/frontend/tmp/coffee_script_filter-cache_path-uXrMSlYR.tmp/frontend/mixins/controller-mixin.coffee'
+Error: ENOENT, no such file or directory '/home/egor/RubymineProjects/nsuask/frontend/tmp/coffee_script_filter-cache_path-uXrMSlYR.tmp/frontend/mixins/controller-mixin.coffee'
+  at Object.fs.unlinkSync (fs.js:765:18)
+  at CoffeeScriptFilter.<anonymous> (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/index.js:60:8)
+  at Array.forEach (native)
+  at CoffeeScriptFilter.build (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/index.js:59:35)
+  at /home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/broccoli-plugin/read_compat.js:61:34
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:505:17)
+  at lib$rsvp$$internal$$publish (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:476:11)
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...Building...
+
+Build successful - 2557ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 1628ms              
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 1628ms              
+CoffeeScriptFilter (2)                        | 153ms (76 ms)       
+
+file changed controllers/overhear.coffee
+
+Build successful - 618ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 120ms               
+Funnel: App JS Files                          | 101ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 120ms               
+Funnel: App JS Files (1)                      | 101ms               
+SourcemapConcat (3)                           | 53ms (17 ms)        
+Babel (6)                                     | 39ms (6 ms)         
+CoffeeScriptFilter (2)                        | 31ms (15 ms)        
+
+file changed controllers/overhear.coffee
+
+Build successful - 598ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 160ms               
+Funnel: App JS Files                          | 100ms               
+Concat: Test Support JS                       | 32ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 160ms               
+Funnel: App JS Files (1)                      | 100ms               
+SourcemapConcat (3)                           | 47ms (15 ms)        
+CoffeeScriptFilter (2)                        | 35ms (17 ms)        
+Concat: Test Support JS (1)                   | 32ms                
+
+file changed controllers/love.coffee
+
+Build successful - 544ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 119ms               
+Funnel: App JS Files                          | 102ms               
+Concat: Test Support JS                       | 32ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 119ms               
+Funnel: App JS Files (1)                      | 102ms               
+SourcemapConcat (3)                           | 47ms (15 ms)        
+Concat: Test Support JS (1)                   | 32ms                
+CoffeeScriptFilter (2)                        | 28ms (14 ms)        
+
+file changed controllers/besit.coffee
+
+Build successful - 673ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 173ms               
+Funnel: App JS Files                          | 96ms                
+TreeMerger (appAndDependencies)               | 44ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 173ms               
+Funnel: App JS Files (1)                      | 96ms                
+SourcemapConcat (3)                           | 54ms (18 ms)        
+TreeMerger (appAndDependencies) (1)           | 44ms                
+CoffeeScriptFilter (2)                        | 41ms (20 ms)        
+
+file changed controllers/overhear.coffee
+
+Build successful - 535ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 124ms               
+Funnel: App JS Files                          | 86ms                
+ES6: App Tree                                 | 28ms                
+Concat: Test Support JS                       | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 124ms               
+Funnel: App JS Files (1)                      | 86ms                
+SourcemapConcat (3)                           | 49ms (16 ms)        
+ES6: App Tree (1)                             | 28ms                
+Concat: Test Support JS (1)                   | 27ms                
+
+file changed controllers/love.coffee
+file added controllers/besit.coffee___jb_bak___
+file deleted controllers/besit.coffee___jb_bak___
+file changed controllers/besit.coffee
+
+Build successful - 592ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 127ms               
+Funnel: App JS Files                          | 89ms                
+TreeMerger (appAndDependencies)               | 29ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 127ms               
+Funnel: App JS Files (1)                      | 89ms                
+SourcemapConcat (3)                           | 53ms (17 ms)        
+CoffeeScriptFilter (2)                        | 39ms (19 ms)        
+Babel (6)                                     | 30ms (5 ms)         
+TreeMerger (appAndDependencies) (1)           | 29ms                
+
+file added controllers/application.coffee
+file changed controllers/application.coffee
+
+Build successful - 503ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 115ms               
+Funnel: App JS Files                          | 79ms                
+Concat: Test Support JS                       | 26ms                
+TreeMerger (appAndDependencies)               | 25ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 115ms               
+Funnel: App JS Files (1)                      | 79ms                
+SourcemapConcat (3)                           | 45ms (15 ms)        
+Concat: Test Support JS (1)                   | 26ms                
+TreeMerger (appAndDependencies) (1)           | 25ms                
+
+file changed controllers/application.coffee
+file added templates/root.emblem___jb_bak___
+file changed templates/root.emblem___jb_bak___
+file added templates/root.emblem___jb_old___
+file deleted templates/root.emblem___jb_bak___
+file changed templates/root.emblem
+file deleted templates/root.emblem___jb_old___
+
+Build successful - 565ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 128ms               
+Funnel: App JS Files                          | 90ms                
+TreeMerger (appAndDependencies)               | 28ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 128ms               
+Funnel: App JS Files (1)                      | 90ms                
+SourcemapConcat (3)                           | 53ms (17 ms)        
+TreeMerger (appAndDependencies) (1)           | 28ms                
+TemplateCompiler (2)                          | 28ms (14 ms)        
+
+file changed controllers/application.coffee
+
+Build successful - 546ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 122ms               
+Funnel: App JS Files                          | 83ms                
+ES6: App Tree                                 | 32ms                
+Concat: Test Support JS                       | 30ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 122ms               
+Funnel: App JS Files (1)                      | 83ms                
+SourcemapConcat (3)                           | 51ms (17 ms)        
+ES6: App Tree (1)                             | 32ms                
+Concat: Test Support JS (1)                   | 30ms                
+
+file changed controllers/application.coffee
+
+Build successful - 697ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 194ms               
+Funnel: App JS Files                          | 125ms               
+TreeMerger (appAndDependencies)               | 38ms                
+Concat: App                                   | 36ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 194ms               
+Funnel: App JS Files (1)                      | 125ms               
+SourcemapConcat (3)                           | 49ms (16 ms)        
+TreeMerger (appAndDependencies) (1)           | 38ms                
+Concat: App (1)                               | 36ms                
+
+file added controllers/root.coffee
+file changed controllers/root.coffee
+
+Build successful - 518ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 117ms               
+Funnel: App JS Files                          | 79ms                
+Concat: Test Support JS                       | 31ms                
+TreeMerger (appAndDependencies)               | 27ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 117ms               
+Funnel: App JS Files (1)                      | 79ms                
+SourcemapConcat (3)                           | 47ms (15 ms)        
+Concat: Test Support JS (1)                   | 31ms                
+TreeMerger (appAndDependencies) (1)           | 27ms                
+CoffeeScriptFilter (2)                        | 26ms (13 ms)        
+
+file deleted controllers/application.coffee
+ENOENT, no such file or directory '/home/egor/RubymineProjects/nsuask/frontend/tmp/coffee_script_filter-cache_path-pSyXYBbG.tmp/frontend/controllers/application.coffee'
+Error: ENOENT, no such file or directory '/home/egor/RubymineProjects/nsuask/frontend/tmp/coffee_script_filter-cache_path-pSyXYBbG.tmp/frontend/controllers/application.coffee'
+  at Object.fs.unlinkSync (fs.js:765:18)
+  at CoffeeScriptFilter.<anonymous> (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/index.js:60:8)
+  at Array.forEach (native)
+  at CoffeeScriptFilter.build (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/index.js:59:35)
+  at /home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/broccoli-plugin/read_compat.js:61:34
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:505:17)
+  at lib$rsvp$$internal$$publish (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:476:11)
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-coffeescript/node_modules/broccoli-coffee/node_modules/broccoli-filter/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+file changed controllers/root.coffee
+
+Build successful - 514ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 120ms               
+Funnel: App JS Files                          | 78ms                
+Concat: Test Support JS                       | 26ms                
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 120ms               
+Funnel: App JS Files (1)                      | 78ms                
+SourcemapConcat (3)                           | 47ms (15 ms)        
+CoffeeScriptFilter (2)                        | 30ms (15 ms)        
+Concat: Test Support JS (1)                   | 26ms                
+

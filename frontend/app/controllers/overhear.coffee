@@ -4,7 +4,6 @@ OverhearController = Ember.Controller.extend
 
   actions:
     delete: (message) ->
-      message.destroyRecord().then =>
-        @transitionToRoute 'overhear'
+      message.destroyRecord()
 
 `export default OverhearController`

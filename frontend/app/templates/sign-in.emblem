@@ -2,9 +2,9 @@
   h1.text-center.text-uppercase Авторизация
   form
     .form-group
-      = input type='email' placeholder="Логин" class="form-control" value=controller.identification
+      = input type='email' placeholder="Логин" class="form-control" value=identification
     .form-group
-      = input type='password' placeholder="Пароль" class="form-control"  value=controller.password
+      = input type='password' placeholder="Пароль" class="form-control"  value=password
     .form-group
       button.btn.btn-block.btn-lg.btn-primary{action 'authenticate'}
         span.glyphicon.glyphicon-user

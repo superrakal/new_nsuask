@@ -4,7 +4,6 @@ BesitController = Ember.Controller.extend
 
   actions:
     delete: (message) ->
-      message.destroyRecord().then =>
-        @transitionToRoute 'besit'
+      message.destroyRecord()
 
 `export default BesitController`
