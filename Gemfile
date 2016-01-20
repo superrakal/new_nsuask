@@ -32,14 +32,26 @@ gem 'oj'
 gem 'ember-cli-rails', '~> 0.4.0'
 
 group :test, :development do
+  gem 'capybara', '~> 2.3.0'
+  gem 'rspec-rails', '~> 3.0.0'
+  gem 'rspec-mocks'
+  gem 'factory_girl_rails'
+  gem 'database_cleaner'
+  gem 'cucumber-rails', require: false
+  gem 'selenium-webdriver'
+  gem 'rack'
+  gem 'coveralls', require: false
+  gem 'simplecov', require: false
   gem 'unicorn_service', '~>0.5.1', require: false
   gem 'nginx-config', require: false
   gem 'email_spec'
+  gem 'delorean'
+  gem 'better_errors'
 end
 
 group :development do
   gem 'quiet_assets'
-  gem 'capistrano', '~> 2.15.6'
+  gem 'capistrano'
   gem 'rvm-capistrano',  require: false
   gem 'net-ssh', '~> 2.7.0'
   gem 'capistrano-unicorn', '~> 0.2.0', :require => false
