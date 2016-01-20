@@ -29575,3 +29575,42 @@ Processing by WelcomeController#index as HTML
   Parameters: {"path"=>"images/favicon.ico"}
   Rendered welcome/index.html.slim within layouts/application (0.1ms)
 Completed 200 OK in 78ms (Views: 77.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-20 16:09:50 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (24.1ms)
+Completed 200 OK in 1486ms (Views: 1485.8ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2016-01-20 16:09:57 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"images/favicon.ico"}
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 49ms (Views: 49.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-20 16:11:12 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (10.7ms)
+Completed 200 OK in 1767ms (Views: 1767.1ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2016-01-20 16:11:20 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"images/favicon.ico"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 40ms (Views: 39.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-01-20 16:17:29 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (10.7ms)
+Completed 200 OK in 1809ms (Views: 1809.1ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2016-01-20 16:17:37 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"images/favicon.ico"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 107ms (Views: 107.2ms)

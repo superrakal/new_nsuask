@@ -23,6 +23,5 @@
   },
   "_source": "git://github.com/jquery/qunit.git",
   "_target": "~1.20.0",
-  "_originalSource": "qunit",
-  "_direct": true
+  "_originalSource": "qunit"
 }

@@ -18756,3 +18756,527 @@ SourcemapConcat (3)                           | 47ms (15 ms)
 CoffeeScriptFilter (2)                        | 30ms (15 ms)        
 Concat: Test Support JS (1)                   | 26ms                
 
+file deleted ember.js
+file deleted ember-docs.json
+file deleted ember-template-compiler.js
+file deleted ember.min.js
+file deleted Makefile
+file deleted bower.json
+file deleted composer.json
+file deleted README.md
+file deleted ember.prod.js
+file deleted ember-testing.js
+file deleted component.json
+file deleted ember.debug.js
+file deleted package.json
+file deleted jquery.min.js
+file deleted jquery.min.map
+file deleted jquery.js
+file deleted CHANGELOG.md
+file deleted src/lib/create/parsing-flags.js
+file deleted src/lib/create/valid.js
+file deleted src/lib/create/from-string.js
+file deleted src/lib/create/from-string-and-format.js
+file deleted src/lib/create/from-array.js
+file deleted src/lib/create/date-from-array.js
+file deleted src/lib/create/local.js
+file deleted src/lib/create/check-overflow.js
+file deleted src/lib/create/utc.js
+file deleted src/lib/create/from-string-and-array.js
+file deleted src/lib/create/from-anything.js
+file deleted src/lib/create/from-object.js
+file deleted src/lib/create
+file deleted src/lib/moment/compare.js
+file deleted src/lib/moment/diff.js
+file deleted src/lib/moment/start-end-of.js
+file deleted src/lib/moment/from.js
+file deleted src/lib/moment/valid.js
+file deleted src/lib/moment/prototype.js
+file deleted src/lib/moment/calendar.js
+file deleted src/lib/moment/to-type.js
+file deleted src/lib/moment/get-set.js
+file deleted src/lib/moment/to.js
+file deleted src/lib/moment/min-max.js
+file deleted src/lib/moment/format.js
+file deleted src/lib/moment/locale.js
+file deleted src/lib/moment/moment.js
+file deleted src/lib/moment/clone.js
+file deleted src/lib/moment/add-subtract.js
+file deleted src/lib/moment/constructor.js
+file deleted src/lib/moment
+file deleted src/lib/parse/token.js
+file deleted src/lib/parse/regex.js
+file deleted src/lib/parse
+file deleted src/lib/units/hour.js
+file deleted src/lib/units/day-of-month.js
+file deleted src/lib/units/units.js
+file deleted src/lib/units/year.js
+file deleted src/lib/units/timestamp.js
+file deleted src/lib/units/week-year.js
+file deleted src/lib/units/day-of-year.js
+file deleted src/lib/units/constants.js
+file deleted src/lib/units/month.js
+file deleted src/lib/units/week.js
+file deleted src/lib/units/quarter.js
+file deleted src/lib/units/minute.js
+file deleted src/lib/units/day-of-week.js
+file deleted src/lib/units/second.js
+file deleted src/lib/units/offset.js
+file deleted src/lib/units/aliases.js
+file deleted src/lib/units/timezone.js
+file deleted src/lib/units/millisecond.js
+file deleted src/lib/units
+file deleted src/lib/format/format.js
+file deleted src/lib/format
+file deleted src/lib/duration/get.js
+file deleted src/lib/duration/prototype.js
+file deleted src/lib/duration/abs.js
+file deleted src/lib/duration/bubble.js
+file deleted src/lib/duration/humanize.js
+file deleted src/lib/duration/create.js
+file deleted src/lib/duration/iso-string.js
+file deleted src/lib/duration/duration.js
+file deleted src/lib/duration/add-subtract.js
+file deleted src/lib/duration/constructor.js
+file deleted src/lib/duration/as.js
+file deleted src/lib/duration
+file deleted src/lib/locale/ordinal.js
+file deleted src/lib/locale/en.js
+file deleted src/lib/locale/prototype.js
+file deleted src/lib/locale/calendar.js
+file deleted src/lib/locale/locales.js
+file deleted src/lib/locale/invalid.js
+file deleted src/lib/locale/locale.js
+file deleted src/lib/locale/relative.js
+file deleted src/lib/locale/formats.js
+file deleted src/lib/locale/pre-post-format.js
+file deleted src/lib/locale/lists.js
+file deleted src/lib/locale/constructor.js
+file deleted src/lib/locale/set.js
+file deleted src/lib/locale
+file deleted src/lib/utils/map.js
+file deleted src/lib/utils/is-array.js
+file deleted src/lib/utils/is-date.js
+file deleted src/lib/utils/deprecate.js
+file deleted src/lib/utils/abs-ceil.js
+file deleted src/lib/utils/to-int.js
+file deleted src/lib/utils/defaults.js
+file deleted src/lib/utils/hooks.js
+file deleted src/lib/utils/abs-floor.js
+file deleted src/lib/utils/compare-arrays.js
+file deleted src/lib/utils/zero-fill.js
+file deleted src/lib/utils/has-own-prop.js
+file deleted src/lib/utils/extend.js
+file deleted src/lib/utils
+file deleted src/lib
+file deleted src/locale/id.js
+file deleted src/locale/mr.js
+file deleted src/locale/lb.js
+file deleted src/locale/ca.js
+file deleted src/locale/is.js
+file deleted src/locale/ja.js
+file deleted src/locale/sk.js
+file deleted src/locale/lt.js
+file deleted src/locale/th.js
+file deleted src/locale/gl.js
+file deleted src/locale/bo.js
+file deleted src/locale/es.js
+file deleted src/locale/eo.js
+file deleted src/locale/me.js
+file deleted src/locale/tr.js
+file deleted src/locale/ml.js
+file deleted src/locale/eu.js
+file deleted src/locale/uk.js
+file deleted src/locale/jv.js
+file deleted src/locale/tzm.js
+file deleted src/locale/fa.js
+file deleted src/locale/af.js
+file deleted src/locale/sr-cyrl.js
+file deleted src/locale/nb.js
+file deleted src/locale/cv.js
+file deleted src/locale/be.js
+file deleted src/locale/zh-cn.js
+file deleted src/locale/ta.js
+file deleted src/locale/de.js
+file deleted src/locale/de-at.js
+file deleted src/locale/da.js
+file deleted src/locale/ms-my.js
+file deleted src/locale/sl.js
+file deleted src/locale/ru.js
+file deleted src/locale/hu.js
+file deleted src/locale/fr.js
+file deleted src/locale/zh-tw.js
+file deleted src/locale/fr-ca.js
+file deleted src/locale/lv.js
+file deleted src/locale/ar-sa.js
+file deleted src/locale/ro.js
+file deleted src/locale/fi.js
+file deleted src/locale/cy.js
+file deleted src/locale/sv.js
+file deleted src/locale/fy.js
+file deleted src/locale/ar-ma.js
+file deleted src/locale/tzl.js
+file deleted src/locale/el.js
+file deleted src/locale/br.js
+file deleted src/locale/tl-ph.js
+file deleted src/locale/ar.js
+file deleted src/locale/si.js
+file deleted src/locale/sq.js
+file deleted src/locale/ka.js
+file deleted src/locale/cs.js
+file deleted src/locale/nl.js
+file deleted src/locale/az.js
+file deleted src/locale/pl.js
+file deleted src/locale/hi.js
+file deleted src/locale/en-gb.js
+file deleted src/locale/nn.js
+file deleted src/locale/bs.js
+file deleted src/locale/ar-tn.js
+file deleted src/locale/en-au.js
+file deleted src/locale/pt-br.js
+file deleted src/locale/tzm-latn.js
+file deleted src/locale/pt.js
+file deleted src/locale/mk.js
+file deleted src/locale/et.js
+file deleted src/locale/uz.js
+file deleted src/locale/ms.js
+file deleted src/locale/it.js
+file deleted src/locale/bg.js
+file deleted src/locale/hy-am.js
+file deleted src/locale/my.js
+file deleted src/locale/ko.js
+file deleted src/locale/km.js
+file deleted src/locale/sr.js
+file deleted src/locale/fo.js
+file deleted src/locale/bn.js
+file deleted src/locale/he.js
+file deleted src/locale/hr.js
+file deleted src/locale/vi.js
+file deleted src/locale/en-ca.js
+file deleted src/locale/ne.js
+file deleted src/locale
+file deleted src/moment.js
+file deleted src
+file deleted min/moment-with-locales.min.js
+file deleted min/moment-with-locales.js
+file deleted min/locales.js
+file deleted min/tests.js
+file deleted min/moment.min.js
+file deleted min/locales.min.js
+file deleted min
+file deleted bower.json
+file deleted README.md
+file deleted id.js
+file deleted locale/id.js
+file deleted mr.js
+file deleted locale/mr.js
+file deleted lb.js
+file deleted locale/lb.js
+file deleted ca.js
+file deleted locale/ca.js
+file deleted is.js
+file deleted locale/is.js
+file deleted ja.js
+file deleted locale/ja.js
+file deleted sk.js
+file deleted locale/sk.js
+file deleted lt.js
+file deleted locale/lt.js
+file deleted th.js
+file deleted locale/th.js
+file deleted gl.js
+file deleted locale/gl.js
+file deleted bo.js
+file deleted locale/bo.js
+file deleted es.js
+file deleted locale/es.js
+file deleted eo.js
+file deleted locale/eo.js
+file deleted me.js
+file deleted locale/me.js
+file deleted tr.js
+file deleted locale/tr.js
+file deleted ml.js
+file deleted locale/ml.js
+file deleted eu.js
+file deleted locale/eu.js
+file deleted uk.js
+file deleted locale/uk.js
+file deleted jv.js
+file deleted locale/jv.js
+file deleted tzm.js
+file deleted locale/tzm.js
+file deleted fa.js
+file deleted locale/fa.js
+file deleted af.js
+file deleted locale/af.js
+file deleted sr-cyrl.js
+file deleted locale/sr-cyrl.js
+file deleted nb.js
+file deleted locale/nb.js
+file deleted cv.js
+file deleted locale/cv.js
+file deleted be.js
+file deleted locale/be.js
+file deleted zh-cn.js
+file deleted locale/zh-cn.js
+file deleted ta.js
+file deleted locale/ta.js
+file deleted de.js
+file deleted locale/de.js
+file deleted de-at.js
+file deleted locale/de-at.js
+file deleted da.js
+file deleted locale/da.js
+file deleted ms-my.js
+file deleted locale/ms-my.js
+file deleted sl.js
+file deleted locale/sl.js
+file deleted ru.js
+file deleted locale/ru.js
+file deleted hu.js
+file deleted locale/hu.js
+file deleted fr.js
+file deleted locale/fr.js
+file deleted zh-tw.js
+file deleted locale/zh-tw.js
+file deleted fr-ca.js
+file deleted locale/fr-ca.js
+file deleted lv.js
+file deleted locale/lv.js
+file deleted ar-sa.js
+file deleted locale/ar-sa.js
+file deleted ro.js
+file deleted locale/ro.js
+file deleted fi.js
+file deleted locale/fi.js
+file deleted cy.js
+file deleted locale/cy.js
+file deleted sv.js
+file deleted locale/sv.js
+file deleted fy.js
+file deleted locale/fy.js
+file deleted ar-ma.js
+file deleted locale/ar-ma.js
+file deleted tzl.js
+file deleted locale/tzl.js
+file deleted el.js
+file deleted locale/el.js
+file deleted br.js
+file deleted locale/br.js
+file deleted tl-ph.js
+file deleted locale/tl-ph.js
+file deleted ar.js
+file deleted locale/ar.js
+file deleted si.js
+file deleted locale/si.js
+file deleted sq.js
+file deleted locale/sq.js
+file deleted ka.js
+file deleted locale/ka.js
+file deleted cs.js
+file deleted locale/cs.js
+file deleted nl.js
+file deleted locale/nl.js
+file deleted az.js
+file deleted locale/az.js
+file deleted pl.js
+file deleted locale/pl.js
+file deleted hi.js
+file deleted locale/hi.js
+file deleted en-gb.js
+file deleted locale/en-gb.js
+file deleted nn.js
+file deleted locale/nn.js
+file deleted bs.js
+file deleted locale/bs.js
+file deleted ar-tn.js
+file deleted locale/ar-tn.js
+file deleted en-au.js
+file deleted locale/en-au.js
+file deleted pt-br.js
+file deleted locale/pt-br.js
+file deleted tzm-latn.js
+file deleted locale/tzm-latn.js
+file deleted pt.js
+file deleted locale/pt.js
+file deleted mk.js
+file deleted locale/mk.js
+file deleted et.js
+file deleted locale/et.js
+file deleted uz.js
+file deleted locale/uz.js
+file deleted ms.js
+file deleted locale/ms.js
+file deleted it.js
+file deleted locale/it.js
+file deleted bg.js
+file deleted locale/bg.js
+file deleted hy-am.js
+file deleted locale/hy-am.js
+file deleted my.js
+file deleted locale/my.js
+file deleted ko.js
+file deleted locale/ko.js
+file deleted km.js
+file deleted locale/km.js
+file deleted sr.js
+file deleted locale/sr.js
+file deleted fo.js
+file deleted locale/fo.js
+file deleted bn.js
+file deleted locale/bn.js
+file deleted he.js
+file deleted locale/he.js
+file deleted hr.js
+file deleted locale/hr.js
+file deleted vi.js
+file deleted locale/vi.js
+file deleted en-ca.js
+file deleted locale/en-ca.js
+file deleted ne.js
+file deleted locale/ne.js
+file deleted locale
+file deleted LICENSE
+file deleted moment.js
+file deleted templates/amd.js
+file deleted templates/globals.js
+file deleted templates/amd-named.js
+file deleted templates/test-header.js
+file deleted templates/locale-header.js
+file deleted templates
+file deleted qunit.js
+file deleted qunit.css
+file deleted app-shims.js
+file deleted CODE_OF_CONDUCT.md
+file deleted bower.json
+file deleted test-shims.js
+file deleted README.md
+file deleted LICENSE.md
+file deleted ember-qunit.map
+file deleted bower.json
+file deleted ember-qunit.amd.map
+file deleted ember-qunit.amd.js
+file deleted ember-qunit.js
+file deleted ember-resolver-tests.js
+file deleted ember-resolver.js
+file deleted CODE_OF_CONDUCT.md
+file deleted ember-load-initializers.js
+file deleted bower.json
+file deleted README.md
+file deleted LICENSE.md
+file deleted testem.json
+file deleted bower.json
+file deleted README.md
+file deleted loader.js
+file deleted package.json
+file deleted LICENSE.md
+file deleted qunit-configuration.js
+file deleted ember-data.js.map
+file deleted ember-data.js
+file deleted ember-data.min.js
+file deleted bower.json
+file deleted composer.json
+file deleted ember-configuration.js
+file deleted ember-data.prod.js
+file deleted component.json
+file deleted ember-data-tests.map
+file deleted package.json
+file deleted ember-data-tests.js
+file deleted LICENSE-MIT
+file deleted src/hint-theme.scss
+file deleted src/hint-rounded.scss
+file deleted src/hint.base.scss
+file deleted src/hint.scss
+file deleted src/hint-variables.scss
+file deleted src/hint-effects.scss
+file deleted src/hint-position.scss
+file deleted src/hint-mixins.scss
+file deleted src/hint-always.scss
+file deleted src/hint-core.scss
+file deleted src/hint-color-types.scss
+file deleted src
+file deleted hint.min.css
+file deleted hint.base.css
+file deleted bower.json
+file deleted demo.html
+file deleted README.md
+file deleted hint.base.min.css
+file deleted component.json
+file deleted package.json
+file deleted hint.css
+ENOENT, no such file or directory '/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-ic-ajax/node_modules/'
+Error: ENOENT, no such file or directory '/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli-ic-ajax/node_modules/'
+  at Object.fs.readdirSync (fs.js:659:18)
+  at /home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-merge-trees/index.js:32:21
+  at Array.map (native)
+  at mergeRelativePath (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-merge-trees/index.js:30:29)
+  at /home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/broccoli-merge-trees/index.js:23:5
+  at lib$rsvp$$internal$$tryCatch (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:493:16)
+  at lib$rsvp$$internal$$invokeCallback (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:505:17)
+  at lib$rsvp$$internal$$publish (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:476:11)
+  at Object.lib$rsvp$asap$$flush [as _onImmediate] (/home/egor/RubymineProjects/nsuask/frontend/node_modules/ember-cli/node_modules/rsvp/dist/rsvp.js:1198:9)
+  at processImmediate [as _immediateCallback] (timers.js:330:15)
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...BuildingBuilding...
+
+Build successful - 1761ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Babel                                         | 347ms               
+Babel                                         | 161ms               
+Babel                                         | 135ms               
+ES6: Addon Trees                              | 118ms               
+Babel                                         | 111ms               
+ES6: App Tree                                 | 107ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Babel (6)                                     | 840ms (140 ms)      
+CoffeeScriptFilter (2)                        | 130ms (65 ms)       
+ES6: Addon Trees (1)                          | 118ms               
+ES6: App Tree (1)                             | 107ms               
+TemplateCompiler (2)                          | 97ms (48 ms)        
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...Building...
+
+Build successful - 2645ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 1663ms              
+ES6: App Tree                                 | 134ms               
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 1663ms              
+CoffeeScriptFilter (2)                        | 163ms (81 ms)       
+ES6: App Tree (1)                             | 134ms               
+Babel (6)                                     | 133ms (22 ms)       
+
+Future versions of Ember CLI will not support v0.10.25. Please update to Node 0.12 or io.js.
+version: 1.13.1
+Could not find watchman, falling back to NodeWatcher for file system events.
+Visit http://www.ember-cli.com/#watchman for more info.
+BuildingBuilding.Building..Building...Building...
+
+Build successful - 2580ms.
+
+Slowest Trees                                 | Total               
+----------------------------------------------+---------------------
+Concat: Vendor                                | 1676ms              
+
+Slowest Trees (cumulative)                    | Total (avg)         
+----------------------------------------------+---------------------
+Concat: Vendor (1)                            | 1676ms              
+CoffeeScriptFilter (2)                        | 157ms (78 ms)       
+
