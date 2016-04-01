@@ -2,6 +2,7 @@ module Api
   module V1
     class MessagesController < ApplicationController
 
+      require 'telegram/bot'
       include Collection
 
       respond_to :json
@@ -20,6 +21,7 @@ module Api
       def create
         @message = Message.new message_params
         if @message.save
+          TelegramBotWorker.new.perform_async('Новое сообщение для Подслушано НГУ: ' + @message.text)
           respond_with @message, status: :created, location: false
         else
           respond_with @message, status: :unprocessable_entity

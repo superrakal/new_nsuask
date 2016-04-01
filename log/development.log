@@ -29614,3 +29614,240 @@ Processing by WelcomeController#index as HTML
   Parameters: {"path"=>"images/favicon.ico"}
   Rendered welcome/index.html.slim within layouts/application (0.0ms)
 Completed 200 OK in 107ms (Views: 107.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-01 13:23:09 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (8.4ms)
+Completed 200 OK in 1613ms (Views: 1613.3ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2016-04-01 13:23:17 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"images/favicon.ico"}
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 60ms (Views: 59.6ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2016-04-01 13:28:06 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"admin"}
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 40ms (Views: 40.3ms)
+
+
+Started GET "/api/v1/messages?category=overhear&page=1&per_page=10" for 127.0.0.1 at 2016-04-01 13:28:07 +0600
+Processing by Api::V1::MessagesController#index as JSON
+  Parameters: {"category"=>"overhear", "page"=>"1", "per_page"=>"10"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.7091ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear"}} runtime: 0.5212ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"overhear"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.3009ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"overhear"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2835ms
+Completed 200 OK in 12ms (Views: 1.7ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2016-04-01 13:28:07 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"images/favicon.ico"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 41ms (Views: 40.8ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2016-04-01 13:28:07 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"images/favicon.ico"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 39ms (Views: 39.3ms)
+
+
+Started GET "/overhear" for 127.0.0.1 at 2016-04-01 13:28:16 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"overhear"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 36ms (Views: 35.6ms)
+
+
+Started GET "/api/v1/messages?category=overhear&page=1&per_page=10" for 127.0.0.1 at 2016-04-01 13:28:16 +0600
+Processing by Api::V1::MessagesController#index as JSON
+  Parameters: {"category"=>"overhear", "page"=>"1", "per_page"=>"10"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear"}} runtime: 0.3965ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"overhear"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.4945ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"overhear"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.3083ms
+Completed 200 OK in 5ms (Views: 2.3ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2016-04-01 13:28:17 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"images/favicon.ico"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 38ms (Views: 38.3ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2016-04-01 13:28:19 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"admin"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 54ms (Views: 53.9ms)
+
+
+Started GET "/api/v1/messages?category=overhear&page=1&per_page=10" for 127.0.0.1 at 2016-04-01 13:28:19 +0600
+Processing by Api::V1::MessagesController#index as JSON
+  Parameters: {"category"=>"overhear", "page"=>"1", "per_page"=>"10"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear"}} runtime: 0.3805ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"overhear"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.3331ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"overhear"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2074ms
+Completed 200 OK in 4ms (Views: 1.7ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2016-04-01 13:28:19 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"admin"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 40ms (Views: 40.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2016-04-01 13:28:20 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"admin"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 41ms (Views: 40.4ms)
+
+
+Started GET "/api/v1/messages?category=overhear&page=1&per_page=10" for 127.0.0.1 at 2016-04-01 13:28:20 +0600
+Processing by Api::V1::MessagesController#index as JSON
+  Parameters: {"category"=>"overhear", "page"=>"1", "per_page"=>"10"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{"category"=>"overhear"}} runtime: 0.3769ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"overhear"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.3049ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{"category"=>"overhear"}, "$orderby"=>{"created_at"=>-1}} flags=[] limit=10 skip=0 batch_size=nil fields=nil runtime: 0.2046ms
+Completed 200 OK in 4ms (Views: 1.6ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2016-04-01 13:28:20 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"images/favicon.ico"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 46ms (Views: 46.1ms)
+
+
+Started GET "/railsadmin" for 127.0.0.1 at 2016-04-01 13:29:24 +0600
+Processing by RailsAdmin::MainController#dashboard as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.7532ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"messages", :query=>{}} runtime: 0.2203ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=messages selector={"$query"=>{}, "$orderby"=>{"updated_at"=>-1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.2387ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"users", :query=>{}} runtime: 0.1857ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.8.1/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (7.6ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_secondary_navigation.html.haml (1.8ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_navigation.html.haml (4.8ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (2.0ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/pjax.html.haml (2.3ms)
+Completed 200 OK in 5437ms (Views: 5343.0ms)
+
+
+Started GET "/railsadmin/user?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2016-04-01 13:29:53 +0600
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user"}
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=users selector={"$query"=>{}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.9308ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"users", :query=>{}} runtime: 0.3266ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=users selector={"$query"=>{}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.3412ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (23.9ms)
+Completed 200 OK in 33ms (Views: 28.5ms)
+
+
+Started GET "/railsadmin/user/569ca094d3054d0ee2000000/edit?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2016-04-01 13:29:56 +0600
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user", "id"=>"569ca094d3054d0ee2000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=users selector={"_id"=>BSON::ObjectId('569ca094d3054d0ee2000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3881ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_text.html.haml (0.9ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (2.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.9ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_datetime.html.haml (1.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_datetime.html.haml (0.4ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_text.html.haml (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_text.html.haml (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_text.html.haml (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.8.1/app/views/rails_admin/main/_submit_buttons.html.haml (2.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.8.1/app/views/rails_admin/main/edit.html.haml within layouts/rails_admin/pjax (28.7ms)
+Completed 200 OK in 44ms (Views: 38.7ms)
+
+
+Started PUT "/railsadmin/user/569ca094d3054d0ee2000000/edit" for 127.0.0.1 at 2016-04-01 13:30:40 +0600
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bU484o9S/tJnNsD709b4wVZXesIjaPKRS+mFqgp+0qSqbo1KQ+6XHsMNy44+JOVzcfxwujvsOI87f7fQ7jOl5Q==", "user"=>{"email"=>"user@example.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "authentication_token"=>"hKFuS14BAnbJ7Posyye5", "sign_in_count"=>"28", "current_sign_in_at"=>"January 26, 2016 14:02", "last_sign_in_at"=>"January 26, 2016 14:00", "current_sign_in_ip"=>"127.0.0.1", "last_sign_in_ip"=>"127.0.0.1", "telegram_channel"=>"88916653"}, "return_to"=>"http://localhost:3000/railsadmin/user", "_save"=>"", "model_name"=>"user", "id"=>"569ca094d3054d0ee2000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3378ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=users selector={"_id"=>BSON::ObjectId('569ca094d3054d0ee2000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2663ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=nsuask_development collection=users selector={"_id"=>BSON::ObjectId('569ca094d3054d0ee2000000')} update={"$set"=>{"current_sign_in_at"=>2016-01-26 14:02:00 UTC, "last_sign_in_at"=>2016-01-26 14:00:00 UTC, "telegram_channel"=>"88916653"}} flags=[]
+                         COMMAND      database=nsuask_development command={:getlasterror=>1, :w=>1} runtime: 0.5260ms
+Redirected to http://localhost:3000/railsadmin/user
+Completed 302 Found in 8ms
+
+
+Started GET "/railsadmin/user" for 127.0.0.1 at 2016-04-01 13:30:40 +0600
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"model_name"=>"user"}
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=users selector={"$query"=>{}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.4444ms
+  MOPED: 127.0.0.1:27017 COMMAND      database=nsuask_development command={:count=>"users", :query=>{}} runtime: 0.3204ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=users selector={"$query"=>{}, "$orderby"=>{"_id"=>-1}} flags=[] limit=20 skip=0 batch_size=nil fields=nil runtime: 0.3269ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.8.1/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/application (13.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.7ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_navigation.html.haml (1.8ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (1.1ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.8.1/app/views/layouts/rails_admin/pjax.html.haml (2.5ms)
+Completed 200 OK in 94ms (Views: 90.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-01 13:30:46 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (8.2ms)
+Completed 200 OK in 441ms (Views: 441.3ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2016-04-01 13:30:47 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"images/favicon.ico"}
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 72ms (Views: 71.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-01 13:30:50 +0600
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 107ms (Views: 106.6ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2016-04-01 13:30:51 +0600
+Processing by WelcomeController#index as HTML
+  Parameters: {"path"=>"images/favicon.ico"}
+  Rendered welcome/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 53ms (Views: 53.0ms)
+
+
+Started POST "/api/v1/messages" for 127.0.0.1 at 2016-04-01 13:30:57 +0600
+Processing by Api::V1::MessagesController#create as JSON
+  Parameters: {"message"=>{"text"=>"123123213123", "category"=>"overhear", "created_at"=>nil}}
+Unpermitted parameter: created_at
+  MOPED: 127.0.0.1:27017 INSERT       database=nsuask_development collection=messages documents=[{"_id"=>BSON::ObjectId('56fe23b1d3054d26d7000000'), "text"=>"123123213123", "category"=>"overhear", "updated_at"=>2016-04-01 07:30:57 UTC, "created_at"=>2016-04-01 07:30:57 UTC}] flags=[]
+                         COMMAND      database=nsuask_development command={:getlasterror=>1, :w=>1} runtime: 0.4940ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=users selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2978ms
+Completed 201 Created in 606ms (Views: 1.4ms)
+
+
+Started GET "/railsadmin/user/569ca094d3054d0ee2000000/edit?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2016-04-01 13:32:16 +0600
+Processing by RailsAdmin::MainController#edit as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user", "id"=>"569ca094d3054d0ee2000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3314ms
+  MOPED: 127.0.0.1:27017 QUERY        database=nsuask_development collection=users selector={"_id"=>BSON::ObjectId('569ca094d3054d0ee2000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2348ms
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_text.html.haml (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_datetime.html.haml (0.5ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_datetime.html.haml (0.4ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_text.html.haml (0.3ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_text.html.haml (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.8.1/app/views/rails_admin/main/_form_text.html.haml (0.2ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.8.1/app/views/rails_admin/main/_submit_buttons.html.haml (1.0ms)
+  Rendered /home/egor/.rvm/gems/ruby-2.1.6/gems/rails_admin-0.8.1/app/views/rails_admin/main/edit.html.haml within layouts/rails_admin/pjax (18.3ms)
+Completed 200 OK in 28ms (Views: 24.0ms)

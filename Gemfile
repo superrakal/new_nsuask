@@ -21,6 +21,9 @@ gem 'bootstrap-glyphicons'
 gem 'font-awesome-rails'
 
 gem 'prerender_rails'
+gem 'sidekiq'
+gem 'telegram-bot-ruby'
+
 
 #Auth
 gem 'devise'

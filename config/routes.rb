@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  mount RailsAdmin::Engine => '/railsadmin', as: 'rails_admin'
   devise_for :users
   devise_scope :user do
     post 'api/v1/authenticate' => 'api/v1/sessions#create'
