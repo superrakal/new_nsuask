@@ -21,7 +21,9 @@ module Api
       def create
         @message = Message.new message_params
         if @message.save
-          TelegramBotWorker.new.perform_async('Новое сообщение для Подслушано НГУ: ' + @message.text)
+          if @message.category == "overhear"
+            TelegramBotWorker.new.perform_async('Новое сообщение для Подслушано НГУ: ' + @message.text)
+          end
           respond_with @message, status: :created, location: false
         else
           respond_with @message, status: :unprocessable_entity
